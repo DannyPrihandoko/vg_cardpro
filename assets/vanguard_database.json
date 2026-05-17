@@ -1,0 +1,2882 @@
+[
+  {
+    "card_number": "DZ-SS16/001",
+    "name": {
+      "original": "ドラグリッター ラティーファ",
+      "translated": "drag glitter latifa"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_001.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "dragonoid",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットがユニットカードの能力以外で(R)に登場した時、このターンにあなたがノーマルオーダーをプレイしているなら、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下を１枚まで選んで公開し、それがユニットカードなら(R)にコールし、ノーマルオーダーなら手札に加える。山札をシャッフルする。【自】【(R)】：このユニットがグレード３以上にアタックした時、このユニットと同じ縦列のユニットのいない相手の(R)１つにつき、そのバトル中、このユニットのパワー＋5000。",
+      "translated": "[AUTO]: If this unit is placed on (R) other than the ability of a unit card, and you are playing a normal order this turn, by COST [Soul Blast (1)], look at 5 cards from the top of your deck, choose up to 1 card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle the deck. [AUTO] [(R)]: When this unit attacks a grade 3 or higher, for each (R) of the opponent who does not have a unit in the same column as this unit, this unit gets +5000 Power during that battle."
+    },
+    "flavor_text": {
+      "original": "私の活躍っ！もっと近くで見てってよね！",
+      "translated": "My success! Look closer!"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/001&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/002",
+    "name": {
+      "original": "赤宝獣 ガルネット",
+      "translated": "Red Treasure Beast Garnet"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_002.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "high beast",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、(R)に登場した時か(G)に置かれた時、【コスト】[ソウルかドロップから、ライドデッキにしたカードを合計２枚ライドデッキに表で置く]ことで、このユニットのいるサークルにより以下を１つ行う。・(R)‐１枚引く。・(G)‐そのバトル中、このユニットのシールド＋15000。",
+      "translated": "[AUTO]: When this unit is placed on (R) or placed on (G), COST [places a total of 2 cards from the soul or drop zone that were made into a ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R)-Draw 1 card.・(G) - During that battle, this unit's Shield +15000."
+    },
+    "flavor_text": {
+      "original": "熱い情熱の炎！儂ゃそういうのが大好きなんじゃ！",
+      "translated": "A hot flame of passion! I love that kind of thing!"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/002&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/003",
+    "name": {
+      "original": "旋風竜 ヴォルドーン",
+      "translated": "Whirlwind Dragon Voldon"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_003.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "wind dragon",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードのグレードが、相手のヴァンガードのグレード以下なら、そのターン中、このユニットのパワー＋5000。【自】【(R)/ドロップ】：あなたのターンにあなたの他のカードが手札から捨てられた時、【コスト】[【エネルギーブラスト】(3)，このカードを除外する]ことで、その捨てられたカードを１枚選び、手札に加える。",
+      "translated": "[AUTO]: This unit is placed on (R), and if the grade of your vanguard is lower than or equal to the grade of your opponent's vanguard, this unit gets Power +5000 for the duration of the turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand by COST [Energy Blast (3), banish this card]."
+    },
+    "flavor_text": {
+      "original": "とくと味わえ。絶命刃・断空！",
+      "translated": "Taste it. Desperate Blade: Danku!"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/003&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/004",
+    "name": {
+      "original": "ドラグリッター ナズルディーン",
+      "translated": "Draglitter Nazrudeen"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_004.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "dragonoid",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
+      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+    },
+    "flavor_text": {
+      "original": "雷鳴の如く吼え、雷光の如く疾走する。",
+      "translated": "It roars like thunder and runs like lightning."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/004&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/005",
+    "name": {
+      "original": "知の探究者 セルセーラ",
+      "translated": "Knowledge Seeker Celsera"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_005.png",
+    "unit_type": "normal unit",
+    "grade": "3",
+    "nation": "dark states",
+    "clan": "",
+    "race": "elf",
+    "power": "13000",
+    "shield": "-",
+    "critical": "1",
+    "skill": "Twin Drive, Persona Ride",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【起】【(V)】【ターン1回】：【コスト】[手札から１枚ソウルに置く]ことで、あなたのドロップからノーマルオーダーを１枚選び、ソウルに置き、あなたのソウルから１枚まで選び、(R)にコールし、あなたのソウルからノーマルオーダーを１枚まで選び、そのターン中、『【永】：このカードはソウルからでもプレイでき、プレイされてドロップに置く際、かわりにバインドする。』を与える。【起】【(V)】【ターン1回】：【コスト】[【カウンターブラスト】(1)]することで、あなたの、ソウルとバインドゾーンのノーマルオーダーの種類の合計により、そのターン中、このユニットは以下すべてを得る。・３種類以上‐【自】【(V)】【ターン1回】：このユニットがアタックしたバトル終了時、このユニットを【スタンド】させ、そのターン中、ドライブ－２。相手のヴァンガードがグレード３以上なら、そのターン中、このユニットのドライブ＋１。・５種類以上‐【永】【(V)】：あなたのユニットすべてのパワー＋5000。",
+      "translated": "[ACT] [(V)] [1/Turn]: COST [Place a card from your hand into your soul], select a normal order from your drop zone, place it on your soul, select up to one card from your soul, call it to (R), select up to one normal order from your soul, and during that turn, ``[CONT]: This card can also be played from the soul, and when it is played and placed in the drop zone, bind it instead. ”. [ACT] [(V)] [1/Turn]: By performing COST [Counter Blast (1)], this unit gains all of the following for the duration of the turn, based on the sum of your soul and the normal order types in the bind zone.・3 or more types - [AUTO] [(V)] [1/Turn]: At the end of the battle in which this unit attacked, make this unit [Stand] and get -2 Drive for the duration of that turn. If your opponent's vanguard is grade 3 or higher, this unit gets +1 drive during that turn.・5 or more types - [CONT] [(V)]: Power +5000 for all your units."
+    },
+    "flavor_text": {
+      "original": "いつだって勇気を引き寄せるのは人の想い……イメージの力なのよ。",
+      "translated": "What always attracts courage is people's thoughts...the power of images."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/005&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/006",
+    "name": {
+      "original": "麗焔魔嬢 オリエンス",
+      "translated": "Reienmajo Oriens"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_006.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "dark states",
+    "clan": "",
+    "race": "daemon",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットがユニットカードの能力以外で(R)に登場した時、このターンにあなたがノーマルオーダーをプレイしているなら、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下を１枚まで選んで公開し、それがユニットカードなら(R)にコールし、ノーマルオーダーなら手札に加える。山札をシャッフルする。【自】【(R)】：このユニットがグレード３以上にアタックした時、【コスト】[【ソウルブラスト】(3)]することで、１枚引き、そのターン中、このユニットのパワー＋5000。",
+      "translated": "[AUTO]: If this unit is placed on (R) other than the ability of a unit card, and you are playing a normal order this turn, by COST [Soul Blast (1)], look at 5 cards from the top of your deck, choose up to 1 card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle the deck. [AUTO] [(R)]: When this unit attacks grade 3 or higher, draw 1 card by performing COST [Soul Blast (3)], and this unit gets +5000 Power for the duration of the turn."
+    },
+    "flavor_text": {
+      "original": "いえ。私はあくまで、侍女ですので。",
+      "translated": "home. I'm just a maid, after all."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/006&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/007",
+    "name": {
+      "original": "時廻竜 クロックワイズ",
+      "translated": "Time Dragon Clockwise"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_007.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "dark states",
+    "clan": "",
+    "race": "gear dragon",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードのグレードが、相手のヴァンガードのグレード以下なら、【ソウルチャージ】(1)し、そのターン中、このユニットのパワー＋2000。【自】【(R)/ドロップ】：あなたのターンにあなたの他のカードが手札から捨てられた時、【コスト】[【エネルギーブラスト】(3)，このカードを除外する]ことで、その捨てられたカードを１枚選び、手札に加える。",
+      "translated": "[AUTO]: This unit is placed on (R), and if the grade of your vanguard is lower than or equal to the grade of your opponent's vanguard, Soul Charge (1) and this unit gets +2000 Power for the duration of the turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand by COST [Energy Blast (3), banish this card]."
+    },
+    "flavor_text": {
+      "original": "刻の歯車は欠け落ちることなく廻り続ける。",
+      "translated": "The gear of time continues to turn without chipping."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/007&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/008",
+    "name": {
+      "original": "紫宝獣 アルメジス",
+      "translated": "Purple Treasure Beast Armegis"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_008.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "dark states",
+    "clan": "",
+    "race": "high beast",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、(R)に登場した時か(G)に置かれた時、【コスト】[ソウルかドロップから、ライドデッキにしたカードを合計２枚ライドデッキに表で置く]ことで、このユニットのいるサークルにより以下を１つ行う。・(R)‐【カウンターチャージ】(1)。・(G)‐そのバトル中、このユニットのシールド＋15000。",
+      "translated": "[AUTO]: When this unit is placed on (R) or placed on (G), COST [places a total of 2 cards from the soul or drop zone that were made into a ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R)-Counter Charge(1).・(G) - During that battle, this unit's Shield +15000."
+    },
+    "flavor_text": {
+      "original": "本当に捧げられる？君の持つ誠実な心ってヤツをさ。",
+      "translated": "Can it really be offered? That's the sincere heart you have."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/008&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/009",
+    "name": {
+      "original": "妖厄竜 マイディローグ",
+      "translated": "Mysterious Dragon Mydi Rogue"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_009.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "dark states",
+    "clan": "",
+    "race": "abyss dragon",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
+      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+    },
+    "flavor_text": {
+      "original": "其に触れし者。精神は溶け堕ち、魂まで腐り果てる。",
+      "translated": "The one who touched it. The spirit melts away, and even the soul rots away."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/009&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/010",
+    "name": {
+      "original": "磁力怪獣 マグニデス",
+      "translated": "Magnetic Monster Magnides"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_010.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "blunt gate",
+    "clan": "",
+    "race": "alien",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットがユニットカードの能力以外で(R)に登場した時、このターンにあなたがセットオーダーをプレイしているなら、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下を１枚まで選び、公開し、それがユニットカードなら(R)にコールし、セットオーダーなら手札に加える。山札をシャッフルする。【自】【(R)】：このユニットがグレード３以上にアタックした時、あなたのオーダーゾーンにセットオーダーがあるなら、そのバトル中、このユニットのパワー＋5000。あなたのヴァンガードが「怪獣」を含むなら、＋5000ではなく＋10000。",
+      "translated": "[AUTO]: If this unit is placed on (R) other than the ability of a unit card, and you are playing a set order this turn, COST [Soul Blast (1)] looks at the top five cards of your deck, choose up to one card of grade or lower than your vanguard, reveal it, and if it is a unit card, call it to (R), and if it is a set order, add it to your hand. Shuffle the deck. [AUTO] [(R)]: When this unit attacks grade 3 or higher, if there is a set order in your order zone, this unit gets +5000 Power during that battle. If your vanguard includes a monster, it gets +10000 instead of +5000."
+    },
+    "flavor_text": {
+      "original": "周囲の金属を凝集し、その一打は限りなく重く。",
+      "translated": "It aggregates the surrounding metal, making each blow infinitely heavier."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/010&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/011",
+    "name": {
+      "original": "狂焔怪獣 ブレゼルガス",
+      "translated": "Mad Flame Monster Brezelgas"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_011.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "blunt gate",
+    "clan": "",
+    "race": "alien",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
+      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+    },
+    "flavor_text": {
+      "original": "何もかもを焼き尽くし、黒く、昏い灰燼と成す。",
+      "translated": "It burns everything down, turning it into a black, gloomy ashes."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/011&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/012",
+    "name": {
+      "original": "銀星竜 セイファード",
+      "translated": "Silver Star Dragon Seiferd"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_012.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "blunt gate",
+    "clan": "",
+    "race": "cyber dragon",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードのグレードが、相手のヴァンガードのグレード以下なら、【エネルギーチャージ】(1)し、そのターン中、このユニットのパワー＋2000。【自】【(R)/ドロップ】：あなたのターンにあなたの他のカードが手札から捨てられた時、【コスト】[【エネルギーブラスト】(3)，このカードを除外する]ことで、その捨てられたカードを１枚選び、手札に加える。",
+      "translated": "[AUTO]: This unit is placed on (R), and if the grade of your vanguard is less than or equal to the grade of your opponent's vanguard, Energy Charge (1) and this unit gets +2000 Power for the duration of the turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand by COST [Energy Blast (3), banish this card]."
+    },
+    "flavor_text": {
+      "original": "白銀より出でし紅明。それは次なる地平を寿ぐ光。",
+      "translated": "Komei came from Shirogane. It is the light that brings us to the next horizon."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/012&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/013",
+    "name": {
+      "original": "白宝獣 シンセティカ",
+      "translated": "White Treasure Beast Synthetica"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_013.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "blunt gate",
+    "clan": "",
+    "race": "high beast",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、(R)に登場した時か(G)に置かれた時、【コスト】[ソウルかドロップから、ライドデッキにしたカードを合計２枚ライドデッキに表で置く]ことで、このユニットのいるサークルにより以下を１つ行う。・(R)‐あなたのドロップからセットオーダーを１枚選び、手札に加える。・(G)‐そのバトル中、このユニットのシールド＋15000。",
+      "translated": "[AUTO]: When this unit is placed on (R) or placed on (G), COST [places a total of 2 cards from the soul or drop zone that were made into a ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R)-Choose a set order card from your drop zone and add it to your hand.・(G) - During that battle, this unit's Shield +15000."
+    },
+    "flavor_text": {
+      "original": "飽くなき探求心が、本物を上回る輝きを創るのです。",
+      "translated": "An insatiable spirit of inquiry creates a brilliance that surpasses the real thing."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/013&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/014",
+    "name": {
+      "original": "陣頭の騎士 テイスファルト",
+      "translated": "Knight at the Front Teisphalt"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_014.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "angel",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットがユニットカードの能力以外で(R)に登場した時、このターンにあなたがノーマルオーダーをプレイしているなら、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下を１枚まで選んで公開し、それがユニットカードなら(R)にコールし、ノーマルオーダーなら手札に加える。山札をシャッフルする。【自】【(R)】：このユニットがグレード３以上にアタックした時、あなたのユニットが４枚以上なら、そのバトル中、このユニットのパワー＋10000。",
+      "translated": "[AUTO]: If this unit is placed on (R) other than the ability of a unit card, and you are playing a normal order this turn, by COST [Soul Blast (1)], look at 5 cards from the top of your deck, choose up to 1 card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle the deck. [AUTO] [(R)]: When this unit attacks a grade 3 or higher, if you have 4 or more units, this unit gets +10000 Power during that battle."
+    },
+    "flavor_text": {
+      "original": "この旗に誓ったのです。皆で安寧の世を作りだすと。",
+      "translated": "I swore to this flag. Let's all create a world of peace."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/014&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/015",
+    "name": {
+      "original": "星空の騎士 ゼロ",
+      "translated": "Knight of the Starry Sky Zero"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_015.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "human royal paladin",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【永】：このカードは「沈黙の騎士 ギャラティン」として扱う。【自】：あなたのヴァンガードのクランが《ロイヤルパラディン》のみなら、このコストは『【エネルギーブラスト】(3)』でも払える。このユニットが(R)に登場した時、このユニットと同名のあなたの他のリアガードがいないなら、【コスト】[【カウンターブラスト】(1)]することで、１枚引く。【自】【(R)】：このユニットがグレード３以上にアタックした時、そのバトル中、このユニットのパワー＋5000。あなたのユニットが４枚以上なら、＋5000ではなく10000。【自】【(R)】【ターン1回】：このユニットがアタックした時、あなたのヴァンガードのクランが《ロイヤルパラディン》のみで、このターンに、あなたがペルソナライドしていて、このユニットがあなたのヴァンガードの能力で【スタンド】しているなら、【コスト】[【カウンターブラスト】(1)]することで、そのバトル中、相手は自分のカードの【自】能力を発動できない。",
+      "translated": "[CONT]: This card is treated as \"Silence Knight Gallatin\". [AUTO]: If your vanguard clan only has 《Royal Paladin》, this cost can also be paid with ``Energy Blast (3)''. This unit is placed on (R), and if you do not have another rear-guard with the same name as this unit, draw one card by COST [Counter Blast(1)]. [AUTO] [(R)]: When this unit attacks grade 3 or higher, this unit gets Power +5000 during that battle. If you have 4 or more units, you get +10000 instead of +5000. [AUTO] [(R)] [1/Turn]: When this unit attacks, if the only clan in your vanguard is 《Royal Paladin》, if you are Persona Ride this turn, and this unit is [Stand] by your vanguard ability, by COST [Counter Blast(1)], your opponent cannot activate the [AUTO] ability of his card during that battle."
+    },
+    "flavor_text": {
+      "original": "仲間の数は可能性そのものだ!!",
+      "translated": "The number of friends is the possibility!!"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/015&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/016",
+    "name": {
+      "original": "黄宝獣 トールパーズ",
+      "translated": "Yellow Treasure Beast Tolpers"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_016.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "high beast",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、(R)に登場した時か(G)に置かれた時、【コスト】[ソウルかドロップから、ライドデッキにしたカードを合計２枚ライドデッキに表で置く]ことで、このユニットのいるサークルにより以下を１つ行う。・(R)‐あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下のユニットカードを１枚まで選び、(R)にコールし、山札をシャッフルする。あなたのメインフェイズ以外なら、そのコールされたユニットを【レスト】させる。・(G)‐そのバトル中、このユニットのシールド＋15000。",
+      "translated": "[AUTO]: When this unit is placed on (R) or placed on (G), COST [places a total of 2 cards from the soul or drop zone that were made into a ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R) - Look at the top five cards of your deck, choose up to one unit card of the grade of your vanguard or lower, call it to (R), and shuffle your deck. If it is not your main phase, make the called unit [Rest].・(G) - During that battle, this unit's Shield +15000."
+    },
+    "flavor_text": {
+      "original": "曇りなき潔白の志、それを私に示しておくれ。",
+      "translated": "Please show me your pure and pure will."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/016&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/017",
+    "name": {
+      "original": "昂照竜 ブレディアーク",
+      "translated": "Gorgeous Dragon Brady Arc"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_017.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "cosmo dragon",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードのグレードが、相手のヴァンガードのグレード以下なら、あなたの山札を上から１枚見て、山札の上か下に置き、そのターン中、このユニットのパワー＋2000。【自】【(R)/ドロップ】：あなたのターンにあなたの他のカードが手札から捨てられた時、【コスト】[【エネルギーブラスト】(3)，このカードを除外する]ことで、その捨てられたカードを１枚選び、手札に加える。",
+      "translated": "[AUTO]: This unit is placed on (R), and if the grade of your vanguard is lower than or equal to the grade of your opponent's vanguard, look at the top card of your deck, put it on the top or bottom of your deck, and this unit gets Power+2000 until end of turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand by COST [Energy Blast (3), banish this card]."
+    },
+    "flavor_text": {
+      "original": "恐怖に打ち克ち、汝が勇気を証明せよ。",
+      "translated": "Conquer your fear and prove your courage."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/017&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/018",
+    "name": {
+      "original": "終夜の騎士 エスニア",
+      "translated": "Knight of the Night Esnia"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_018.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "human",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
+      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+    },
+    "flavor_text": {
+      "original": "さぁ、眠れない夜にしようじゃないか！",
+      "translated": "Well, let's have a sleepless night!"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/018&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/019",
+    "name": {
+      "original": "深淵霊域 メイディス",
+      "translated": "Abyssal Spiritual Realm Maidis"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_019.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "Stoikeia",
+    "clan": "",
+    "race": "zombie",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットがユニットカードの能力以外で(R)に登場した時、このターンにあなたがノーマルオーダーをプレイしているなら、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下を１枚まで選んで公開し、それがユニットカードなら(R)にコールし、ノーマルオーダーなら手札に加える。山札をシャッフルする。【自】【(R)】：このユニットがアタックした時、このターンにあなたのユニットがドロップから(R)に登場しているなら、【コスト】[【エネルギーブラスト】(2)]することで、相手のリアガードを１枚選び、次の相手のターン終了時まで、そのユニットはインターセプトできず、スタンドフェイズに【スタンド】できない。相手のヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
+      "translated": "[AUTO]: If this unit is placed on (R) other than the ability of a unit card, and you are playing a normal order this turn, by COST [Soul Blast (1)], look at 5 cards from the top of your deck, choose up to 1 card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle the deck. [AUTO] [(R)]: When this unit attacks, if your unit has appeared on (R) from the drop zone this turn, choose one of your opponent's rear-guards by COST [Energy Blast (2)], and that unit cannot intercept or [Stand] during the stand phase until the end of your opponent's next turn. If your opponent's vanguard is grade 3 or higher, this unit gets +5000 Power during that battle."
+    },
+    "flavor_text": {
+      "original": "歌が響く。深き淵へ誘う、呪いの歌が。",
+      "translated": "The song echoes. A cursed song that invites you to the abyss."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/019&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/020",
+    "name": {
+      "original": "幻翅竜 フェアルミア",
+      "translated": "Phantom Dragon Fairumia"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_020.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "Stoikeia",
+    "clan": "",
+    "race": "forest dragon",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードのグレードが、相手のヴァンガードのグレード以下なら、あなたの山札を上から１枚まで捨て、そのターン中、このユニットのパワー＋2000。【自】【(R)/ドロップ】：あなたのターンにあなたの他のカードが手札から捨てられた時、【コスト】[【エネルギーブラスト】(3)，このカードを除外する]ことで、その捨てられたカードを１枚選び、手札に加える。",
+      "translated": "[AUTO]: This unit is placed on (R), and if the grade of your vanguard is lower than or equal to the grade of your opponent's vanguard, discard up to one card from the top of your deck, and this unit gets Power+2000 until end of turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand by COST [Energy Blast (3), banish this card]."
+    },
+    "flavor_text": {
+      "original": "優雅な羽搏きと侮る勿れ。其は嵐を呼ぶ翼なり。",
+      "translated": "Don't underestimate the graceful beating of the feathers. Those are the wings that call the storm."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/020&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/021",
+    "name": {
+      "original": "惜別の妖精 アプティシート",
+      "translated": "Farewell Fairy Aptisheet"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_021.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "Stoikeia",
+    "clan": "",
+    "race": "ghost",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
+      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+    },
+    "flavor_text": {
+      "original": "この記憶も、いつか想い出に変わるのでしょう。",
+      "translated": "Maybe someday this memory will turn into a memory."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/021&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/022",
+    "name": {
+      "original": "緑宝獣 エルメイダ",
+      "translated": "Green Treasure Beast Elmeida"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_022.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "Stoikeia",
+    "clan": "",
+    "race": "high beast",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、(R)に登場した時か(G)に置かれた時、【コスト】[ソウルかドロップから、ライドデッキにしたカードを合計２枚ライドデッキに表で置く]ことで、このユニットのいるサークルにより以下を１つ行う。・(R)‐【ソウルチャージ】(2)し、あなたのユニットを１枚選び、そのターン中、パワー＋5000。・(G)‐そのバトル中、このユニットのシールド＋15000。",
+      "translated": "[AUTO]: When this unit is placed on (R) or placed on (G), COST [places a total of 2 cards from the soul or drop zone that were made into a ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R)-Soul Charge(2), choose one of your units, and get Power+5000 for the duration of the turn.・(G) - During that battle, this unit's Shield +15000."
+    },
+    "flavor_text": {
+      "original": "ちゃんとつむいでね。あいときぼーのものがたり。",
+      "translated": "Please tie it properly. The story of Aikibo."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/022&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/023",
+    "name": {
+      "original": "イメージしろ！マリレーンとのチェキ会を！ ダウナーお姉さん",
+      "translated": "Image it! Cheki party with Marilane! Downer sister"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_023.png",
+    "unit_type": "normal unit",
+    "grade": "3",
+    "nation": "Lyrical Monasterio",
+    "clan": "",
+    "race": "human",
+    "power": "13000",
+    "shield": "-",
+    "critical": "1",
+    "skill": "Twin Drive, Persona Ride",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【永】【(V)/山札/ソウル】：このカードは「満場一体 マリレーン」としても扱う。【自】【手札】：あなたの(V)の「満場一体 マリレーン」がアタックしたバトル終了時、【コスト】[【ソウルブラスト】(2)]することで、このカードを【スタンド】でライドし、そのターン中、ドライブ－１し、あなたは手札からライドできない。そのターン終了時、あなたのソウルから「満場一体 マリレーン」を１枚選び、【レスト】でライドする。【起】【ソウル】：あなたのヴァンガードが「マリレーン」を含むグレード３以上で、このターンにこのカードと同名のあなたのカードがバインドされていないなら、【コスト】[このカードをバインドする]ことで、そのターン中、あなたは『あなたの前列のユニットすべてのパワー＋5000。』を得る。このターンにあなたがペルソナライドしているなら、【カウンターチャージ】(1)か【エネルギーチャージ】(3)。",
+      "translated": "[CONT] [(V)/Deck/soul]: This card is also treated as \"All in One Marilane\". [AUTO] [Hand]: At the end of the battle in which your (V) \"All in One Marilane\" attacked, by performing COST [Soul Blast (2)], ride this card as [Stand], and for the duration of that turn, it gets -1 Drive and you cannot ride it from your hand. At the end of that turn, choose 1 \"All in One Marilane\" from your soul and ride it with [Rest]. [ACT] [soul]: If your vanguard is grade 3 or higher, including \"Marilene\", and your card with the same name as this card is not bound this turn, by COST [bind this card], during that turn, you can get \"Power +5000 for all units in your front row. ”. If you're Persona Ride this turn, Counter Charge (1) or Energy Charge (3)."
+    },
+    "flavor_text": {
+      "original": "いいか少年、イメージしろ。イメージは君の力になるのだよ。",
+      "translated": "Listen, boy, imagine it. Images are your strength."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/023&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/024",
+    "name": {
+      "original": "今夜だけの魔女 ストレージャ",
+      "translated": "Witch only for tonight Strella"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_024.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "Lyrical Monasterio",
+    "clan": "",
+    "race": "dragonoid",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットがユニットカードの能力以外で(R)に登場した時、このターンにあなたがノーマルオーダーをプレイしているなら、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下を１枚まで選んで公開し、それがユニットカードなら(R)にコールし、ノーマルオーダーなら手札に加える。山札をシャッフルする。【自】【(R)】：このユニットがグレード３以上にアタックした時、このターンにこのユニットが登場しているなら、【コスト】[【カウンターブラスト】(1)]することで、１枚引き、そのターン中、このユニットのパワー＋10000。",
+      "translated": "[AUTO]: If this unit is placed on (R) other than the ability of a unit card, and you are playing a normal order this turn, by COST [Soul Blast (1)], look at 5 cards from the top of your deck, choose up to 1 card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle the deck. [AUTO] [(R)]: When this unit attacks a grade 3 or higher, if this unit has appeared this turn, COST [Counter Blast(1)], draw 1 card, and this unit gets +10000 Power for the duration of the turn."
+    },
+    "flavor_text": {
+      "original": "今だけ特別。あなたと一緒に楽しみたいから。",
+      "translated": "Special only now. Because I want to have fun with you."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/024&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/025",
+    "name": {
+      "original": "海謡竜 エレスティーノ",
+      "translated": "Sea song dragon Elestino"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_025.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "Lyrical Monasterio",
+    "clan": "",
+    "race": "tier dragon",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードのグレードが、相手のヴァンガードのグレード以下なら、そのターン中、このユニットのパワー＋2000し、さらに、このターンにあなたがオーダーをプレイしているなら、【ソウルチャージ】(1)か【エネルギーチャージ】(1)。【自】【(R)/ドロップ】：あなたのターンにあなたの他のカードが手札から捨てられた時、【コスト】[【エネルギーブラスト】(3)，このカードを除外する]ことで、その捨てられたカードを１枚選び、手札に加える。",
+      "translated": "[AUTO]: This unit is placed on (R), and if the grade of your vanguard is less than or equal to the grade of your opponent's vanguard, this unit gets +2000 Power during that turn, and if you played an order this turn, Soul Charge (1) or Energy Charge (1). [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand by COST [Energy Blast (3), banish this card]."
+    },
+    "flavor_text": {
+      "original": "波音、泡沫、君の聲。海と奏でる即興曲。",
+      "translated": "The sound of waves, foam, and your voice. An impromptu song played with the sea."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/025&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/026",
+    "name": {
+      "original": "虹宝獣 オルピリス",
+      "translated": "Rainbow Treasure Beast Orpilis"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_026.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "Lyrical Monasterio",
+    "clan": "",
+    "race": "high beast",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、(R)に登場した時か(G)に置かれた時、【コスト】[ソウルかドロップから、ライドデッキにしたカードを合計２枚ライドデッキに表で置く]ことで、このユニットのいるサークルにより以下を１つ行う。・(R)‐あなたの、ソウルかドロップから、あなたのヴァンガードと同名を１枚選び、手札に加える。・(G)‐そのバトル中、このユニットのシールド＋15000。",
+      "translated": "[AUTO]: When this unit is placed on (R) or placed on (G), COST [places a total of 2 cards from the soul or drop zone that were made into a ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R) - Choose a card with the same name as your vanguard from your soul or drop zone, and add it to your hand.・(G) - During that battle, this unit's Shield +15000."
+    },
+    "flavor_text": {
+      "original": "夢を信じ続ける者だけが一番星を掴むのだ。",
+      "translated": "Only those who continue to believe in their dreams will reach the stars."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/026&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/027",
+    "name": {
+      "original": "砕牙凶縛 アレイスト＆フォルガモルト",
+      "translated": "Saiga Kyobaku Aleist & Folgamault"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_027.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "Blunt Gate Warbeast/Battroid",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：バトルフェイズ以外にこのユニットが手札から(R)に登場した時、以下を１つ行う。・【コスト】[【カウンターブラスト】(1)]することで、１枚引き、このファイト中、このユニットのパワー＋5000し、このユニットは相手のカードの効果で、選べず、退却しない。・【コスト】[【エネルギーブラスト】(3)]することで、相手のリアガードを１枚選び、次の相手のターン終了時まで、そのユニットはインターセプトできず、スタンドフェイズに【スタンド】できない。【自】【(R)】：このユニットがアタックした時、相手のヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。あなたのヴァンガードがいずれかのクランのみに属するなら、相手のヴァンガードがグレード３以上ではなく、相手のヴァンガードがグレード２以上。",
+      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・By performing COST [Counter Blast(1)], you will draw one card, this unit will get +5000 Power during this fight, and this unit cannot be selected or retired by the effects of your opponent's cards.・COST [Energy Blast(3)] selects one of your opponent's rear-guards, and that unit cannot intercept or [Stand] during the stand phase until the end of your opponent's next turn. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
+    },
+    "flavor_text": {
+      "original": "捕縛し、打ち砕く。凶悪なる連携攻撃。",
+      "translated": "Capture and destroy. A brutal coordinated attack."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/027&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/028",
+    "name": {
+      "original": "夢天相愛 ナアマ＆サマエル",
+      "translated": "Mutensoai Naama & Samael"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_028.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "dark states",
+    "clan": "",
+    "race": "Ketel Sanctuary Succubus/Angel",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：バトルフェイズ以外にこのユニットが手札から(R)に登場した時、以下を１つ行う。・【コスト】[【カウンターブラスト】(1)]することで、あなたのダメージゾーンから１枚選び、手札に加え、あなたの山札を上から１枚ダメージゾーンに裏で置く。・【コスト】[【エネルギーブラスト】(3)]することで、あなたの山札を上から５枚見て、【レガリスピース】を持たないグレード３を１枚まで選び、公開して手札に加え、山札をシャッフルする。【自】【(R)】：このユニットがアタックした時、相手のヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。あなたのヴァンガードがいずれかのクランのみに属するなら、相手のヴァンガードがグレード３以上ではなく、相手のヴァンガードがグレード２以上。",
+      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・By COST [Counter Blast(1)], choose one card from your damage zone, add it to your hand, and place one card from the top of your deck face down in your damage zone. -COST [Energy Blast(3)] Look at the top five cards of your deck, choose up to one grade 3 card that does not have [Regalis Piece], reveal it, add it to your hand, and shuffle your deck. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
+    },
+    "flavor_text": {
+      "original": "真実の空で愛を謳う、比翼の羽根。",
+      "translated": "A winged feather that sings of love in the sky of truth."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/028&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/029",
+    "name": {
+      "original": "重蝕望縁 グラヴェル＆オルグス",
+      "translated": "Heavy Eclipse Hopeen Gravel & Orgus"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_029.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "blunt gate",
+    "clan": "",
+    "race": "Stoikeia Cyberoid/High Beast",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：バトルフェイズ以外にこのユニットが手札から(R)に登場した時、以下を１つ行う。・【コスト】[【カウンターブラスト】(1)]することで、あなたの山札を上から１枚公開し、手札に加え、トリガーカードが公開されたなら、相手のリアガードを１枚選び、退却させる。・【コスト】[【エネルギーブラスト】(3)]することで、あなたの山札を上から７枚見て、【レガリスピース】を持たないオーダーカードを１枚まで選び、公開して手札に加え、山札をシャッフルする。【自】【(R)】：このユニットがアタックした時、相手のヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。あなたのヴァンガードがいずれかのクランのみに属するなら、相手のヴァンガードがグレード３以上ではなく、相手のヴァンガードがグレード２以上。",
+      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・COST [Counter Blast(1)] reveals one card from the top of your deck and adds it to your hand, and if the trigger card is revealed, choose one of your opponent's rear-guards and retire it.・COST [Energy Blast (3)] Look at the top 7 cards of your deck, select up to 1 order card that does not have [Regalis Piece], reveal it, add it to your hand, and shuffle your deck. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
+    },
+    "flavor_text": {
+      "original": "其処にある“何か”を、我らの眼で観測するのだ。",
+      "translated": "We will observe \"something\" there with our own eyes."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/029&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/030",
+    "name": {
+      "original": "崩仇雪魂 マルディアス＆コユキ",
+      "translated": "Falling Snow Soul Mardias & Koyuki"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_030.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "Dragon Empire Human/Ghost",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：バトルフェイズ以外にこのユニットが手札から(R)に登場した時、以下を１つ行う。・【コスト】[【カウンターブラスト】(1)]することで、ペルソナシールド・チケットを１枚手札に加え、次の相手のターン終了時まで、あなたは『あなたがペルソナシールド・チケットをプレイした時、アタックされているユニットを１枚選び、そのバトル中、パワー＋5000。』を得る。・【コスト】[他のリアガードを１枚退却させる]ことで、グレード２以上の相手のリアガードを１枚選び、退却させる。【自】【(R)】：このユニットがアタックした時、相手のヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。あなたのヴァンガードがいずれかのクランのみに属するなら、相手のヴァンガードがグレード３以上ではなく、相手のヴァンガードがグレード２以上。",
+      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・By performing COST [Counter Blast(1)], you will add one Persona Shield ticket to your hand, and until the end of your opponent's next turn, you will receive ``When you play a Persona Shield ticket, choose one unit that is being attacked, and get Power+5000 for the duration of that battle. ”.・By COST [retire one other rear-guard], select one of your opponent's rear-guards of grade 2 or higher and retire it. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
+    },
+    "flavor_text": {
+      "original": "小雪はららと降り積もり、仇の骸は無惨と散りぬ。",
+      "translated": "A light snow was falling, and the corpses of my enemies were scattered."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/030&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/031",
+    "name": {
+      "original": "屍猟裂災 ロヴィーナ＆ズウィン",
+      "translated": "Corpse Hunting Disaster Lovina & Zwin"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_031.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "Stoikeia",
+    "clan": "",
+    "race": "Dark States Ghost/Elf",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：バトルフェイズ以外にこのユニットが手札から(R)に登場した時、以下を１つ行う。・【コスト】[【カウンターブラスト】(1)]することで、あなたの山札を上から１枚見て、山札の下に置くか、捨てる。その後、あなたのドロップからグレード２以下を１枚選び、(R)にコールする。・【コスト】[【エネルギーブラスト】(2)]することで、あなたの山札を上から１枚見て、山札の下かソウルに置き、相手のリアガードを１枚選び、ソウルに置く。【自】【(R)】：このユニットがアタックした時、相手のヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。あなたのヴァンガードがいずれかのクランのみに属するなら、相手のヴァンガードがグレード３以上ではなく、相手のヴァンガードがグレード２以上。",
+      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・COST [Counter Blast(1)] Look at the top card of your deck and either put it on the bottom of your deck or discard it. Then, choose 1 grade 2 or lower card from your drop zone and call it to (R). - By performing COST [Energy Blast(2)], look at the top card of your deck, place it on the bottom of the deck or on your soul, choose one of your opponent's rear-guards, and put it on your soul. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
+    },
+    "flavor_text": {
+      "original": "破滅を呼び、災禍を齎す。嵐が如き凶刃の舞い。",
+      "translated": "It calls for destruction and brings disaster. A fierce dance of blades like a storm."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/031&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/032",
+    "name": {
+      "original": "幻奏仙女 ケイショウ",
+      "translated": "Gensou Fairy Keisho"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_032.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "human",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【起】【(R)】：このターンにあなたがペルソナライドしているなら、【コスト】[このユニットをソウルに置く]ことで、相手のリアガードを１枚選び、バインドする。そのターン中、あなたはこのユニットと同名のユニットの【起】能力のコストを払えない。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
+      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, COST [put this unit into soul] to choose one of your opponent's rear-guards and bind it. During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle."
+    },
+    "flavor_text": {
+      "original": "世俗は忘我の彼方、至福の音色に満たされて。",
+      "translated": "The mundane world is beyond trance, filled with the sounds of bliss."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/032&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/033",
+    "name": {
+      "original": "忍竜 ソウザン",
+      "translated": "Ninja Dragon Souzan"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_033.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "abyss dragon",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】【(R)/手札/ドロップ】：あなたのライドフェイズ開始時、あなたと相手の、ヴァンガードがグレード３以上で、あなたの表のダメージゾーンがなく、直前の相手のターンにあなたのヴァンガードがパワー13000以上でアタックされていないなら、【コスト】[このカードをバインドする]ことで、あなたの山札を上から１枚ダメージゾーンに置く。このコストで手札からバインドしたなら、１枚引く。【永】【(G)】：相手のドロップが５枚以上なら、このユニットのシールド＋5000。",
+      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If the opponent's drop zone has 5 or more cards, this unit gets Shield+5000."
+    },
+    "flavor_text": {
+      "original": "往なす一太刀、返す二之太刀。",
+      "translated": "One sword that goes forward, two swords that return."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/033&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/034",
+    "name": {
+      "original": "忍妖 フタクチヨ",
+      "translated": "Shinobi Yo Futakuchiyo"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_034.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "ghost",
+    "power": "0",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Front trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが(G)から退却した時、このカードをソウルに置いてよい。",
+      "translated": "[AUTO]: When this unit retreats from (G), you may put this card into your soul."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/034&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/035",
+    "name": {
+      "original": "フェスティヴ・トラピージスト",
+      "translated": "Festive Trapegist"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_035.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "dark states",
+    "clan": "",
+    "race": "werebeast",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【起】【(R)】：このターンにあなたがペルソナライドしているなら、【コスト】[このユニットをソウルに置く]ことで、相手のリアガードを１枚選び、ソウルに置く。そのターン中、あなたはこのユニットと同名のユニットの【起】能力のコストを払えない。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
+      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, choose one of your opponent's rear-guards and place it in the soul by COST [put this unit in the soul]. During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle."
+    },
+    "flavor_text": {
+      "original": "お祝いですもの♪うんと華やかにいきますよぅ♪",
+      "translated": "It's a celebration♪ It's going to be gorgeous♪"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/035&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/036",
+    "name": {
+      "original": "冒険科学士 アリウス",
+      "translated": "Adventure Scientist Arius"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_036.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "dark states",
+    "clan": "",
+    "race": "human",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードが「セルセーラ」を含むグレード３以上なら、あなたの山札を上から７枚見て、ノーマルオーダーを１枚まで選び、公開して手札に加え、山札をシャッフルする。公開したなら、あなたの手札から１枚選び、ソウルに置くか、捨てる。【自】【(R)】:「セルセーラ」を含むグレード３以上のあなたのヴァンガードがアタックした時、相手のヴァンガードがグレード３以上で、このターンにあなたのユニットがカードの能力で【スタンド】していないなら、【コスト】[【エネルギーブラスト】(3)］することで、このユニットを【スタンド】させる。【スタンド】させたなら、あなたのヴァンガードを１枚選び、そのターン中、そのユニットとこのユニットのパワー＋5000。",
+      "translated": "[AUTO]: If this unit is placed on (R) and your vanguard is grade 3 or higher, including \"Celsera\", look at the top 7 cards of your deck, choose up to 1 normal order card from among them, reveal it, add it to your hand, and shuffle your deck. If you reveal it, choose a card from your hand and either put it into your soul or discard it. [AUTO] [(R)]: When your vanguard of grade 3 or higher including \"Cellsera\" attacks, if your opponent's vanguard is grade 3 or higher and your unit has not [Stand] by card ability this turn, make this unit [Stand] by performing COST [Energy Blast(3)]. If you [Stand], choose one of your vanguards, and that unit and this unit get +5000 Power until end of turn."
+    },
+    "flavor_text": {
+      "original": "まったく……弟子使いの荒い師匠なんですから……！",
+      "translated": "At all... he's a rough master who treats his disciples...!"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/036&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/037",
+    "name": {
+      "original": "冥刺の魔槍士 クリミナトレス",
+      "translated": "Demonic Spearman Criminatores"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_037.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "dark states",
+    "clan": "",
+    "race": "daemon",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】【(R)/手札/ドロップ】：あなたのライドフェイズ開始時、あなたと相手の、ヴァンガードがグレード３以上で、あなたの表のダメージゾーンがなく、直前の相手のターンにあなたのヴァンガードがパワー13000以上でアタックされていないなら、【コスト】[このカードをバインドする]ことで、あなたの山札を上から１枚ダメージゾーンに置く。このコストで手札からバインドしたなら、１枚引く。【永】【(G)】：あなたのソウルが５枚以上なら、このユニットのシールド＋5000。",
+      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If you have 5 or more souls, this unit gets Shield+5000."
+    },
+    "flavor_text": {
+      "original": "私に願うなんて。ほんと、命知らずなひと。",
+      "translated": "What do you wish for me? A real daredevil."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/037&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/038",
+    "name": {
+      "original": "破滅の怪音 アドゥーロ",
+      "translated": "Mysterious sound of destruction Aduro"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_038.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "dark states",
+    "clan": "",
+    "race": "daemon",
+    "power": "0",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Front trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが(G)から退却した時、このカードをソウルに置いてよい。",
+      "translated": "[AUTO]: When this unit retreats from (G), you may put this card into your soul."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/038&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/039",
+    "name": {
+      "original": "虚数竜 ディラクシィ",
+      "translated": "Imaginary Number Dragon Dilaxy"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_039.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "blunt gate",
+    "clan": "",
+    "race": "space dragon",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【起】【(R)】：このターンにあなたがペルソナライドしているなら、【コスト】[このユニットをソウルに置く]ことで、夜影兵・トークンを１枚(R)にコールする。そのターン中、あなたはこのユニットと同名のユニットの【起】能力のコストを払えない。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
+      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, by COST [put this unit into soul], call 1 Night Shadow Soldier token to (R). During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle."
+    },
+    "flavor_text": {
+      "original": "宇宙を渡り幾星霜、竜は世界の裏側を識るに至った。",
+      "translated": "After crossing the universe, Ryu came to know the other side of the world."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/039&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/040",
+    "name": {
+      "original": "オプティマイジング・メカニック",
+      "translated": "Optimizing Mechanic"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_040.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "blunt gate",
+    "clan": "",
+    "race": "workeroid",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】【(R)/手札/ドロップ】：あなたのライドフェイズ開始時、あなたと相手の、ヴァンガードがグレード３以上で、あなたの表のダメージゾーンがなく、直前の相手のターンにあなたのヴァンガードがパワー13000以上でアタックされていないなら、【コスト】[このカードをバインドする]ことで、あなたの山札を上から１枚ダメージゾーンに置く。このコストで手札からバインドしたなら、１枚引く。【永】【(G)】：あなたのオーダーゾーンにカードが３枚以上なら、このユニットのシールド＋5000。（相手のカードも含む）",
+      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If there are 3 or more cards in your order zone, this unit gets Shield+5000. (Including opponent's cards)"
+    },
+    "flavor_text": {
+      "original": "ふぅ、もう少し詰めないと。備えあればなんとやら、よ。",
+      "translated": "Phew, I need to fill it up a little more. It's great if you're prepared."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/040&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/041",
+    "name": {
+      "original": "エンディアリング・ベンダー メイティーナ",
+      "translated": "Endearing Bender Maytina"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_041.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "blunt gate",
+    "clan": "",
+    "race": "human",
+    "power": "0",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Front trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが(G)から退却した時、このカードをソウルに置いてよい。",
+      "translated": "[AUTO]: When this unit retreats from (G), you may put this card into your soul."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/041&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/042",
+    "name": {
+      "original": "閃晶竜 セブネイヴィア",
+      "translated": "Flash Dragon Sebnavia"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_042.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "cosmo dragon",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【起】【(R)】：このターンにあなたがペルソナライドしているなら、【コスト】[このユニットをソウルに置く]ことで、あなたの山札を上から５枚見て、１枚まで選び、(R)にコールし、山札をシャッフルする。そのターン中、あなたはこのユニットと同名のユニットの【起】能力のコストを払えない。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
+      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, COST [put this unit into your soul], look at 5 cards from the top of your deck, choose up to 1 card from the top, call it to (R), and shuffle your deck. During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle."
+    },
+    "flavor_text": {
+      "original": "悪しきを撃ち抜くは、穢れ祓う清浄の環光。",
+      "translated": "Shooting down evil is a ring of purity that purifies impurity."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/042&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/043",
+    "name": {
+      "original": "皓白の魔法 ノノミラ",
+      "translated": "White Magic Nonomira"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_043.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "human",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】【(R)/手札/ドロップ】：あなたのライドフェイズ開始時、あなたと相手の、ヴァンガードがグレード３以上で、あなたの表のダメージゾーンがなく、直前の相手のターンにあなたのヴァンガードがパワー13000以上でアタックされていないなら、【コスト】[このカードをバインドする]ことで、あなたの山札を上から１枚ダメージゾーンに置く。このコストで手札からバインドしたなら、１枚引く。【永】【(G)】：あなたのリアガードが４枚以上なら、このユニットのシールド＋5000。",
+      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If you have 4 or more rear-guards, this unit gets Shield+5000."
+    },
+    "flavor_text": {
+      "original": "白は始点。何色にも染まり、何色をも塗り潰す力。",
+      "translated": "White is the starting point. The power to dye any color and paint over any color."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/043&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/044",
+    "name": {
+      "original": "ディヴァインシスター なてぃーじゃ",
+      "translated": "Divine Sister Nateija"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_044.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "elf",
+    "power": "0",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Front trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが(G)から退却した時、このカードをソウルに置いてよい。",
+      "translated": "[AUTO]: When this unit retreats from (G), you may put this card into your soul."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/044&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/045",
+    "name": {
+      "original": "衛福の騎士 エテルピネス",
+      "translated": "Knight of Wealth Etelpines"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_045.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "Stoikeia",
+    "clan": "",
+    "race": "bioroid",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【起】【(R)】：このターンにあなたがペルソナライドしているなら、【コスト】[このユニットをソウルに置く]ことで、あなたのドロップからこのカードと別名のカードを１枚選び、(R)にコールする。そのターン中、あなたはこのユニットと同名のユニットの【起】能力のコストを払えない。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
+      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, by COST [put this unit into soul], choose this card and a card with another name from your drop zone, and call it to (R). During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle."
+    },
+    "flavor_text": {
+      "original": "永遠の幸福を、あなたに捧げます。",
+      "translated": "I dedicate eternal happiness to you."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/045&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/046",
+    "name": {
+      "original": "ラヴィッシュセント・ドラゴン",
+      "translated": "Lavish Saint Dragon"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_046.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "Stoikeia",
+    "clan": "",
+    "race": "forest dragon",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】【(R)/手札/ドロップ】：あなたのライドフェイズ開始時、あなたと相手の、ヴァンガードがグレード３以上で、あなたの表のダメージゾーンがなく、直前の相手のターンにあなたのヴァンガードがパワー13000以上でアタックされていないなら、【コスト】[このカードをバインドする]ことで、あなたの山札を上から１枚ダメージゾーンに置く。このコストで手札からバインドしたなら、１枚引く。【永】【(G)】：あなたのドロップが10枚以上なら、このユニットのシールド＋5000。",
+      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If your drop zone has 10 or more cards, this unit gets Shield+5000."
+    },
+    "flavor_text": {
+      "original": "豊かな香りは翼に乗せてふんわりと。",
+      "translated": "The rich aroma is spread softly on the wings."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/046&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/047",
+    "name": {
+      "original": "ティアーナイト ロティオン",
+      "translated": "Tear Knight Lothion"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_047.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Stoikeia",
+    "clan": "",
+    "race": "aquaroid",
+    "power": "0",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Front trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが(G)から退却した時、このカードをソウルに置いてよい。",
+      "translated": "[AUTO]: When this unit retreats from (G), you may put this card into your soul."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/047&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/048",
+    "name": {
+      "original": "Spiny∧Spiky ヒース",
+      "translated": "Spiny∧Spiky Heath"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_048.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Lyrical Monasterio",
+    "clan": "",
+    "race": "werebeast",
+    "power": "0",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Front trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが(G)から退却した時、このカードをソウルに置いてよい。",
+      "translated": "[AUTO]: When this unit retreats from (G), you may put this card into your soul."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/048&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/049",
+    "name": {
+      "original": "忍竜 マドワズ",
+      "translated": "Ninja Dragon Madawazu"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_049.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "abyss dragon",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Critical trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "迷いなく敵を葬る、冷徹の刃。",
+      "translated": "A cold-hearted blade that kills enemies without hesitation."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/049&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/050",
+    "name": {
+      "original": "忍竜 ミダレグモ",
+      "translated": "Stealth Dragon Midaregumo"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_050.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "abyss dragon",
+    "power": "5000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Draw trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "雲へと溺れ、死に沈め。",
+      "translated": "Drown into the clouds and sink into death."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/050&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/051",
+    "name": {
+      "original": "忍竜 ヤミタグリ",
+      "translated": "Ninja Dragon Yamitaguri"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_051.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "abyss dragon",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Front trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "ぶぉん。",
+      "translated": "Boom."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/051&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/052",
+    "name": {
+      "original": "忍竜 シキンタン",
+      "translated": "Ninja Dragon Shikintan"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_052.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "abyss dragon",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Heal trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "（【治】はデッキに合計４枚まで入れられる）",
+      "translated": "(Up to 4 [Heal] cards can be included in the deck)"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/052&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/053",
+    "name": {
+      "original": "スワンキィ・エンスローラー",
+      "translated": "Swanky Enthroller"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_053.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "dark states",
+    "clan": "",
+    "race": "elf",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Critical trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "軽やかに舞う一筋の流星が、あなたの視線を奪い去る。",
+      "translated": "A lightly dancing meteor steals your gaze."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/053&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/054",
+    "name": {
+      "original": "シルキィスカイ・アクトレス",
+      "translated": "Silky Sky Actress"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_054.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "dark states",
+    "clan": "",
+    "race": "elf",
+    "power": "5000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Draw trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "夜空に咲く大輪の花は、今宵も喝采に包まれる。",
+      "translated": "The large flowers blooming in the night sky will be met with applause tonight as well."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/054&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/055",
+    "name": {
+      "original": "イントレピッド・スピナー",
+      "translated": "Intrepid spinner"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_055.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "dark states",
+    "clan": "",
+    "race": "werebeast",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Front trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "いつもより、ちょっと多めにまわしてますよ～ぅ！",
+      "translated": "I'm spinning it a little more than usual!"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/055&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/056",
+    "name": {
+      "original": "ギャンブリング・ジャグラー",
+      "translated": "gambling juggler"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_056.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "dark states",
+    "clan": "",
+    "race": "elf",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Heal trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "（【治】はデッキに合計４枚まで入れられる）",
+      "translated": "(Up to 4 [Heal] cards can be included in the deck)"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/056&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/057",
+    "name": {
+      "original": "チェイン・ライクラスタ",
+      "translated": "Chain Lycraster"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_057.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "blunt gate",
+    "clan": "",
+    "race": "cyber golem",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Critical trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "圧倒的な質量が、不可逆の変質を与える。",
+      "translated": "The overwhelming mass causes irreversible changes."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/057&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/058",
+    "name": {
+      "original": "光束の撃手 ルミノフラクス",
+      "translated": "Shooter of Luminous Flux Luminoflux"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_058.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "blunt gate",
+    "clan": "",
+    "race": "Cyberoid",
+    "power": "5000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Draw trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "ここで撃ち落さなきゃ、皆が安心して眠れないから！",
+      "translated": "If we don't shoot it down here, everyone won't be able to sleep in peace!"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/058&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/059",
+    "name": {
+      "original": "討究の打擲 ブライトリム",
+      "translated": "Investigation Strike Brightrim"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_059.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "blunt gate",
+    "clan": "",
+    "race": "Cyberoid",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Front trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "脆いな。構成物質を改修せよ。",
+      "translated": "It's fragile. Modify the constituent materials."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/059&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/060",
+    "name": {
+      "original": "真空放電の揮い手",
+      "translated": "Master of vacuum discharge"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_060.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "blunt gate",
+    "clan": "",
+    "race": "cyber fairy",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Heal trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "（【治】はデッキに合計４枚まで入れられる）",
+      "translated": "(Up to 4 [Heal] cards can be included in the deck)"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/060&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/061",
+    "name": {
+      "original": "整弓の騎士 サヴァルフ",
+      "translated": "Knight of the Adjustable Archer Savulf"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_061.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "elf",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Critical trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "一撃で貫けぬなら、重ねて放てばよいだけだ。",
+      "translated": "If you can't pierce it with one blow, just fire more."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/061&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/062",
+    "name": {
+      "original": "アキュムレーション・セージ",
+      "translated": "Accumulation Sage"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_062.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "human",
+    "power": "5000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Draw trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "幸運？違うね。この結果は必定さ。",
+      "translated": "Good luck? That's not true. This result is inevitable."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/062&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/063",
+    "name": {
+      "original": "しゃるがおん",
+      "translated": "Sharugaon"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_063.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "high beast",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Front trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "ご主人と共に、敵を目掛けて一直線！",
+      "translated": "Along with your husband, head straight for the enemy!"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/063&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/064",
+    "name": {
+      "original": "爽琴の騎士 リクラ",
+      "translated": "Soukin Knight Rikulla"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_064.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "angel",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Heal trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "（【治】はデッキに合計４枚まで入れられる）",
+      "translated": "(Up to 4 [Heal] cards can be included in the deck)"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/064&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/065",
+    "name": {
+      "original": "ティアーナイト コスタス",
+      "translated": "Tear Knight Kostas"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_065.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Stoikeia",
+    "clan": "",
+    "race": "aquaroid",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Critical trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "お前はここでッ！藻屑と消えろッ！！",
+      "translated": "You are here! Disappear like dust! !"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/065&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/066",
+    "name": {
+      "original": "散撃のブレイブ・シューター",
+      "translated": "Shot Brave Shooter"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_066.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Stoikeia",
+    "clan": "",
+    "race": "aquaroid",
+    "power": "5000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Draw trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "これだけ叩き込めば、文句は出ないだろう？",
+      "translated": "If you just hit this hard, you won't have any complaints, right?"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/066&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/067",
+    "name": {
+      "original": "ティアーナイト カイキリア",
+      "translated": "Tear Knight Kaikiria"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_067.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Stoikeia",
+    "clan": "",
+    "race": "aquaroid",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Front trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "乾坤一擲の大斬撃が、膠着した戦況を覆す。",
+      "translated": "Kenkon's single powerful slash overturns the stalemate of the battle."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/067&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/068",
+    "name": {
+      "original": "戦場の歌姫 ドルセア",
+      "translated": "Battlefield Diva Dorsea"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_068.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Stoikeia",
+    "clan": "",
+    "race": "mermaid",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Heal trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "（【治】はデッキに合計４枚まで入れられる）",
+      "translated": "(Up to 4 [Heal] cards can be included in the deck)"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/068&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/069",
+    "name": {
+      "original": "ゆったりふわふわお嬢様 ホーデリーフェ",
+      "translated": "Loose and fluffy young lady Hoderife"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_069.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Lyrical Monasterio",
+    "clan": "",
+    "race": "mermaid",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Critical trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "ふわりと優しい波の鼓動に、あなたの♡は陥落寸前。",
+      "translated": "Your ♡ is on the verge of collapse due to the gentle heartbeat of the waves."
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/069&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/070",
+    "name": {
+      "original": "止まぬ歓声に応えて ダーチェ",
+      "translated": "In response to the endless cheers, Dache"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_070.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Lyrical Monasterio",
+    "clan": "",
+    "race": "mermaid",
+    "power": "5000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Draw trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "お前たちっ！アンコールよ！泣いて喜びなさい！",
+      "translated": "You guys! Encore! Cry and rejoice!"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/070&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/071",
+    "name": {
+      "original": "飛び出せ最前線 ヒセラ",
+      "translated": "Jump out to the forefront, Hisera"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_071.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Lyrical Monasterio",
+    "clan": "",
+    "race": "mermaid",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Front trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "",
+      "translated": ""
+    },
+    "flavor_text": {
+      "original": "う～！いぇいっ♪",
+      "translated": "Ugh! Yay♪"
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/071&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/072",
+    "name": {
+      "original": "清適の歌姫 ショルシーナ",
+      "translated": "Pure Diva Shorsina"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_072.png",
+    "unit_type": "trigger unit",
+    "grade": "0",
+    "nation": "Lyrical Monasterio",
+    "clan": "",
+    "race": "mermaid",
+    "power": "5000",
+    "shield": "15000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "Heal trigger +10000",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "（【治】はデッキに合計４枚まで入れられる）",
+      "translated": "(Up to 4 [Heal] cards can be included in the deck)"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/072&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/15thSP01",
+    "name": {
+      "original": "天輪神竜 ニルヴァーナ・バガヴァーン",
+      "translated": "Heavenly Wheel Divine Dragon Nirvana Bhagavan"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_073.png",
+    "unit_type": "normal unit",
+    "grade": "3",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "flame dragon",
+    "power": "13000",
+    "shield": "-",
+    "critical": "1",
+    "skill": "Twin Drive, Persona Ride",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【起】【(V)】【ターン1回】：【コスト】[手札から１枚捨てる]ことで、あなたのドロップから、「トリクスタ」と〈プレアドラゴン〉をそれぞれ１枚まで選び、(R)にコールする。【起】【(V)】【ターン1回】：【コスト】[【ソウルブラスト】(2)]することで、相手のリアガードを１枚選び、退却させる。【自】【(V)】【ターン1回】：このユニットがアタックした時、【コスト】[【カウンターブラスト】(1)]することで、以下を１つ行う。・【クロスオーバードレス】状態のあなたのリアガードを１枚選び、【スタンド】させる。・このターンにあなたがペルソナライドしているなら、それぞれ別名の【クロスオーバードレス】状態のあなたのリアガードを望む枚数選び、【スタンド】させる。",
+      "translated": "[ACT] [(V)] [1/Turn]: COST [Discard one card from your hand] to select up to one each of \"Trixta\" and \"Pleia Dragon\" from your drop zone, and call them to (R). [ACT] [(V)] [1/Turn]: COST [Soul Blast (2)] to select one of your opponent's rear-guards and retire it. [AUTO] [(V)] [1/Turn]: When this unit attacks, COST [Counter Blast(1)] will do one of the following.・Choose one of your rear-guards in the [Crossover Dress] state and make it [Stand].・If you are Persona Ride this turn, choose the desired number of your rear-guards with different names and [Crossover Dress] status, and have them [Stand]."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/15thSP01&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/15thSP02",
+    "name": {
+      "original": "祈り紡ぐ焔の巫女 レイユ",
+      "translated": "Shrine Maiden of Flames Spinning Prayers, Reil"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_074.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "human",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが「ニルヴァーナ」を含むグレード３にライドされた時、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から７枚見て、「焔の巫女」を含むカードか、〈タリスマン〉か〈プレアドラゴン〉を１枚まで選び、公開して手札に加え、山札をシャッフルする。",
+      "translated": "[AUTO]: When this unit is ridden by a grade 3 card that includes \"Nirvana\", by performing COST [Soul Blast (1)], look at the top 7 cards of your deck, choose up to one card containing \"Priestess of Flame\", \"Talisman\" or \"Pleia Dragon\", reveal it, add it to your hand, and shuffle your deck."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/15thSP02&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/15thSP03",
+    "name": {
+      "original": "巡り逢う焔の巫女 リノ",
+      "translated": "The shrine maiden of flames that we meet, Lino"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_075.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "human",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットがグレード０からライドして登場した時、【コスト】[ライドデッキから「ニルヴァーナ」を含むグレード３を１枚公開する]ことで、あなたの山札から「トリクスタ」を１枚まで探し、公開して手札に加え、山札をシャッフルする。",
+      "translated": "[AUTO]: This unit rides from grade 0, placed, and COST [reveals one grade 3 card containing \"Nirvana\" from the ride deck], searches your deck for up to one \"Trixta\" card, reveals it, adds it to your hand, and shuffles your deck."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/15thSP03&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/15thSP04",
+    "name": {
+      "original": "サンライト・エッグ",
+      "translated": "Sunlight Egg"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_076.png",
+    "unit_type": "normal unit",
+    "grade": "0",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "flame dragon",
+    "power": "6000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットがライドされた時、あなたが後攻なら、１枚引く。",
+      "translated": "[AUTO]: When this unit is ridden, if you are the second player, draw 1 card."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/15thSP04&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/15thSP05",
+    "name": {
+      "original": "クロノジェット・ドラゴン",
+      "translated": "chronojet dragon"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_077.png",
+    "unit_type": "normal unit",
+    "grade": "3",
+    "nation": "dark states",
+    "clan": "",
+    "race": "gear dragon gear chronicle",
+    "power": "13000",
+    "shield": "-",
+    "critical": "1",
+    "skill": "twin drive",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【永】：このカードはあなたのクレストゾーンに「エネルギージェネレーター」以外のカードがない場合のみライドできる。【永】【(V)】：あなたは【超越】でき、あなたのターン中、あなたの表のGゾーンが１枚以上なら、あなたの前列のユニットすべてのパワー＋5000。３枚以上なら、＋5000ではなく＋10000。【自】【(V)】：あなたのGユニットが【超越】した時、相手のリアガードを１枚選び、山札の下に置く。選ばなかったなら、１枚引く。【自】【(V)】【Gブレイク】(2)：このユニットがヴァンガードにアタックした時、「クロノジェット」を含むあなたのバインドゾーン１枚につき、そのバトル中、このユニットのパワー＋5000。そのバトル中、相手は手札からグレード１以上を(G)にコールできない。【クロノアイコン】",
+      "translated": "[CONT]: This card can only be ridden if there are no cards other than \"Energy Generator\" in your crest zone. [CONT] [(V)]: You can [Stride], and during your turn, if you have 1 or more cards in your face up G zone, all units in your front row get +5000 Power. If you have 3 or more cards, they get +10000 instead of +5000. [AUTO] [(V)]: When your G unit [Stride], choose one of your opponent's rear-guards and put it on the bottom of the deck. If you did not choose, draw one card. [AUTO] [(V)] [G Break] (2): When this unit attacks a vanguard, for each card in your bind zone that includes \"Chronojet\", this unit gets +5000 Power during that battle. During that battle, your opponent cannot call grade 1 or higher cards from their hand to (G). [Chrono icon]"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/15thSP05&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/15thSP06",
+    "name": {
+      "original": "スモークギア・ドラゴン",
+      "translated": "smoke gear dragon"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_078.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "dark states",
+    "clan": "",
+    "race": "gear dragon gear chronicle",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットがクロノアイコンを含むグレード３にライドされた時、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札からグレード３を１枚まで探し、公開して手札に加え、山札をシャッフルする。【永】【(R)/(G)】【Gブレイク】(1)：あなたのヴァンガードがクロノアイコンを持つなら、このユニットのパワー＋5000/シールド＋5000。【クロノアイコン】",
+      "translated": "[AUTO]: When this unit is ridden by a grade 3 card that includes a Chrono Icon, by performing COST [Soul Blast (1)], search your deck for up to one grade 3 card, reveal it, add it to your hand, and shuffle your deck. [CONT] [(R)/(G)] [G Break] (1): If your vanguard has a chrono icon, this unit gets Power+5000/Shield+5000. [Chrono icon]"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/15thSP06&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/15thSP07",
+    "name": {
+      "original": "メーザーギア・ドラゴン",
+      "translated": "Maser Gear Dragon"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_079.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "dark states",
+    "clan": "",
+    "race": "gear dragon gear chronicle",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットがクロノアイコンを持つグレード０からライドして登場した時、【コスト】[ライドデッキからクロノアイコンを持つグレード３を１枚公開する]ことで、２枚引き、あなたの手札から１枚選び、山札の下に置く。【起】【ドロップ】：あなたのヴァンガードがクロノアイコンを持ち、相手のヴァンガードがグレード３以上なら、【コスト】[ライドデッキにしたこのカードをライドデッキに表で置く]ことで、あなたのリアガードを１枚選び、山札の下に置き、あなたの山札から、選ばれたカードのグレード＋１のユニットカードを１枚まで探し、(R)にコールし、そのターン中、パワー＋5000。山札をシャッフルする。【クロノアイコン】",
+      "translated": "[AUTO]: This unit rides from a grade 0 with a chrono icon, places it, COST [reveals a grade 3 with a chrono icon from the ride deck], draws 2 cards, chooses a card from your hand, and puts it at the bottom of your deck. [ACT] [drop zone]: If your vanguard has a chrono icon and your opponent's vanguard is grade 3 or higher, choose one of your rear-guards by COST [place this card turned into a ride deck face up in the ride deck], place it at the bottom of your deck, search your deck for up to one unit card that is grade +1 of the selected card, call it to (R), and get Power+5000 for the rest of the turn. Shuffle the deck. [Chrono icon]"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/15thSP07&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/15thSP08",
+    "name": {
+      "original": "クロノ・ドラン",
+      "translated": "Chrono Doran"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_080.png",
+    "unit_type": "normal unit",
+    "grade": "0",
+    "nation": "dark states",
+    "clan": "",
+    "race": "Gear Dragon/Zodiac Time Beast Gear Chronicle",
+    "power": "6000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットがライドされた時、あなたが後攻なら、１枚引く。【クロノアイコン】",
+      "translated": "[AUTO]: When this unit is ridden, if you are the second player, draw 1 card. [Chrono icon]"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/15thSP08&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/15thSP09",
+    "name": {
+      "original": "煌天神 ウラヌス",
+      "translated": "Sparkling Tenjin Uranus"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_081.png",
+    "unit_type": "normal unit",
+    "grade": "3",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "Noble/Hoshiyomi Genesis",
+    "power": "13000",
+    "shield": "-",
+    "critical": "1",
+    "skill": "Twin Drive, Persona Ride",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【永】：このカードは新右衛門アイコンを持つ別名のグレード３からノーマルライドしてもペルソナライドになる。【永】【(V)】：あなたの中央後列は星域になり、あなたのターン中、相手のヴァンガードがグレード３以上で、あなたの星域ゲージが３枚以上なら、あなたの前列のユニットすべてのパワー＋5000。【起】【(V)】【ターン1回】：【コスト】[【ソウルブラスト】(2)]することで、あなたのドロップから２枚選び、その中から１枚選び、あなたの星域ゲージとして裏で置き、１枚選び、 (R)にコールする。【新右衛門アイコン】",
+      "translated": "[CONT]: This card becomes Persona Ride even if it is normal ride from grade 3 with the Shinemon icon. [CONT]【(V)】: Your center back row becomes a star area, and during your turn, if your opponent's vanguard is grade 3 or higher and your star area gauge has 3 or more cards, all units in your front row get +5000 Power. [ACT] [(V)] [1/Turn]: COST [Soul Blast(2)], choose 2 cards from your drop zone, choose 1 card from among them, place it face down as your star area gauge, choose 1 card, and call it to (R). [Shinemon icon]"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/15thSP09&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/15thSP10",
+    "name": {
+      "original": "舞灯のプロメテウス",
+      "translated": "Prometheus of the dance lantern"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_082.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "Noble Genesis",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが新右衛門アイコンを持つグレード３にライドされた時、あなたの山札を上から３枚見て、１枚選び、手札に加え、１枚まで選び、ソウルに置き、残りを山札の下に望む順で置く。【新右衛門アイコン】",
+      "translated": "[AUTO]: When this unit is ridden by a grade 3 with the Shinemon icon, look at 3 cards from the top of your deck, choose 1 card, add it to your hand, choose up to 1 card, put it into your soul, and put the rest at the bottom of your deck in any order you want. [Shinemon icon]"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/15thSP10&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/15thSP11",
+    "name": {
+      "original": "天球のアトラス",
+      "translated": "atlas of the celestial sphere"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_083.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "Noble Genesis",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットがグレード０からライドして登場した時、【コスト】[ライドデッキから新右衛門アイコンを持つグレード３を１枚公開する]ことで、このファイト中、あなたは、新右衛門アイコンを持たないグレード３以上にライドできず、星域ゲージを持てる。【自】：このユニットが新右衛門アイコンを持つグレード２にライドされた時、このカードをあなたの星域ゲージとして裏で置いてよい。置いたなら、【ソウルチャージ】(1)。【新右衛門アイコン】",
+      "translated": "[AUTO]: This unit rides from grade 0, placed, and COST [reveals one grade 3 card with a Shinemon icon from the ride deck], so during this fight, you cannot ride a grade 3 or higher that does not have a Shinemon icon, and you have a star area gauge. [AUTO]: When this unit is ridden by a grade 2 with the Shinemon icon, you may place this card face down as your star area gauge. If you place it, Soul Charge (1). [Shinemon icon]"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/15thSP11&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/15thSP12",
+    "name": {
+      "original": "新風のパーン",
+      "translated": "A new style paan"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_084.png",
+    "unit_type": "normal unit",
+    "grade": "0",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "Noble Genesis",
+    "power": "6000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットがライドされた時、あなたが後攻なら、１枚引く。【新右衛門アイコン】",
+      "translated": "[AUTO]: When this unit is ridden, if you are the second player, draw 1 card. [Shinemon icon]"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/15thSP12&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/FFR01",
+    "name": {
+      "original": "ドラグリッター ナズルディーン",
+      "translated": "Draglitter Nazrudeen"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_085.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "dragonoid",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
+      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/FFR01&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/FFR02",
+    "name": {
+      "original": "天輪神竜 ニルヴァーナ・バガヴァーン",
+      "translated": "Heavenly Wheel Divine Dragon Nirvana Bhagavan"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_086.png",
+    "unit_type": "normal unit",
+    "grade": "3",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "flame dragon",
+    "power": "13000",
+    "shield": "-",
+    "critical": "1",
+    "skill": "Twin Drive, Persona Ride",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【起】【(V)】【ターン1回】：【コスト】[手札から１枚捨てる]ことで、あなたのドロップから、「トリクスタ」と〈プレアドラゴン〉をそれぞれ１枚まで選び、(R)にコールする。【起】【(V)】【ターン1回】：【コスト】[【ソウルブラスト】(2)]することで、相手のリアガードを１枚選び、退却させる。【自】【(V)】【ターン1回】：このユニットがアタックした時、【コスト】[【カウンターブラスト】(1)]することで、以下を１つ行う。・【クロスオーバードレス】状態のあなたのリアガードを１枚選び、【スタンド】させる。・このターンにあなたがペルソナライドしているなら、それぞれ別名の【クロスオーバードレス】状態のあなたのリアガードを望む枚数選び、【スタンド】させる。",
+      "translated": "[ACT] [(V)] [1/Turn]: COST [Discard one card from your hand] to select up to one each of \"Trixta\" and \"Pleia Dragon\" from your drop zone, and call them to (R). [ACT] [(V)] [1/Turn]: COST [Soul Blast (2)] to select one of your opponent's rear-guards and retire it. [AUTO] [(V)] [1/Turn]: When this unit attacks, COST [Counter Blast(1)] will do one of the following.・Choose one of your rear-guards in the [Crossover Dress] state and make it [Stand].・If you are Persona Ride this turn, choose the desired number of your rear-guards with different names and [Crossover Dress] status, and have them [Stand]."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/FFR02&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/FFR03",
+    "name": {
+      "original": "武装神撃 ガルナヴェルリーナ",
+      "translated": "Busou Rage Garuna Verlina"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_087.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "talisman",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【クロスオーバードレス】－「トリクスタ」と〈プレアドラゴン〉をそれぞれ１枚【自】：このユニットが【クロスオーバードレス】で(R)に登場した時、【コスト】[【カウンターブラスト】(1)]することで、１枚引く。【永】【(R)】：相手のヴァンガードがグレード３以上で、このユニットが【クロスオーバードレス】状態なら、このユニットは『ブースト』を得る。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードが「ニルヴァーナ」を含むグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
+      "translated": "[Crossover Dress] - 1 \"Trixta\" and 1 \"Pleia Dragon\" each [AUTO]: This unit is placed on (R) with [Crossover Dress] and COST [Counter Blast (1)] to draw 1 card. [CONT] [(R)]: If the opponent's vanguard is grade 3 or higher and this unit is in the [Crossover Dress] state, this unit gains a \"boost\". [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, including \"Nirvana\", this unit gets +5000 Power for the duration of that battle."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/FFR03&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/FFR04",
+    "name": {
+      "original": "約束の火 エルモ",
+      "translated": "Promised Fire Elmo"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_088.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "dragon empire",
+    "clan": "",
+    "race": "Salamander Kagerou",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】【(R)】：このユニットがブーストしたバトル終了時、あなたのヴァンガードが櫂アイコンを持つなら、【コスト】[このユニットをソウルに置く]ことで、１枚引く。【起】【ソウル】：あなたのヴァンガードが櫂アイコンを持つグレード３以上で、相手のヴァンガードがグレード３以上なら、【コスト】[このカードをバインドする]ことで、そのターン中、あなたのヴァンガードの元々のパワーは18000になる。【櫂アイコン】",
+      "translated": "[AUTO]【(R)】: At the end of the battle where this unit boosted, if your vanguard has a paddle icon, draw 1 card by COST [put this unit in your soul]. [ACT] [Soul]: If your vanguard is grade 3 or higher with a paddle icon, and your opponent's vanguard is grade 3 or higher, by COST [bind this card], your vanguard's original power becomes 18000 for the duration of the turn. [Paar icon]"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/FFR04&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/FFR05",
+    "name": {
+      "original": "知の探究者 セルセーラ",
+      "translated": "Knowledge Seeker Celsera"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_089.png",
+    "unit_type": "normal unit",
+    "grade": "3",
+    "nation": "dark states",
+    "clan": "",
+    "race": "elf",
+    "power": "13000",
+    "shield": "-",
+    "critical": "1",
+    "skill": "Twin Drive, Persona Ride",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【起】【(V)】【ターン1回】：【コスト】[手札から１枚ソウルに置く]ことで、あなたのドロップからノーマルオーダーを１枚選び、ソウルに置き、あなたのソウルから１枚まで選び、(R)にコールし、あなたのソウルからノーマルオーダーを１枚まで選び、そのターン中、『【永】：このカードはソウルからでもプレイでき、プレイされてドロップに置く際、かわりにバインドする。』を与える。【起】【(V)】【ターン1回】：【コスト】[【カウンターブラスト】(1)]することで、あなたの、ソウルとバインドゾーンのノーマルオーダーの種類の合計により、そのターン中、このユニットは以下すべてを得る。・３種類以上‐【自】【(V)】【ターン1回】：このユニットがアタックしたバトル終了時、このユニットを【スタンド】させ、そのターン中、ドライブ－２。相手のヴァンガードがグレード３以上なら、そのターン中、このユニットのドライブ＋１。・５種類以上‐【永】【(V)】：あなたのユニットすべてのパワー＋5000。",
+      "translated": "[ACT] [(V)] [1/Turn]: COST [Place a card from your hand into your soul], select a normal order from your drop zone, place it on your soul, select up to one card from your soul, call it to (R), select up to one normal order from your soul, and during that turn, ``[CONT]: This card can also be played from the soul, and when it is played and placed in the drop zone, bind it instead. ”. [ACT] [(V)] [1/Turn]: By performing COST [Counter Blast (1)], this unit gains all of the following for the duration of the turn, based on the sum of your soul and the normal order types in the bind zone.・3 or more types - [AUTO] [(V)] [1/Turn]: At the end of the battle in which this unit attacked, make this unit [Stand] and get -2 Drive for the duration of that turn. If your opponent's vanguard is grade 3 or higher, this unit gets +1 drive during that turn.・5 or more types - [CONT] [(V)]: Power +5000 for all your units."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/FFR05&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/FFR06",
+    "name": {
+      "original": "妖厄竜 マイディローグ",
+      "translated": "Mysterious Dragon Mydi Rogue"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_090.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "dark states",
+    "clan": "",
+    "race": "abyss dragon",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
+      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/FFR06&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/FFR07",
+    "name": {
+      "original": "クロノドラゴン・ネクステージ",
+      "translated": "Chronodragon Nextage"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_091.png",
+    "unit_type": "G unit",
+    "grade": "4",
+    "nation": "dark states",
+    "clan": "",
+    "race": "gear dragon gear chronicle",
+    "power": "15000+",
+    "shield": "-",
+    "critical": "1",
+    "skill": "triple drive",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【超越】-ストライドステップ-【コスト】[手札からグレードの合計が３以上になるように１枚以上選び、捨てる]ことで、裏のこのカードを(V)に【超越】する。【永】：このカードはあなたのヴァンガードがクロノアイコンを持つ場合のみ【超越】できる。【自】【(V)】：このユニットがヴァンガードにアタックしたバトル終了時、【コスト】[【カウンターブラスト】(1)，手札から１枚捨て，Ｇゾーンからこのカードと同名のクロノアイコンを持つカードを１枚表にする]ことで、このユニットをＧゾーンに表で置き、クロノアイコンを持つあなたのヴァンガードを１枚選び、【スタンド】させ、そのターン中、ドライブ－２。さらに【コスト】[手札かドロップから「クロノジェット」を含むカードを１枚バインドする]ことで、そのターン中、そのユニットのドライブ＋１。あなたの表のGゾーンが３枚以上なら、ドライブ＋１ではなくドライブ＋２。【クロノアイコン】",
+      "translated": "[Stride] - Stride Step - COST [Choose one or more cards from your hand so that the total grade is 3 or more, and discard them] to [Stride] this face-down card to (VC). [CONT]: This card can only [Transcend] if your vanguard has a Chrono icon. [AUTO] [(V)]: At the end of the battle in which this unit attacks a vanguard, COST [Counter Blast (1), discard one card from your hand, turn up a card from the G zone with the same name as this card with a chrono icon], place this unit face up in the G zone, choose one of your vanguards with a chrono icon, make it [Stand], and drive -2 for the duration of the turn. Furthermore, by COST [bind one card containing \"Chronojet\" from your hand or drop zone], that unit gets +1 Drive for the duration of the turn. If you have 3 or more cards in your face up G zone, drive +2 instead of drive +1. [Chrono icon]"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/FFR07&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/FFR08",
+    "name": {
+      "original": "クロノジェット・ドラゴン",
+      "translated": "chronojet dragon"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_092.png",
+    "unit_type": "normal unit",
+    "grade": "3",
+    "nation": "dark states",
+    "clan": "",
+    "race": "gear dragon gear chronicle",
+    "power": "13000",
+    "shield": "-",
+    "critical": "1",
+    "skill": "twin drive",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【永】：このカードはあなたのクレストゾーンに「エネルギージェネレーター」以外のカードがない場合のみライドできる。【永】【(V)】：あなたは【超越】でき、あなたのターン中、あなたの表のGゾーンが１枚以上なら、あなたの前列のユニットすべてのパワー＋5000。３枚以上なら、＋5000ではなく＋10000。【自】【(V)】：あなたのGユニットが【超越】した時、相手のリアガードを１枚選び、山札の下に置く。選ばなかったなら、１枚引く。【自】【(V)】【Gブレイク】(2)：このユニットがヴァンガードにアタックした時、「クロノジェット」を含むあなたのバインドゾーン１枚につき、そのバトル中、このユニットのパワー＋5000。そのバトル中、相手は手札からグレード１以上を(G)にコールできない。【クロノアイコン】",
+      "translated": "[CONT]: This card can only be ridden if there are no cards other than \"Energy Generator\" in your crest zone. [CONT] [(V)]: You can [Stride], and during your turn, if you have 1 or more cards in your face up G zone, all units in your front row get +5000 Power. If you have 3 or more cards, they get +10000 instead of +5000. [AUTO] [(V)]: When your G unit [Stride], choose one of your opponent's rear-guards and put it on the bottom of the deck. If you did not choose, draw one card. [AUTO] [(V)] [G Break] (2): When this unit attacks a vanguard, for each card in your bind zone that includes \"Chronojet\", this unit gets +5000 Power during that battle. During that battle, your opponent cannot call grade 1 or higher cards from their hand to (G). [Chrono icon]"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/FFR08&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/FFR09",
+    "name": {
+      "original": "アップストリーム・ドラゴン",
+      "translated": "upstream dragon"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_093.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "dark states",
+    "clan": "",
+    "race": "gear dragon gear chronicle",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】【ドロップ】：クロノアイコンを持つグレード３以上のあなたのヴァンガードが登場した時、【コスト】[【カウンターブラスト】(1)か【エネルギーブラスト】(3)]することで、このカードを(R)にコールする。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードがクロノアイコンを持つグレード３以上なら、そのバトル中、このユニットのパワー＋5000してよい。そうしたなら、そのバトル終了時、このユニットを山札の下に置き、あなたの山札から、クロノアイコンを持つグレード１を１枚まで探し、後列の(R)にコールし、山札をシャッフルする。このターン１回目のバトルで、あなたのヴァンガードがグレード３なら、後列ではなく前列にコールしてよい。【クロノアイコン】",
+      "translated": "[AUTO] [drop zone]: Your grade 3 or higher vanguard with the Chrono Icon places and COSTs [Counter Blast(1) or Energy Blast(3)] to call this card to (R). [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher with a chrono icon, you may give this unit Power +5000 during that battle. If you do, at the end of that battle, put this unit at the bottom of your deck, search your deck for up to one Grade 1 card with a Chrono Icon, call it to (R) in the back row, and shuffle your deck. In the first battle of this turn, if your vanguard is grade 3, you may call it to the front row instead of the back row. [Chrono icon]"
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/FFR09&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/FFR10",
+    "name": {
+      "original": "狂焔怪獣 ブレゼルガス",
+      "translated": "Mad Flame Monster Brezelgas"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_094.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "blunt gate",
+    "clan": "",
+    "race": "alien",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
+      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/FFR10&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/FFR11",
+    "name": {
+      "original": "星空の騎士 ゼロ",
+      "translated": "Knight of the Starry Sky Zero"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_095.png",
+    "unit_type": "normal unit",
+    "grade": "2",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "human royal paladin",
+    "power": "10000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "intercept",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【永】：このカードは「沈黙の騎士 ギャラティン」として扱う。【自】：あなたのヴァンガードのクランが《ロイヤルパラディン》のみなら、このコストは『【エネルギーブラスト】(3)』でも払える。このユニットが(R)に登場した時、このユニットと同名のあなたの他のリアガードがいないなら、【コスト】[【カウンターブラスト】(1)]することで、１枚引く。【自】【(R)】：このユニットがグレード３以上にアタックした時、そのバトル中、このユニットのパワー＋5000。あなたのユニットが４枚以上なら、＋5000ではなく10000。【自】【(R)】【ターン1回】：このユニットがアタックした時、あなたのヴァンガードのクランが《ロイヤルパラディン》のみで、このターンに、あなたがペルソナライドしていて、このユニットがあなたのヴァンガードの能力で【スタンド】しているなら、【コスト】[【カウンターブラスト】(1)]することで、そのバトル中、相手は自分のカードの【自】能力を発動できない。",
+      "translated": "[CONT]: This card is treated as \"Silence Knight Gallatin\". [AUTO]: If your vanguard clan only has 《Royal Paladin》, this cost can also be paid with ``Energy Blast (3)''. This unit is placed on (R), and if you do not have another rear-guard with the same name as this unit, draw one card by COST [Counter Blast(1)]. [AUTO] [(R)]: When this unit attacks grade 3 or higher, this unit gets Power +5000 during that battle. If you have 4 or more units, you get +10000 instead of +5000. [AUTO] [(R)] [1/Turn]: When this unit attacks, if the only clan in your vanguard is 《Royal Paladin》, if you are Persona Ride this turn, and this unit is [Stand] by your vanguard ability, by COST [Counter Blast(1)], your opponent cannot activate the [AUTO] ability of his card during that battle."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/FFR11&expansion=295"
+  },
+  {
+    "card_number": "DZ-SS16/FFR12",
+    "name": {
+      "original": "終夜の騎士 エスニア",
+      "translated": "Knight of the Night Esnia"
+    },
+    "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_096.png",
+    "unit_type": "normal unit",
+    "grade": "1",
+    "nation": "Ketel Sanctuary",
+    "clan": "",
+    "race": "human",
+    "power": "8000",
+    "shield": "5000",
+    "critical": "1",
+    "skill": "boost",
+    "trigger": "-",
+    "rarity": "",
+    "regulation": "",
+    "illustrator": "",
+    "effect_text": {
+      "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
+      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+    },
+    "flavor_text": {
+      "original": "",
+      "translated": ""
+    },
+    "source_url": "https://cf-vanguard.com/cardlist/?cardno=DZ-SS16/FFR12&expansion=295"
+  }
+]

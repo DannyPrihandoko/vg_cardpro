@@ -1,0 +1,17 @@
+import 'dart:convert';
+import 'dart:io';
+
+void main() async {
+  final file = File('assets/vanguard_database.json');
+  final content = await file.readAsString();
+  final List<dynamic> data = jsonDecode(content);
+  final Set<String> types = {};
+  for(var c in data) {
+    if (c['unit_type'] != null && c['unit_type'].toString().isNotEmpty) {
+      types.add(c['unit_type']);
+    }
+  }
+  for (var t in types) {
+    print(t);
+  }
+}
