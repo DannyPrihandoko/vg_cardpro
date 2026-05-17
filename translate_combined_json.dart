@@ -1,8 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:translator/translator.dart';
+import 'package:http/http.dart' as http;
 
-void main() async {
+Future<void> main() async {
   final file = File('assets/vanguard_combined.json');
   final content = await file.readAsString();
   final List<dynamic> data = jsonDecode(content);
@@ -68,15 +69,41 @@ void main() async {
   
   Map<String, String> cache = {};
   
-  Future<String> translateText(String text) async {
+  Future<String> getOfficialEnglishName(String jpName) async {
+    try {
+      var url = Uri.parse('https://cardfight.fandom.com/api.php?action=query&list=search&srsearch=$jpName&utf8=&format=json');
+      var response = await http.get(url);
+      if (response.statusCode == 200) {
+        var data = jsonDecode(response.body);
+        if (data['query']['search'].isNotEmpty) {
+          String title = data['query']['search'][0]['title'];
+          // Remove things like " (D Series)", " (V Series)", " (Zero)", etc.
+          title = title.replaceAll(RegExp(r'\s*\([^)]+\)$'), '');
+          return title;
+        }
+      }
+    } catch (e) {
+      print('Wiki search error for: $jpName');
+    }
+    return '';
+  }
+
+  Future<String> translateText(String text, {bool isName = false}) async {
     if (text.isEmpty || text == '-') return text;
     if (cache.containsKey(text)) return cache[text]!;
     
     // Check if it actually contains Japanese characters before translating
-    // (Hiragana, Katakana, Kanji ranges)
     final RegExp japaneseRegex = RegExp(r'[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]');
     if (!japaneseRegex.hasMatch(text)) {
       return text;
+    }
+
+    if (isName) {
+      String officialName = await getOfficialEnglishName(text);
+      if (officialName.isNotEmpty) {
+        cache[text] = officialName;
+        return officialName;
+      }
     }
 
     String preProcessed = applyDict(text);
@@ -121,7 +148,7 @@ void main() async {
       
       // Translate names
       if (c['name'] != null && c['name']['original'] != null) {
-        c['name']['translated'] = await translateText(c['name']['original']);
+        c['name']['translated'] = await translateText(c['name']['original'], isName: true);
       }
       // Translate effect text
       if (c['effect_text'] != null && c['effect_text']['original'] != null) {
