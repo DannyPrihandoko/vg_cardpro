@@ -89,6 +89,30 @@ class VgCard {
     );
   }
 
+  // ── Trigger helpers ──────────────────────────────────────────────────────
+  /// True if this card has any trigger icon (heal, crit, draw, front, over)
+  bool get isTriggerUnit {
+    final t = trigger.trim().toLowerCase();
+    return t.isNotEmpty && t != '-' && t != 'none';
+  }
+
+  /// True if this card is a Heal Trigger
+  bool get isHealTrigger {
+    final t = trigger.trim().toLowerCase();
+    return t.contains('heal');
+  }
+
+  /// True if this card is an Over Trigger
+  bool get isOverTrigger {
+    final t = trigger.trim().toLowerCase();
+    return t.contains('over');
+  }
+
+  /// True if this card has an explicit nation (not empty, not '-')
+  bool get hasNation {
+    return nation.trim().isNotEmpty && nation.trim() != '-';
+  }
+
   Map<String, dynamic> toMap() {
     return {
       'id': id,

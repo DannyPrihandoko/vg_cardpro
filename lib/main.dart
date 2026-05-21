@@ -3,10 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
+import 'screens/main_scaffold.dart';
 import 'screens/card_list_screen.dart';
 import 'screens/set_list_screen.dart';
 import 'screens/card_detail_screen.dart';
+import 'screens/build_deck_screen.dart';
 import 'models/vg_card.dart';
+import 'models/saved_deck.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,6 +32,10 @@ final _router = GoRouter(
   routes: [
     GoRoute(
       path: '/',
+      builder: (context, state) => const MainScaffold(),
+    ),
+    GoRoute(
+      path: '/sets',
       builder: (context, state) => const SetListScreen(),
     ),
     GoRoute(
@@ -43,6 +50,13 @@ final _router = GoRouter(
       builder: (context, state) {
         final card = state.extra as VgCard;
         return CardDetailScreen(card: card);
+      },
+    ),
+    GoRoute(
+      path: '/deck-editor',
+      builder: (context, state) {
+        final deck = state.extra as SavedDeck;
+        return BuildDeckScreen(deck: deck);
       },
     ),
   ],
