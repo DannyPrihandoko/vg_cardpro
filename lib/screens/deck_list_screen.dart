@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../providers/card_provider.dart';
 import '../models/saved_deck.dart';
+import 'deck_share_screen.dart';
 
 class DeckListScreen extends ConsumerWidget {
   const DeckListScreen({super.key});
@@ -84,6 +85,37 @@ class DeckListScreen extends ConsumerWidget {
                   style: TextStyle(color: Colors.white38, fontSize: 12),
                 ),
               ],
+            ),
+          ),
+          // Import Deck button
+          GestureDetector(
+            onTap: () async {
+              final deck = await showImportDeckDialog(context);
+              if (deck != null && context.mounted) {
+                context.push('/deck-editor', extra: deck);
+              }
+            },
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              decoration: BoxDecoration(
+                color: const Color(0xFFFFD700).withValues(alpha: 0.1),
+                borderRadius: BorderRadius.circular(10),
+                border: Border.all(
+                    color: const Color(0xFFFFD700).withValues(alpha: 0.3)),
+              ),
+              child: const Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.file_download_outlined,
+                      color: Color(0xFFFFD700), size: 16),
+                  SizedBox(width: 5),
+                  Text('Import',
+                      style: TextStyle(
+                          color: Color(0xFFFFD700),
+                          fontSize: 12,
+                          fontWeight: FontWeight.bold)),
+                ],
+              ),
             ),
           ),
         ],
@@ -279,6 +311,18 @@ class DeckListScreen extends ConsumerWidget {
                         onSelected: (value) =>
                             _handleDeckAction(context, ref, deck, value),
                         itemBuilder: (_) => [
+                          const PopupMenuItem(
+                            value: 'share',
+                            child: Row(
+                              children: [
+                                Icon(Icons.share_rounded,
+                                    color: Color(0xFFFFD700), size: 18),
+                                SizedBox(width: 10),
+                                Text('Share',
+                                    style: TextStyle(color: Color(0xFFFFD700))),
+                              ],
+                            ),
+                          ),
                           const PopupMenuItem(
                             value: 'rename',
                             child: Row(
@@ -511,7 +555,9 @@ class DeckListScreen extends ConsumerWidget {
 
   Future<void> _handleDeckAction(
       BuildContext context, WidgetRef ref, SavedDeck deck, String action) async {
-    if (action == 'rename') {
+    if (action == 'share') {
+      showDeckShareSheet(context, deck);
+    } else if (action == 'rename') {
       await _showRenameDialog(context, ref, deck);
     } else if (action == 'delete') {
       await _showDeleteConfirmation(context, ref, deck);

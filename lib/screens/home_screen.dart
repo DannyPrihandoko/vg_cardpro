@@ -4,8 +4,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import '../providers/card_provider.dart';
-import '../providers/download_provider.dart';
 import '../models/vg_card.dart';
+import '../widgets/set_card_widget.dart';
 
 // ── Official nation definitions (6 canonical nations) ──────────────
 class _NationDef {
@@ -499,7 +499,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
 
   Widget _buildSetsBrowseSection() {
     final setsAsync = ref.watch(setsProvider);
-    final downloadState = ref.watch(downloadProgressProvider);
 
     return setsAsync.when(
       data: (sets) {
@@ -524,109 +523,69 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
           );
         }
 
-        return SliverList(
-          delegate: SliverChildBuilderDelegate(
-            (context, index) {
-              if (index == 0) {
-                return const Padding(
-                  padding: EdgeInsets.fromLTRB(20, 16, 0, 10),
-                  child: Text(
-                    'Browse Sets',
-                    style: TextStyle(
-                      color: Colors.white54,
-                      fontSize: 12,
-                      letterSpacing: 0.8,
-                      fontWeight: FontWeight.w600,
-                    ),
+        final double screenWidth = MediaQuery.of(context).size.width;
+        int crossAxisCount = 1;
+        if (screenWidth >= 1200) {
+          crossAxisCount = 4;
+        } else if (screenWidth >= 900) {
+          crossAxisCount = 3;
+        } else if (screenWidth >= 600) {
+          crossAxisCount = 2;
+        }
+
+        // Calculate aspect ratio dynamically so that height is consistently ~360
+        final double paddingSpace = 16.0 * 2 + (crossAxisCount - 1) * 16.0;
+        final double itemWidth = (screenWidth - paddingSpace) / crossAxisCount;
+        final double childAspectRatio = itemWidth / 360.0;
+
+        return SliverMainAxisGroup(
+          slivers: [
+            const SliverToBoxAdapter(
+              child: Padding(
+                padding: EdgeInsets.fromLTRB(20, 24, 0, 14),
+                child: Text(
+                  'BROWSE SETS',
+                  style: TextStyle(
+                    color: Colors.white38,
+                    fontSize: 11,
+                    letterSpacing: 1.2,
+                    fontWeight: FontWeight.w700,
                   ),
-                );
-              }
-              final setName = sets[index - 1];
-              final progress = downloadState[setName];
-              return _buildSetTile(setName, progress);
-            },
-            childCount: sets.length + 1,
-          ),
+                ),
+              ),
+            ),
+            SliverPadding(
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 32),
+              sliver: SliverGrid(
+                delegate: SliverChildBuilderDelegate(
+                  (context, index) {
+                    final setName = sets[index];
+                    return VanguardSetCard(setName: setName);
+                  },
+                  childCount: sets.length,
+                ),
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: crossAxisCount,
+                  crossAxisSpacing: 16,
+                  mainAxisSpacing: 16,
+                  childAspectRatio: childAspectRatio > 0 ? childAspectRatio : 1.0,
+                ),
+              ),
+            ),
+          ],
         );
       },
       loading: () => const SliverFillRemaining(
-        child: Center(child: CircularProgressIndicator()),
+        child: Center(
+          child: CircularProgressIndicator(color: Colors.blueAccent),
+        ),
       ),
       error: (e, _) => SliverFillRemaining(
-        child: Center(child: Text('Error: $e')),
-      ),
-    );
-  }
-
-  Widget _buildSetTile(String setName, double? progress) {
-    Widget trailingWidget;
-    if (progress == null) {
-      trailingWidget = IconButton(
-        icon: const Icon(Icons.download, color: Colors.blueAccent),
-        onPressed: () async {
-          await ref
-              .read(downloadProgressProvider.notifier)
-              .downloadSetImages(setName);
-          if (mounted) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                content: Text('Download for $setName completed!'),
-                backgroundColor: Colors.green,
-                behavior: SnackBarBehavior.floating,
-              ),
-            );
-          }
-        },
-      );
-    } else if (progress < 1.0) {
-      trailingWidget = SizedBox(
-        width: 24,
-        height: 24,
-        child: CircularProgressIndicator(
-          value: progress,
-          strokeWidth: 3,
-          color: Colors.blueAccent,
-        ),
-      );
-    } else {
-      trailingWidget = const Icon(Icons.check_circle, color: Colors.green);
-    }
-
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
-      child: Card(
-        elevation: 0,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
-        color: const Color(0xFF1E293B),
-        child: ListTile(
-          contentPadding:
-              const EdgeInsets.symmetric(horizontal: 18, vertical: 6),
-          leading: Container(
-            padding: const EdgeInsets.all(8),
-            decoration: BoxDecoration(
-              color: Colors.blueAccent.withValues(alpha: 0.15),
-              borderRadius: BorderRadius.circular(10),
-            ),
-            child:
-                const Icon(Icons.style, color: Colors.blueAccent, size: 22),
+        child: Center(
+          child: Text(
+            'Error: $e',
+            style: const TextStyle(color: Colors.white),
           ),
-          title: Text(
-            setName,
-            style: const TextStyle(
-              color: Colors.white,
-              fontSize: 15,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          trailing: Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              trailingWidget,
-              const SizedBox(width: 4),
-              const Icon(Icons.chevron_right, color: Colors.white24),
-            ],
-          ),
-          onTap: () => context.push('/cards', extra: setName),
         ),
       ),
     );

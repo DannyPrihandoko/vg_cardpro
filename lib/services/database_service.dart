@@ -111,6 +111,72 @@ class DatabaseService {
     return List.generate(maps.length, (i) => VgCard.fromJson(maps[i]));
   }
 
+  /// Look up a card dynamically by its exact/partial number or name.
+  Future<VgCard?> findCardByNumberOrName(String term) async {
+    final db = await database;
+    final cleanTerm = term.trim();
+    if (cleanTerm.isEmpty) return null;
+
+    // 1. Try exact match on ID (case-insensitive)
+    final exactIdRows = await db.query(
+      'cards',
+      where: 'LOWER(id) = ?',
+      whereArgs: [cleanTerm.toLowerCase()],
+      limit: 1,
+    );
+    if (exactIdRows.isNotEmpty) {
+      return VgCard.fromJson(exactIdRows.first);
+    }
+
+    // 2. Try prefix match on extracted base card number (e.g. DZ-SS14/001 from DZ-SS14/001R)
+    final baseNum = _getBaseCardNumber(cleanTerm);
+    final baseIdRows = await db.query(
+      'cards',
+      where: 'LOWER(id) = ? OR id LIKE ?',
+      whereArgs: [baseNum.toLowerCase(), '$baseNum%'],
+      limit: 1,
+    );
+    if (baseIdRows.isNotEmpty) {
+      return VgCard.fromJson(baseIdRows.first);
+    }
+
+    // 3. Try exact case-insensitive match on Name
+    final exactNameRows = await db.query(
+      'cards',
+      where: 'LOWER(name) = ?',
+      whereArgs: [cleanTerm.toLowerCase()],
+      limit: 1,
+    );
+    if (exactNameRows.isNotEmpty) {
+      return VgCard.fromJson(exactNameRows.first);
+    }
+
+    // 4. Try fuzzy match on Name (contains)
+    final fuzzyNameRows = await db.query(
+      'cards',
+      where: 'name LIKE ?',
+      whereArgs: ['%$cleanTerm%'],
+      limit: 1,
+    );
+    if (fuzzyNameRows.isNotEmpty) {
+      return VgCard.fromJson(fuzzyNameRows.first);
+    }
+
+    return null;
+  }
+
+  /// Normalize a card number to its primary alphanumeric base before rarity/foil suffixes
+  String _getBaseCardNumber(String raw) {
+    final clean = raw.trim().toUpperCase();
+    final regex = RegExp(r'^([A-Z0-9-]+/[0-9]+|[A-Z0-9]+-[0-9]+)');
+    final match = regex.firstMatch(clean);
+    if (match != null) {
+      return match.group(1)!;
+    }
+    return clean;
+  }
+
+
   // ── Decks ─────────────────────────────────────────────────────────────
 
   /// Save (insert or replace) a full deck with its ride line and main cards.

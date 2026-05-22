@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'home_screen.dart';
 import 'deck_list_screen.dart';
+import 'profile_screen.dart';
 
 class MainScaffold extends StatefulWidget {
   const MainScaffold({super.key});
@@ -59,6 +60,17 @@ class _MainScaffoldState extends State<MainScaffold> {
             ),
             label: 'My Decks',
           ),
+          BottomNavigationBarItem(
+            icon: Padding(
+              padding: EdgeInsets.only(top: 2),
+              child: Icon(CupertinoIcons.person, size: 24),
+            ),
+            activeIcon: Padding(
+              padding: EdgeInsets.only(top: 2),
+              child: Icon(CupertinoIcons.person_fill, size: 24),
+            ),
+            label: 'Profile',
+          ),
         ],
       ),
       tabBuilder: (context, index) {
@@ -67,6 +79,8 @@ class _MainScaffoldState extends State<MainScaffold> {
             return const HomeScreen();
           case 1:
             return const DeckListScreen();
+          case 2:
+            return const ProfileScreen();
           default:
             return const HomeScreen();
         }

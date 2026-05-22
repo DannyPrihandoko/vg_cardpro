@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import '../providers/card_provider.dart';
 import '../models/vg_card.dart';
 import '../models/saved_deck.dart';
+import 'deck_share_screen.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Per-deck ephemeral state providers (family by deckId)
@@ -239,6 +240,16 @@ class _BuildDeckScreenState extends ConsumerState<BuildDeckScreen>
 
   // ── Add/Remove card from ephemeral deck ───────────────────────────────────
 
+  /// Count how many times [card] appears in the current ride line slots.
+  int _rideLineCountForCard(VgCard card) {
+    int count = 0;
+    final slots = _rideLineSlots;
+    for (int g = 0; g <= 3; g++) {
+      if (slots[g]?.id == card.id) count++;
+    }
+    return count;
+  }
+
   String? _addCard(VgCard card) {
     final items = List<DeckItem>.from(_deckItems);
     final nation = _resolvedNation;
@@ -256,13 +267,24 @@ class _BuildDeckScreenState extends ConsumerState<BuildDeckScreen>
         return 'Over trigger limit reached! Max 1 over trigger.';
       }
     }
+
+    // ── Playset limit: ride line copies count toward the 4-copy max ──────────
+    final rideLineCount = _rideLineCountForCard(card);
+    final maxAllowed = 4 - rideLineCount; // e.g. 1 in ride line → max 3 in main
+
     final idx = items.indexWhere((i) => i.card.id == card.id);
     if (idx != -1) {
-      if (items[idx].quantity >= 4) {
+      if (items[idx].quantity >= maxAllowed) {
+        if (rideLineCount > 0) {
+          return "'${card.name}' is already in the ride line ($rideLineCount×). Max ${maxAllowed} more in main deck.";
+        }
         return "Max 4 copies of '${card.name}'!";
       }
       items[idx] = DeckItem(card: card, quantity: items[idx].quantity + 1);
     } else {
+      if (maxAllowed <= 0) {
+        return "'${card.name}' is already used $rideLineCount× in the ride line (max 4 total).";
+      }
       items.add(DeckItem(card: card, quantity: 1));
     }
     ref.read(_editDeckItemsProvider.notifier).setItems(items);
@@ -289,6 +311,7 @@ class _BuildDeckScreenState extends ConsumerState<BuildDeckScreen>
   }
 
   void _openMainDeckPicker(BuildContext context, String? allowedNation) {
+    final currentSlots = _rideLineSlots;
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
@@ -301,6 +324,7 @@ class _BuildDeckScreenState extends ConsumerState<BuildDeckScreen>
           borderRadius: const BorderRadius.vertical(top: Radius.circular(20)),
           child: _EphemeralMainDeckPicker(
             allowedNation: allowedNation,
+            rideLineSlots: currentSlots,
             onAddCard: _addCard,
             scrollController: scrollController,
           ),
@@ -497,6 +521,14 @@ class _BuildDeckScreenState extends ConsumerState<BuildDeckScreen>
                 ],
               ),
             ),
+          ),
+
+          // Share button
+          IconButton(
+            icon: const Icon(Icons.share_rounded,
+                color: Colors.white54, size: 20),
+            tooltip: 'Share Deck',
+            onPressed: () => showDeckShareSheet(context, widget.deck),
           ),
 
           // Save button - Slate-and-Gold themed
@@ -1183,6 +1215,7 @@ class _CardTile extends StatelessWidget {
   final Color gradeColor;
   final VoidCallback onTap;
   final int quantity;
+  final int rideLineCount;
 
   const _CardTile({
     required this.card,
@@ -1190,10 +1223,14 @@ class _CardTile extends StatelessWidget {
     required this.gradeColor,
     required this.onTap,
     this.quantity = 0,
+    this.rideLineCount = 0,
   });
 
   @override
   Widget build(BuildContext context) {
+    final totalCopies = quantity + rideLineCount;
+    final isCapped = totalCopies >= 4;
+
     return GestureDetector(
       onTap: onTap,
       child: AnimatedContainer(
@@ -1201,8 +1238,12 @@ class _CardTile extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
           border: Border.all(
-            color: isSelected ? const Color(0xFFFFD700) : Colors.white.withValues(alpha: 0.06),
-            width: isSelected ? 2.0 : 1,
+            color: isCapped
+                ? Colors.redAccent.withValues(alpha: 0.5)
+                : isSelected
+                    ? const Color(0xFFFFD700)
+                    : Colors.white.withValues(alpha: 0.06),
+            width: isSelected || isCapped ? 2.0 : 1,
           ),
           boxShadow: isSelected
               ? [
@@ -1296,17 +1337,38 @@ class _CardTile extends StatelessWidget {
                         fontWeight: FontWeight.bold)),
               ),
             ),
+            // Ride line badge (purple, bottom-left next to grade)
+            if (rideLineCount > 0)
+              Positioned(
+                bottom: 28, left: 6,
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF7C3AED),
+                    borderRadius: BorderRadius.circular(5),
+                  ),
+                  child: Text(
+                    'RL×$rideLineCount',
+                    style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 8,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ),
+            // Quantity badge (gold, top-right)
             if (quantity > 0)
               Positioned(
                 top: 6, right: 6,
                 child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                   decoration: BoxDecoration(
-                    color: const Color(0xFFFFD700),
+                    color: isCapped ? Colors.redAccent : const Color(0xFFFFD700),
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(
-                        color: const Color(0xFFFFD700).withValues(alpha: 0.3),
+                        color: (isCapped ? Colors.redAccent : const Color(0xFFFFD700))
+                            .withValues(alpha: 0.3),
                         blurRadius: 4,
                       )
                     ],
@@ -1321,6 +1383,9 @@ class _CardTile extends StatelessWidget {
                   ),
                 ),
               )
+            else if (rideLineCount > 0 && quantity == 0)
+              // Show only the "capped" indicator if all copies are in ride line
+              const SizedBox.shrink()
             else if (isSelected)
               Positioned(
                 top: 6, right: 6,
@@ -1343,6 +1408,7 @@ class _CardTile extends StatelessWidget {
 // ─────────────────────────────────────────────────────────────────────────────
 // TAB 2: Main Deck (50 cards)
 // ─────────────────────────────────────────────────────────────────────────────
+
 
 class _MainDeckTab extends StatelessWidget {
   final String deckId;
@@ -1722,11 +1788,13 @@ class _MainDeckTab extends StatelessWidget {
 
 class _EphemeralMainDeckPicker extends ConsumerStatefulWidget {
   final String? allowedNation;
+  final Map<int, VgCard?> rideLineSlots;
   final String? Function(VgCard) onAddCard;
   final ScrollController scrollController;
 
   const _EphemeralMainDeckPicker({
     required this.allowedNation,
+    required this.rideLineSlots,
     required this.onAddCard,
     required this.scrollController,
   });
@@ -1983,12 +2051,18 @@ class _EphemeralMainDeckPickerState
                           .firstWhere((item) => item.card.id == card.id,
                               orElse: () => DeckItem(card: card, quantity: 0))
                           .quantity;
-                      final isSelected = qtyInDeck > 0;
+                      // Count ride line copies for this card
+                      int rideCount = 0;
+                      widget.rideLineSlots.forEach((_, c) {
+                        if (c?.id == card.id) rideCount++;
+                      });
+                      final isSelected = qtyInDeck > 0 || rideCount > 0;
 
                       return _CardTile(
                         card: card,
                         isSelected: isSelected,
                         quantity: qtyInDeck,
+                        rideLineCount: rideCount,
                         gradeColor: Colors.blueAccent,
                         onTap: () {
                           final err = widget.onAddCard(card);
