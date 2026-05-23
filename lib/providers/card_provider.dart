@@ -4,6 +4,7 @@ import '../models/vg_card.dart';
 import '../models/saved_deck.dart';
 import '../services/api_service.dart';
 import '../services/database_service.dart';
+import '../services/tag_initialization_service.dart';
 
 final apiServiceProvider = Provider<ApiService>((ref) {
   return ApiService();
@@ -17,20 +18,32 @@ final databaseServiceProvider = Provider<DatabaseService>((ref) {
 class CardListNotifier extends AsyncNotifier<List<VgCard>> {
   @override
   Future<List<VgCard>> build() async {
-    // 1. Coba load dari local database terlebih dahulu
+    // 1. Try load from local database first
     final dbService = ref.read(databaseServiceProvider);
     final localCards = await dbService.getCards();
 
-    // 2. Jika local DB kosong, langsung fetch dari API
+    // 2. If local DB is empty, fetch from JSON asset
     if (localCards.isEmpty) {
-      return await _fetchAndCacheCards();
+      final cards = await _fetchAndCacheCards();
+      _initTagsInBackground(cards);
+      return cards;
     }
 
-    // 3. Jika local DB ada data, kembalikan data tersebut agar UI cepat merender.
-    // Lalu jalankan sync background.
+    // 3. Local DB has data — return immediately, sync in background
     _syncBackground();
-
+    _initTagsInBackground(localCards);
     return localCards;
+  }
+
+  /// Initialize mechanic tags for all cards in the background (once).
+  void _initTagsInBackground(List<VgCard> cards) {
+    final dbService = ref.read(databaseServiceProvider);
+    TagInitializationService.isInitialized(dbService).then((alreadyDone) {
+      if (!alreadyDone) {
+        debugPrint('[CardProvider] Tag init needed — starting background parse...');
+        TagInitializationService.initializeAll(dbService, cards);
+      }
+    });
   }
 
   Future<void> _syncBackground() async {

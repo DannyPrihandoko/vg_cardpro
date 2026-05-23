@@ -1,3 +1,6 @@
+import 'mechanic_tag.dart';
+import '../services/mechanic_tag_parser.dart';
+
 class VgCard {
   final String id;
   final String name;
@@ -19,6 +22,10 @@ class VgCard {
   final String illustrator;
   final String flavorText;
 
+  /// Mechanic tags parsed from [effectText]. Empty means not yet initialized.
+  /// Use [resolvedTags] to ensure tags are always populated.
+  final List<MechanicTag> mechanicTags;
+
   VgCard({
     required this.id,
     required this.name,
@@ -39,7 +46,8 @@ class VgCard {
     required this.regulation,
     required this.illustrator,
     required this.flavorText,
-  });
+    List<MechanicTag>? mechanicTags,
+  }) : mechanicTags = mechanicTags ?? [];
 
   factory VgCard.fromJson(Map<String, dynamic> json) {
     return VgCard(
@@ -62,6 +70,7 @@ class VgCard {
       regulation: json['regulation'] ?? '',
       illustrator: json['illustrator'] ?? '',
       flavorText: (json['flavorText'] ?? '').replaceAll(r'\n', '\n'),
+      mechanicTags: MechanicTagCodec.decode(json['mechanicTags'] as String?),
     );
   }
 
@@ -86,10 +95,22 @@ class VgCard {
       regulation: json['regulation'] ?? '',
       illustrator: json['illustrator'] ?? '',
       flavorText: (json['flavor_text']?['translated'] ?? json['flavor_text']?['original'] ?? '').replaceAll(r'\n', '\n'),
+      // Tags are not in the scraped JSON — they'll be initialized separately
+      mechanicTags: [],
     );
   }
 
-  // ── Trigger helpers ──────────────────────────────────────────────────────
+  // ── Tag helpers ───────────────────────────────────────────────────────────
+
+  /// Returns [mechanicTags] if already populated, otherwise lazily parses
+  /// from [effectText]. This ensures tags are always available even before
+  /// the DB initialization pass has completed.
+  List<MechanicTag> get resolvedTags {
+    if (mechanicTags.isNotEmpty) return mechanicTags;
+    return MechanicTagParser.parse(effectText, triggerField: trigger);
+  }
+
+  // ── Trigger helpers ───────────────────────────────────────────────────────
   /// True if this card has any trigger icon (heal, crit, draw, front, over)
   bool get isTriggerUnit {
     final t = trigger.trim().toLowerCase();
@@ -134,6 +155,7 @@ class VgCard {
       'regulation': regulation,
       'illustrator': illustrator,
       'flavorText': flavorText,
+      'mechanicTags': MechanicTagCodec.encode(mechanicTags),
     };
   }
 }

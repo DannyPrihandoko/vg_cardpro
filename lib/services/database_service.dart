@@ -22,7 +22,7 @@ class DatabaseService {
 
     return await openDatabase(
       path,
-      version: 4,
+      version: 5,
       onCreate: _onCreate,
       onUpgrade: _onUpgrade,
     );
@@ -49,7 +49,8 @@ class DatabaseService {
         rarity TEXT,
         regulation TEXT,
         illustrator TEXT,
-        flavorText TEXT
+        flavorText TEXT,
+        mechanicTags TEXT
       )
     ''');
     await _createDeckTables(db);
@@ -63,6 +64,12 @@ class DatabaseService {
     }
     if (oldVersion < 4) {
       await _createDeckTables(db);
+    }
+    if (oldVersion < 5) {
+      // Add mechanicTags column for AI recommendation system
+      await db.execute(
+        'ALTER TABLE cards ADD COLUMN mechanicTags TEXT',
+      );
     }
   }
 
@@ -176,6 +183,52 @@ class DatabaseService {
     return clean;
   }
 
+
+  // ── Mechanic Tags (AI Recommendation) ────────────────────────────────────
+
+  /// Returns true if at least one card in the DB already has mechanic tags.
+  /// Used by [TagInitializationService] to skip re-initialization.
+  Future<bool> hasMechanicTags() async {
+    final db = await database;
+    final result = await db.rawQuery(
+      'SELECT COUNT(*) as cnt FROM cards WHERE mechanicTags IS NOT NULL AND mechanicTags != ""',
+    );
+    return (result.first['cnt'] as int? ?? 0) > 0;
+  }
+
+  /// Update the mechanic tags for a single card.
+  Future<void> updateCardMechanicTags(String cardId, String tagsString) async {
+    final db = await database;
+    await db.update(
+      'cards',
+      {'mechanicTags': tagsString},
+      where: 'id = ?',
+      whereArgs: [cardId],
+    );
+  }
+
+  /// Bulk-update mechanic tags for many cards at once.
+  /// [tagMap] maps cardId → comma-separated tag string.
+  Future<void> bulkUpdateMechanicTags(Map<String, String> tagMap) async {
+    final db = await database;
+    final batch = db.batch();
+    for (final entry in tagMap.entries) {
+      batch.update(
+        'cards',
+        {'mechanicTags': entry.value},
+        where: 'id = ?',
+        whereArgs: [entry.key],
+      );
+    }
+    await batch.commit(noResult: true);
+  }
+
+  /// Load all cards with their mechanic tags populated.
+  Future<List<VgCard>> getCardsWithTags() async {
+    final db = await database;
+    final maps = await db.query('cards');
+    return maps.map((m) => VgCard.fromJson(m)).toList();
+  }
 
   // ── Decks ─────────────────────────────────────────────────────────────
 
