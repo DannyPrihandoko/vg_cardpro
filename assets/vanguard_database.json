@@ -3,7 +3,7 @@
     "card_number": "DZ-SS16/001",
     "name": {
       "original": "ドラグリッター ラティーファ",
-      "translated": "drag glitter latifa"
+      "translated": "Dragritter, Latifa"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_001.png",
     "unit_type": "normal unit",
@@ -21,7 +21,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットがユニットカードの能力以外で(R)に登場した時、このターンにあなたがノーマルオーダーをプレイしているなら、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下を１枚まで選んで公開し、それがユニットカードなら(R)にコールし、ノーマルオーダーなら手札に加える。山札をシャッフルする。【自】【(R)】：このユニットがグレード３以上にアタックした時、このユニットと同じ縦列のユニットのいない相手の(R)１つにつき、そのバトル中、このユニットのパワー＋5000。",
-      "translated": "[AUTO]: If this unit is placed on (R) other than the ability of a unit card, and you are playing a normal order this turn, by COST [Soul Blast (1)], look at 5 cards from the top of your deck, choose up to 1 card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle the deck. [AUTO] [(R)]: When this unit attacks a grade 3 or higher, for each (R) of the opponent who does not have a unit in the same column as this unit, this unit gets +5000 Power during that battle."
+      "translated": "[AUTO]: When When this unit is placed on (R) other than by a unit card's ability, and you are playing a normal order this turn, COST [soul Blast (1)], look at the top five cards of your deck, choose up to one card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle your deck. [AUTO] [(R)]: When this unit attacks a grade 3 or higher, for each (R) of the opponent who does not have a unit in the same column as this unit, this unit gets Power +$1 until end of that battle."
     },
     "flavor_text": {
       "original": "私の活躍っ！もっと近くで見てってよね！",
@@ -33,7 +33,7 @@
     "card_number": "DZ-SS16/002",
     "name": {
       "original": "赤宝獣 ガルネット",
-      "translated": "Red Treasure Beast Garnet"
+      "translated": "Red Jewel Beast, Garnet"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_002.png",
     "unit_type": "normal unit",
@@ -51,7 +51,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、(R)に登場した時か(G)に置かれた時、【コスト】[ソウルかドロップから、ライドデッキにしたカードを合計２枚ライドデッキに表で置く]ことで、このユニットのいるサークルにより以下を１つ行う。・(R)‐１枚引く。・(G)‐そのバトル中、このユニットのシールド＋15000。",
-      "translated": "[AUTO]: When this unit is placed on (R) or placed on (G), COST [places a total of 2 cards from the soul or drop zone that were made into a ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R)-Draw 1 card.・(G) - During that battle, this unit's Shield +15000."
+      "translated": "[AUTO]: When When this unit is placed on (R) or (G), COST [put a total of 2 cards from the soul or drop zone that were in your ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R)-Draw 1 card.・(G) - until end of that battle, this unit's Shield +$1."
     },
     "flavor_text": {
       "original": "熱い情熱の炎！儂ゃそういうのが大好きなんじゃ！",
@@ -63,7 +63,7 @@
     "card_number": "DZ-SS16/003",
     "name": {
       "original": "旋風竜 ヴォルドーン",
-      "translated": "Whirlwind Dragon Voldon"
+      "translated": "Whirlwind Dragon, Voldon"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_003.png",
     "unit_type": "normal unit",
@@ -81,7 +81,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードのグレードが、相手のヴァンガードのグレード以下なら、そのターン中、このユニットのパワー＋5000。【自】【(R)/ドロップ】：あなたのターンにあなたの他のカードが手札から捨てられた時、【コスト】[【エネルギーブラスト】(3)，このカードを除外する]ことで、その捨てられたカードを１枚選び、手札に加える。",
-      "translated": "[AUTO]: This unit is placed on (R), and if the grade of your vanguard is lower than or equal to the grade of your opponent's vanguard, this unit gets Power +5000 for the duration of the turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand by COST [Energy Blast (3), banish this card]."
+      "translated": "[AUTO]: When this unit is placed on (R), and if the your vanguard's grade is less than or equal to the grade of your opponent's vanguard, this unit gets Power +$1 until end of turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand COST [Energy Blast (3), remove this card from play]."
     },
     "flavor_text": {
       "original": "とくと味わえ。絶命刃・断空！",
@@ -93,7 +93,7 @@
     "card_number": "DZ-SS16/004",
     "name": {
       "original": "ドラグリッター ナズルディーン",
-      "translated": "Draglitter Nazrudeen"
+      "translated": "Dragritter, Nazrudeen"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_004.png",
     "unit_type": "normal unit",
@@ -111,7 +111,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
-      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+      "translated": "[AUTO]: When this unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) COST [soul Blast (1)]."
     },
     "flavor_text": {
       "original": "雷鳴の如く吼え、雷光の如く疾走する。",
@@ -141,7 +141,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【起】【(V)】【ターン1回】：【コスト】[手札から１枚ソウルに置く]ことで、あなたのドロップからノーマルオーダーを１枚選び、ソウルに置き、あなたのソウルから１枚まで選び、(R)にコールし、あなたのソウルからノーマルオーダーを１枚まで選び、そのターン中、『【永】：このカードはソウルからでもプレイでき、プレイされてドロップに置く際、かわりにバインドする。』を与える。【起】【(V)】【ターン1回】：【コスト】[【カウンターブラスト】(1)]することで、あなたの、ソウルとバインドゾーンのノーマルオーダーの種類の合計により、そのターン中、このユニットは以下すべてを得る。・３種類以上‐【自】【(V)】【ターン1回】：このユニットがアタックしたバトル終了時、このユニットを【スタンド】させ、そのターン中、ドライブ－２。相手のヴァンガードがグレード３以上なら、そのターン中、このユニットのドライブ＋１。・５種類以上‐【永】【(V)】：あなたのユニットすべてのパワー＋5000。",
-      "translated": "[ACT] [(V)] [1/Turn]: COST [Place a card from your hand into your soul], select a normal order from your drop zone, place it on your soul, select up to one card from your soul, call it to (R), select up to one normal order from your soul, and during that turn, ``[CONT]: This card can also be played from the soul, and when it is played and placed in the drop zone, bind it instead. ”. [ACT] [(V)] [1/Turn]: By performing COST [Counter Blast (1)], this unit gains all of the following for the duration of the turn, based on the sum of your soul and the normal order types in the bind zone.・3 or more types - [AUTO] [(V)] [1/Turn]: At the end of the battle in which this unit attacked, make this unit [Stand] and get -2 Drive for the duration of that turn. If your opponent's vanguard is grade 3 or higher, this unit gets +1 drive during that turn.・5 or more types - [CONT] [(V)]: Power +5000 for all your units."
+      "translated": "[ACT] [(V)] [[[Once per turn]]]: COST [Place a card from your hand into your soul], select a normal order from your drop zone, place it on your soul, select up to one card from your soul, call it to (R), select up to one normal order from your soul, and during that turn, ``[CONT]: This card can also be played from the soul, and when it is played and placed in the drop zone, bind it instead. ”. [ACT] [(V)] [[[Once per turn]]]: By performing COST [Counter Blast (1)], this unit gains all of the following until end of turn, based on the sum of your soul and the normal order types in the bind zone.・3 or more types - [AUTO] [(V)] [[[Once per turn]]]: At the end of the battle in which this unit attacked, make this unit [Stand] and get -2 Drive for the duration of that turn. If your opponent's vanguard is grade 3 or higher, this unit gets +1 drive during that turn.・5 or more types - [CONT] [(V)]: Power +$1 for all your units."
     },
     "flavor_text": {
       "original": "いつだって勇気を引き寄せるのは人の想い……イメージの力なのよ。",
@@ -171,7 +171,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットがユニットカードの能力以外で(R)に登場した時、このターンにあなたがノーマルオーダーをプレイしているなら、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下を１枚まで選んで公開し、それがユニットカードなら(R)にコールし、ノーマルオーダーなら手札に加える。山札をシャッフルする。【自】【(R)】：このユニットがグレード３以上にアタックした時、【コスト】[【ソウルブラスト】(3)]することで、１枚引き、そのターン中、このユニットのパワー＋5000。",
-      "translated": "[AUTO]: If this unit is placed on (R) other than the ability of a unit card, and you are playing a normal order this turn, by COST [Soul Blast (1)], look at 5 cards from the top of your deck, choose up to 1 card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle the deck. [AUTO] [(R)]: When this unit attacks grade 3 or higher, draw 1 card by performing COST [Soul Blast (3)], and this unit gets +5000 Power for the duration of the turn."
+      "translated": "[AUTO]: When When this unit is placed on (R) other than by a unit card's ability, and you are playing a normal order this turn, COST [soul Blast (1)], look at the top five cards of your deck, choose up to one card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle your deck. [AUTO] [(R)]: When this unit attacks grade 3 or higher, draw 1 card by performing COST [soul Blast (3)], and this unit gets Power +$1 until end of turn."
     },
     "flavor_text": {
       "original": "いえ。私はあくまで、侍女ですので。",
@@ -201,7 +201,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードのグレードが、相手のヴァンガードのグレード以下なら、【ソウルチャージ】(1)し、そのターン中、このユニットのパワー＋2000。【自】【(R)/ドロップ】：あなたのターンにあなたの他のカードが手札から捨てられた時、【コスト】[【エネルギーブラスト】(3)，このカードを除外する]ことで、その捨てられたカードを１枚選び、手札に加える。",
-      "translated": "[AUTO]: This unit is placed on (R), and if the grade of your vanguard is lower than or equal to the grade of your opponent's vanguard, Soul Charge (1) and this unit gets +2000 Power for the duration of the turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand by COST [Energy Blast (3), banish this card]."
+      "translated": "[AUTO]: When this unit is placed on (R), and if the your vanguard's grade is less than or equal to the grade of your opponent's vanguard, soul Charge (1) and this unit gets Power +$1 until end of turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand COST [Energy Blast (3), remove this card from play]."
     },
     "flavor_text": {
       "original": "刻の歯車は欠け落ちることなく廻り続ける。",
@@ -231,7 +231,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、(R)に登場した時か(G)に置かれた時、【コスト】[ソウルかドロップから、ライドデッキにしたカードを合計２枚ライドデッキに表で置く]ことで、このユニットのいるサークルにより以下を１つ行う。・(R)‐【カウンターチャージ】(1)。・(G)‐そのバトル中、このユニットのシールド＋15000。",
-      "translated": "[AUTO]: When this unit is placed on (R) or placed on (G), COST [places a total of 2 cards from the soul or drop zone that were made into a ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R)-Counter Charge(1).・(G) - During that battle, this unit's Shield +15000."
+      "translated": "[AUTO]: When When this unit is placed on (R) or (G), COST [put a total of 2 cards from the soul or drop zone that were in your ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R)-Counter Charge(1).・(G) - until end of that battle, this unit's Shield +$1."
     },
     "flavor_text": {
       "original": "本当に捧げられる？君の持つ誠実な心ってヤツをさ。",
@@ -261,7 +261,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
-      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+      "translated": "[AUTO]: When this unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) COST [soul Blast (1)]."
     },
     "flavor_text": {
       "original": "其に触れし者。精神は溶け堕ち、魂まで腐り果てる。",
@@ -291,7 +291,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットがユニットカードの能力以外で(R)に登場した時、このターンにあなたがセットオーダーをプレイしているなら、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下を１枚まで選び、公開し、それがユニットカードなら(R)にコールし、セットオーダーなら手札に加える。山札をシャッフルする。【自】【(R)】：このユニットがグレード３以上にアタックした時、あなたのオーダーゾーンにセットオーダーがあるなら、そのバトル中、このユニットのパワー＋5000。あなたのヴァンガードが「怪獣」を含むなら、＋5000ではなく＋10000。",
-      "translated": "[AUTO]: If this unit is placed on (R) other than the ability of a unit card, and you are playing a set order this turn, COST [Soul Blast (1)] looks at the top five cards of your deck, choose up to one card of grade or lower than your vanguard, reveal it, and if it is a unit card, call it to (R), and if it is a set order, add it to your hand. Shuffle the deck. [AUTO] [(R)]: When this unit attacks grade 3 or higher, if there is a set order in your order zone, this unit gets +5000 Power during that battle. If your vanguard includes a monster, it gets +10000 instead of +5000."
+      "translated": "[AUTO]: When When this unit is placed on (R) other than by a unit card's ability, and you are playing a set order this turn, COST [soul Blast (1)] looks at the top five cards of your deck, choose up to one card of grade or lower than your vanguard, reveal it, and if it is a unit card, call it to (R), and if it is a set order, add it to your hand. Shuffle your deck. [AUTO] [(R)]: When this unit attacks grade 3 or higher, if there is a set order in your order zone, this unit gets Power +$1 until end of that battle. If your vanguard includes a monster, it gets +10000 instead of +5000."
     },
     "flavor_text": {
       "original": "周囲の金属を凝集し、その一打は限りなく重く。",
@@ -321,7 +321,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
-      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+      "translated": "[AUTO]: When this unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) COST [soul Blast (1)]."
     },
     "flavor_text": {
       "original": "何もかもを焼き尽くし、黒く、昏い灰燼と成す。",
@@ -351,7 +351,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードのグレードが、相手のヴァンガードのグレード以下なら、【エネルギーチャージ】(1)し、そのターン中、このユニットのパワー＋2000。【自】【(R)/ドロップ】：あなたのターンにあなたの他のカードが手札から捨てられた時、【コスト】[【エネルギーブラスト】(3)，このカードを除外する]ことで、その捨てられたカードを１枚選び、手札に加える。",
-      "translated": "[AUTO]: This unit is placed on (R), and if the grade of your vanguard is less than or equal to the grade of your opponent's vanguard, Energy Charge (1) and this unit gets +2000 Power for the duration of the turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand by COST [Energy Blast (3), banish this card]."
+      "translated": "[AUTO]: When this unit is placed on (R), and if the grade of your vanguard is less than or equal to the grade of your opponent's vanguard, Energy Charge (1) and this unit gets Power +$1 until end of turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand COST [Energy Blast (3), remove this card from play]."
     },
     "flavor_text": {
       "original": "白銀より出でし紅明。それは次なる地平を寿ぐ光。",
@@ -381,7 +381,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、(R)に登場した時か(G)に置かれた時、【コスト】[ソウルかドロップから、ライドデッキにしたカードを合計２枚ライドデッキに表で置く]ことで、このユニットのいるサークルにより以下を１つ行う。・(R)‐あなたのドロップからセットオーダーを１枚選び、手札に加える。・(G)‐そのバトル中、このユニットのシールド＋15000。",
-      "translated": "[AUTO]: When this unit is placed on (R) or placed on (G), COST [places a total of 2 cards from the soul or drop zone that were made into a ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R)-Choose a set order card from your drop zone and add it to your hand.・(G) - During that battle, this unit's Shield +15000."
+      "translated": "[AUTO]: When When this unit is placed on (R) or (G), COST [put a total of 2 cards from the soul or drop zone that were in your ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R)-Choose a set order card from your drop zone and add it to your hand.・(G) - until end of that battle, this unit's Shield +$1."
     },
     "flavor_text": {
       "original": "飽くなき探求心が、本物を上回る輝きを創るのです。",
@@ -393,7 +393,7 @@
     "card_number": "DZ-SS16/014",
     "name": {
       "original": "陣頭の騎士 テイスファルト",
-      "translated": "Knight at the Front Teisphalt"
+      "translated": "Knight At The Front Teisphalt"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_014.png",
     "unit_type": "normal unit",
@@ -411,7 +411,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットがユニットカードの能力以外で(R)に登場した時、このターンにあなたがノーマルオーダーをプレイしているなら、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下を１枚まで選んで公開し、それがユニットカードなら(R)にコールし、ノーマルオーダーなら手札に加える。山札をシャッフルする。【自】【(R)】：このユニットがグレード３以上にアタックした時、あなたのユニットが４枚以上なら、そのバトル中、このユニットのパワー＋10000。",
-      "translated": "[AUTO]: If this unit is placed on (R) other than the ability of a unit card, and you are playing a normal order this turn, by COST [Soul Blast (1)], look at 5 cards from the top of your deck, choose up to 1 card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle the deck. [AUTO] [(R)]: When this unit attacks a grade 3 or higher, if you have 4 or more units, this unit gets +10000 Power during that battle."
+      "translated": "[AUTO]: When When this unit is placed on (R) other than by a unit card's ability, and you are playing a normal order this turn, COST [soul Blast (1)], look at the top five cards of your deck, choose up to one card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle your deck. [AUTO] [(R)]: When this unit attacks a grade 3 or higher, if you have 4 or more units, this unit gets Power +$1 until end of that battle."
     },
     "flavor_text": {
       "original": "この旗に誓ったのです。皆で安寧の世を作りだすと。",
@@ -423,7 +423,7 @@
     "card_number": "DZ-SS16/015",
     "name": {
       "original": "星空の騎士 ゼロ",
-      "translated": "Knight of the Starry Sky Zero"
+      "translated": "Knight Of The Starry Sky Zero"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_015.png",
     "unit_type": "normal unit",
@@ -441,7 +441,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【永】：このカードは「沈黙の騎士 ギャラティン」として扱う。【自】：あなたのヴァンガードのクランが《ロイヤルパラディン》のみなら、このコストは『【エネルギーブラスト】(3)』でも払える。このユニットが(R)に登場した時、このユニットと同名のあなたの他のリアガードがいないなら、【コスト】[【カウンターブラスト】(1)]することで、１枚引く。【自】【(R)】：このユニットがグレード３以上にアタックした時、そのバトル中、このユニットのパワー＋5000。あなたのユニットが４枚以上なら、＋5000ではなく10000。【自】【(R)】【ターン1回】：このユニットがアタックした時、あなたのヴァンガードのクランが《ロイヤルパラディン》のみで、このターンに、あなたがペルソナライドしていて、このユニットがあなたのヴァンガードの能力で【スタンド】しているなら、【コスト】[【カウンターブラスト】(1)]することで、そのバトル中、相手は自分のカードの【自】能力を発動できない。",
-      "translated": "[CONT]: This card is treated as \"Silence Knight Gallatin\". [AUTO]: If your vanguard clan only has 《Royal Paladin》, this cost can also be paid with ``Energy Blast (3)''. This unit is placed on (R), and if you do not have another rear-guard with the same name as this unit, draw one card by COST [Counter Blast(1)]. [AUTO] [(R)]: When this unit attacks grade 3 or higher, this unit gets Power +5000 during that battle. If you have 4 or more units, you get +10000 instead of +5000. [AUTO] [(R)] [1/Turn]: When this unit attacks, if the only clan in your vanguard is 《Royal Paladin》, if you are Persona Ride this turn, and this unit is [Stand] by your vanguard ability, by COST [Counter Blast(1)], your opponent cannot activate the [AUTO] ability of his card during that battle."
+      "translated": "[CONT]: This card is treated as \"Silence Knight Gallatin\". [AUTO]: If your vanguard clan only has 《Royal Paladin》, this cost can also be paid with ``Energy Blast (3)''. When this unit is placed on (R), and if you do not have another rear-guard with the same name as this unit, draw one card COST [Counter Blast(1)]. [AUTO] [(R)]: When this unit attacks grade 3 or higher, this unit gets Power +$1 until end of that battle. If you have 4 or more units, you get +10000 instead of +5000. [AUTO] [(R)] [[[Once per turn]]]: When this unit attacks, if the only clan in your vanguard is 《Royal Paladin》, if you are Persona Ride this turn, and this unit is [Stand] by your vanguard ability, COST [Counter Blast(1)], your opponent cannot activate the [AUTO] ability of his card until end of that battle."
     },
     "flavor_text": {
       "original": "仲間の数は可能性そのものだ!!",
@@ -471,7 +471,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、(R)に登場した時か(G)に置かれた時、【コスト】[ソウルかドロップから、ライドデッキにしたカードを合計２枚ライドデッキに表で置く]ことで、このユニットのいるサークルにより以下を１つ行う。・(R)‐あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下のユニットカードを１枚まで選び、(R)にコールし、山札をシャッフルする。あなたのメインフェイズ以外なら、そのコールされたユニットを【レスト】させる。・(G)‐そのバトル中、このユニットのシールド＋15000。",
-      "translated": "[AUTO]: When this unit is placed on (R) or placed on (G), COST [places a total of 2 cards from the soul or drop zone that were made into a ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R) - Look at the top five cards of your deck, choose up to one unit card of the grade of your vanguard or lower, call it to (R), and shuffle your deck. If it is not your main phase, make the called unit [Rest].・(G) - During that battle, this unit's Shield +15000."
+      "translated": "[AUTO]: When When this unit is placed on (R) or (G), COST [put a total of 2 cards from the soul or drop zone that were in your ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R) - Look at the top five cards of your deck, choose up to one unit card of the grade of your vanguard or lower, call it to (R), and shuffle your deck. If it is not your main phase, make the called unit [Rest].・(G) - until end of that battle, this unit's Shield +$1."
     },
     "flavor_text": {
       "original": "曇りなき潔白の志、それを私に示しておくれ。",
@@ -501,7 +501,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードのグレードが、相手のヴァンガードのグレード以下なら、あなたの山札を上から１枚見て、山札の上か下に置き、そのターン中、このユニットのパワー＋2000。【自】【(R)/ドロップ】：あなたのターンにあなたの他のカードが手札から捨てられた時、【コスト】[【エネルギーブラスト】(3)，このカードを除外する]ことで、その捨てられたカードを１枚選び、手札に加える。",
-      "translated": "[AUTO]: This unit is placed on (R), and if the grade of your vanguard is lower than or equal to the grade of your opponent's vanguard, look at the top card of your deck, put it on the top or bottom of your deck, and this unit gets Power+2000 until end of turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand by COST [Energy Blast (3), banish this card]."
+      "translated": "[AUTO]: When this unit is placed on (R), and if the your vanguard's grade is less than or equal to the grade of your opponent's vanguard, look at the top card of your deck, put it on the top or bottom of your deck, and this unit gets Power +$1 until end of turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand COST [Energy Blast (3), remove this card from play]."
     },
     "flavor_text": {
       "original": "恐怖に打ち克ち、汝が勇気を証明せよ。",
@@ -513,7 +513,7 @@
     "card_number": "DZ-SS16/018",
     "name": {
       "original": "終夜の騎士 エスニア",
-      "translated": "Knight of the Night Esnia"
+      "translated": "Knight Of The Night Esnia"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_018.png",
     "unit_type": "normal unit",
@@ -531,7 +531,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
-      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+      "translated": "[AUTO]: When this unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) COST [soul Blast (1)]."
     },
     "flavor_text": {
       "original": "さぁ、眠れない夜にしようじゃないか！",
@@ -561,7 +561,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットがユニットカードの能力以外で(R)に登場した時、このターンにあなたがノーマルオーダーをプレイしているなら、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下を１枚まで選んで公開し、それがユニットカードなら(R)にコールし、ノーマルオーダーなら手札に加える。山札をシャッフルする。【自】【(R)】：このユニットがアタックした時、このターンにあなたのユニットがドロップから(R)に登場しているなら、【コスト】[【エネルギーブラスト】(2)]することで、相手のリアガードを１枚選び、次の相手のターン終了時まで、そのユニットはインターセプトできず、スタンドフェイズに【スタンド】できない。相手のヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
-      "translated": "[AUTO]: If this unit is placed on (R) other than the ability of a unit card, and you are playing a normal order this turn, by COST [Soul Blast (1)], look at 5 cards from the top of your deck, choose up to 1 card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle the deck. [AUTO] [(R)]: When this unit attacks, if your unit has appeared on (R) from the drop zone this turn, choose one of your opponent's rear-guards by COST [Energy Blast (2)], and that unit cannot intercept or [Stand] during the stand phase until the end of your opponent's next turn. If your opponent's vanguard is grade 3 or higher, this unit gets +5000 Power during that battle."
+      "translated": "[AUTO]: When When this unit is placed on (R) other than by a unit card's ability, and you are playing a normal order this turn, COST [soul Blast (1)], look at the top five cards of your deck, choose up to one card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle your deck. [AUTO] [(R)]: When this unit attacks, if your unit has appeared on (R) from the drop zone this turn, choose one of your opponent's rear-guards COST [Energy Blast (2)], and that unit cannot intercept or [Stand] during the stand phase until the end of your opponent's next turn. If your opponent's vanguard is grade 3 or higher, this unit gets Power +$1 until end of that battle."
     },
     "flavor_text": {
       "original": "歌が響く。深き淵へ誘う、呪いの歌が。",
@@ -591,7 +591,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードのグレードが、相手のヴァンガードのグレード以下なら、あなたの山札を上から１枚まで捨て、そのターン中、このユニットのパワー＋2000。【自】【(R)/ドロップ】：あなたのターンにあなたの他のカードが手札から捨てられた時、【コスト】[【エネルギーブラスト】(3)，このカードを除外する]ことで、その捨てられたカードを１枚選び、手札に加える。",
-      "translated": "[AUTO]: This unit is placed on (R), and if the grade of your vanguard is lower than or equal to the grade of your opponent's vanguard, discard up to one card from the top of your deck, and this unit gets Power+2000 until end of turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand by COST [Energy Blast (3), banish this card]."
+      "translated": "[AUTO]: When this unit is placed on (R), and if the your vanguard's grade is less than or equal to the grade of your opponent's vanguard, discard up to one card from the top of your deck, and this unit gets Power +$1 until end of turn. [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand COST [Energy Blast (3), remove this card from play]."
     },
     "flavor_text": {
       "original": "優雅な羽搏きと侮る勿れ。其は嵐を呼ぶ翼なり。",
@@ -621,7 +621,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
-      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+      "translated": "[AUTO]: When this unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) COST [soul Blast (1)]."
     },
     "flavor_text": {
       "original": "この記憶も、いつか想い出に変わるのでしょう。",
@@ -651,7 +651,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、(R)に登場した時か(G)に置かれた時、【コスト】[ソウルかドロップから、ライドデッキにしたカードを合計２枚ライドデッキに表で置く]ことで、このユニットのいるサークルにより以下を１つ行う。・(R)‐【ソウルチャージ】(2)し、あなたのユニットを１枚選び、そのターン中、パワー＋5000。・(G)‐そのバトル中、このユニットのシールド＋15000。",
-      "translated": "[AUTO]: When this unit is placed on (R) or placed on (G), COST [places a total of 2 cards from the soul or drop zone that were made into a ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R)-Soul Charge(2), choose one of your units, and get Power+5000 for the duration of the turn.・(G) - During that battle, this unit's Shield +15000."
+      "translated": "[AUTO]: When When this unit is placed on (R) or (G), COST [put a total of 2 cards from the soul or drop zone that were in your ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R)-soul Charge(2), choose one of your units, and get Power +$1 until end of turn.・(G) - until end of that battle, this unit's Shield +$1."
     },
     "flavor_text": {
       "original": "ちゃんとつむいでね。あいときぼーのものがたり。",
@@ -663,7 +663,7 @@
     "card_number": "DZ-SS16/023",
     "name": {
       "original": "イメージしろ！マリレーンとのチェキ会を！ ダウナーお姉さん",
-      "translated": "Image it! Cheki party with Marilane! Downer sister"
+      "translated": "Image It! Cheki Party With Marilane! Downer Sister"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_023.png",
     "unit_type": "normal unit",
@@ -681,7 +681,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【永】【(V)/山札/ソウル】：このカードは「満場一体 マリレーン」としても扱う。【自】【手札】：あなたの(V)の「満場一体 マリレーン」がアタックしたバトル終了時、【コスト】[【ソウルブラスト】(2)]することで、このカードを【スタンド】でライドし、そのターン中、ドライブ－１し、あなたは手札からライドできない。そのターン終了時、あなたのソウルから「満場一体 マリレーン」を１枚選び、【レスト】でライドする。【起】【ソウル】：あなたのヴァンガードが「マリレーン」を含むグレード３以上で、このターンにこのカードと同名のあなたのカードがバインドされていないなら、【コスト】[このカードをバインドする]ことで、そのターン中、あなたは『あなたの前列のユニットすべてのパワー＋5000。』を得る。このターンにあなたがペルソナライドしているなら、【カウンターチャージ】(1)か【エネルギーチャージ】(3)。",
-      "translated": "[CONT] [(V)/Deck/soul]: This card is also treated as \"All in One Marilane\". [AUTO] [Hand]: At the end of the battle in which your (V) \"All in One Marilane\" attacked, by performing COST [Soul Blast (2)], ride this card as [Stand], and for the duration of that turn, it gets -1 Drive and you cannot ride it from your hand. At the end of that turn, choose 1 \"All in One Marilane\" from your soul and ride it with [Rest]. [ACT] [soul]: If your vanguard is grade 3 or higher, including \"Marilene\", and your card with the same name as this card is not bound this turn, by COST [bind this card], during that turn, you can get \"Power +5000 for all units in your front row. ”. If you're Persona Ride this turn, Counter Charge (1) or Energy Charge (3)."
+      "translated": "[CONT] [(V)/Deck/soul]: This card is also treated as \"All in One Marilane\". [AUTO] [Hand]: At the end of the battle in which your (V) \"All in One Marilane\" attacked, by performing COST [soul Blast (2)], ride this card as [Stand], and for the duration of that turn, it gets -1 Drive and you cannot ride it from your hand. At the end of that turn, choose 1 \"All in One Marilane\" from your soul and ride it with [Rest]. [ACT] [soul]: If your vanguard is grade 3 or higher, including \"Marilene\", and your card with the same name as this card is not bound this turn, COST [bind this card], during that turn, you can get \"Power +$1 for all units in your front row. ”. If you're Persona Ride this turn, Counter Charge (1) or Energy Charge (3)."
     },
     "flavor_text": {
       "original": "いいか少年、イメージしろ。イメージは君の力になるのだよ。",
@@ -693,7 +693,7 @@
     "card_number": "DZ-SS16/024",
     "name": {
       "original": "今夜だけの魔女 ストレージャ",
-      "translated": "Witch only for tonight Strella"
+      "translated": "Witch Only For Tonight Strella"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_024.png",
     "unit_type": "normal unit",
@@ -711,7 +711,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットがユニットカードの能力以外で(R)に登場した時、このターンにあなたがノーマルオーダーをプレイしているなら、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から５枚見て、あなたのヴァンガードのグレード以下を１枚まで選んで公開し、それがユニットカードなら(R)にコールし、ノーマルオーダーなら手札に加える。山札をシャッフルする。【自】【(R)】：このユニットがグレード３以上にアタックした時、このターンにこのユニットが登場しているなら、【コスト】[【カウンターブラスト】(1)]することで、１枚引き、そのターン中、このユニットのパワー＋10000。",
-      "translated": "[AUTO]: If this unit is placed on (R) other than the ability of a unit card, and you are playing a normal order this turn, by COST [Soul Blast (1)], look at 5 cards from the top of your deck, choose up to 1 card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle the deck. [AUTO] [(R)]: When this unit attacks a grade 3 or higher, if this unit has appeared this turn, COST [Counter Blast(1)], draw 1 card, and this unit gets +10000 Power for the duration of the turn."
+      "translated": "[AUTO]: When When this unit is placed on (R) other than by a unit card's ability, and you are playing a normal order this turn, COST [soul Blast (1)], look at the top five cards of your deck, choose up to one card of the grade of your vanguard or lower, reveal it, and if it is a unit card, call it to (R), and if it is a normal order, add it to your hand. Shuffle your deck. [AUTO] [(R)]: When this unit attacks a grade 3 or higher, if this unit has appeared this turn, COST [Counter Blast(1)], draw 1 card, and this unit gets Power +$1 until end of turn."
     },
     "flavor_text": {
       "original": "今だけ特別。あなたと一緒に楽しみたいから。",
@@ -723,7 +723,7 @@
     "card_number": "DZ-SS16/025",
     "name": {
       "original": "海謡竜 エレスティーノ",
-      "translated": "Sea song dragon Elestino"
+      "translated": "Sea Song Dragon Elestino"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_025.png",
     "unit_type": "normal unit",
@@ -741,7 +741,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードのグレードが、相手のヴァンガードのグレード以下なら、そのターン中、このユニットのパワー＋2000し、さらに、このターンにあなたがオーダーをプレイしているなら、【ソウルチャージ】(1)か【エネルギーチャージ】(1)。【自】【(R)/ドロップ】：あなたのターンにあなたの他のカードが手札から捨てられた時、【コスト】[【エネルギーブラスト】(3)，このカードを除外する]ことで、その捨てられたカードを１枚選び、手札に加える。",
-      "translated": "[AUTO]: This unit is placed on (R), and if the grade of your vanguard is less than or equal to the grade of your opponent's vanguard, this unit gets +2000 Power during that turn, and if you played an order this turn, Soul Charge (1) or Energy Charge (1). [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand by COST [Energy Blast (3), banish this card]."
+      "translated": "[AUTO]: When this unit is placed on (R), and if the grade of your vanguard is less than or equal to the grade of your opponent's vanguard, this unit gets Power +$1 during that turn, and if you played an order this turn, soul Charge (1) or Energy Charge (1). [AUTO] [(R)/drop zone]: When your other cards are discarded from your hand during your turn, choose one of the discarded cards and add it to your hand COST [Energy Blast (3), remove this card from play]."
     },
     "flavor_text": {
       "original": "波音、泡沫、君の聲。海と奏でる即興曲。",
@@ -771,7 +771,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、(R)に登場した時か(G)に置かれた時、【コスト】[ソウルかドロップから、ライドデッキにしたカードを合計２枚ライドデッキに表で置く]ことで、このユニットのいるサークルにより以下を１つ行う。・(R)‐あなたの、ソウルかドロップから、あなたのヴァンガードと同名を１枚選び、手札に加える。・(G)‐そのバトル中、このユニットのシールド＋15000。",
-      "translated": "[AUTO]: When this unit is placed on (R) or placed on (G), COST [places a total of 2 cards from the soul or drop zone that were made into a ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R) - Choose a card with the same name as your vanguard from your soul or drop zone, and add it to your hand.・(G) - During that battle, this unit's Shield +15000."
+      "translated": "[AUTO]: When When this unit is placed on (R) or (G), COST [put a total of 2 cards from the soul or drop zone that were in your ride deck face up on the ride deck] to do one of the following depending on the circle this unit is in.・(R) - Choose a card with the same name as your vanguard from your soul or drop zone, and add it to your hand.・(G) - until end of that battle, this unit's Shield +$1."
     },
     "flavor_text": {
       "original": "夢を信じ続ける者だけが一番星を掴むのだ。",
@@ -801,7 +801,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：バトルフェイズ以外にこのユニットが手札から(R)に登場した時、以下を１つ行う。・【コスト】[【カウンターブラスト】(1)]することで、１枚引き、このファイト中、このユニットのパワー＋5000し、このユニットは相手のカードの効果で、選べず、退却しない。・【コスト】[【エネルギーブラスト】(3)]することで、相手のリアガードを１枚選び、次の相手のターン終了時まで、そのユニットはインターセプトできず、スタンドフェイズに【スタンド】できない。【自】【(R)】：このユニットがアタックした時、相手のヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。あなたのヴァンガードがいずれかのクランのみに属するなら、相手のヴァンガードがグレード３以上ではなく、相手のヴァンガードがグレード２以上。",
-      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・By performing COST [Counter Blast(1)], you will draw one card, this unit will get +5000 Power during this fight, and this unit cannot be selected or retired by the effects of your opponent's cards.・COST [Energy Blast(3)] selects one of your opponent's rear-guards, and that unit cannot intercept or [Stand] during the stand phase until the end of your opponent's next turn. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
+      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・By performing COST [Counter Blast(1)], you will draw one card, this unit will get Power +$1 during this fight, and this unit cannot be selected or retired by the effects of your opponent's cards.・COST [Energy Blast(3)] selects one of your opponent's rear-guards, and that unit cannot intercept or [Stand] during the stand phase until the end of your opponent's next turn. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets Power +$1 for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
     },
     "flavor_text": {
       "original": "捕縛し、打ち砕く。凶悪なる連携攻撃。",
@@ -831,7 +831,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：バトルフェイズ以外にこのユニットが手札から(R)に登場した時、以下を１つ行う。・【コスト】[【カウンターブラスト】(1)]することで、あなたのダメージゾーンから１枚選び、手札に加え、あなたの山札を上から１枚ダメージゾーンに裏で置く。・【コスト】[【エネルギーブラスト】(3)]することで、あなたの山札を上から５枚見て、【レガリスピース】を持たないグレード３を１枚まで選び、公開して手札に加え、山札をシャッフルする。【自】【(R)】：このユニットがアタックした時、相手のヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。あなたのヴァンガードがいずれかのクランのみに属するなら、相手のヴァンガードがグレード３以上ではなく、相手のヴァンガードがグレード２以上。",
-      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・By COST [Counter Blast(1)], choose one card from your damage zone, add it to your hand, and place one card from the top of your deck face down in your damage zone. -COST [Energy Blast(3)] Look at the top five cards of your deck, choose up to one grade 3 card that does not have [Regalis Piece], reveal it, add it to your hand, and shuffle your deck. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
+      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・COST [Counter Blast(1)], choose one card from your damage zone, add it to your hand, and place one card from the top of your deck face down in your damage zone. -COST [Energy Blast(3)] Look at the top five cards of your deck, choose up to one grade 3 card that does not have [Regalis Piece], reveal it, add it to your hand, and shuffle your deck. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets Power +$1 for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
     },
     "flavor_text": {
       "original": "真実の空で愛を謳う、比翼の羽根。",
@@ -861,7 +861,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：バトルフェイズ以外にこのユニットが手札から(R)に登場した時、以下を１つ行う。・【コスト】[【カウンターブラスト】(1)]することで、あなたの山札を上から１枚公開し、手札に加え、トリガーカードが公開されたなら、相手のリアガードを１枚選び、退却させる。・【コスト】[【エネルギーブラスト】(3)]することで、あなたの山札を上から７枚見て、【レガリスピース】を持たないオーダーカードを１枚まで選び、公開して手札に加え、山札をシャッフルする。【自】【(R)】：このユニットがアタックした時、相手のヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。あなたのヴァンガードがいずれかのクランのみに属するなら、相手のヴァンガードがグレード３以上ではなく、相手のヴァンガードがグレード２以上。",
-      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・COST [Counter Blast(1)] reveals one card from the top of your deck and adds it to your hand, and if the trigger card is revealed, choose one of your opponent's rear-guards and retire it.・COST [Energy Blast (3)] Look at the top 7 cards of your deck, select up to 1 order card that does not have [Regalis Piece], reveal it, add it to your hand, and shuffle your deck. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
+      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・COST [Counter Blast(1)] reveals one card from the top of your deck and adds it to your hand, and if the trigger card is revealed, choose one of your opponent's rear-guards and retire it.・COST [Energy Blast (3)] Look at the top 7 cards of your deck, select up to 1 order card that does not have [Regalis Piece], reveal it, add it to your hand, and shuffle your deck. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets Power +$1 for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
     },
     "flavor_text": {
       "original": "其処にある“何か”を、我らの眼で観測するのだ。",
@@ -891,7 +891,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：バトルフェイズ以外にこのユニットが手札から(R)に登場した時、以下を１つ行う。・【コスト】[【カウンターブラスト】(1)]することで、ペルソナシールド・チケットを１枚手札に加え、次の相手のターン終了時まで、あなたは『あなたがペルソナシールド・チケットをプレイした時、アタックされているユニットを１枚選び、そのバトル中、パワー＋5000。』を得る。・【コスト】[他のリアガードを１枚退却させる]ことで、グレード２以上の相手のリアガードを１枚選び、退却させる。【自】【(R)】：このユニットがアタックした時、相手のヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。あなたのヴァンガードがいずれかのクランのみに属するなら、相手のヴァンガードがグレード３以上ではなく、相手のヴァンガードがグレード２以上。",
-      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・By performing COST [Counter Blast(1)], you will add one Persona Shield ticket to your hand, and until the end of your opponent's next turn, you will receive ``When you play a Persona Shield ticket, choose one unit that is being attacked, and get Power+5000 for the duration of that battle. ”.・By COST [retire one other rear-guard], select one of your opponent's rear-guards of grade 2 or higher and retire it. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
+      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・By performing COST [Counter Blast(1)], you will add one Persona Shield ticket to your hand, and until the end of your opponent's next turn, you will receive ``When you play a Persona Shield ticket, choose one unit that is being attacked, and get Power +$1 for the duration of that battle. ”.・COST [retire one other rear-guard], select one of your opponent's rear-guards of grade 2 or higher and retire it. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets Power +$1 for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
     },
     "flavor_text": {
       "original": "小雪はららと降り積もり、仇の骸は無惨と散りぬ。",
@@ -921,7 +921,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：バトルフェイズ以外にこのユニットが手札から(R)に登場した時、以下を１つ行う。・【コスト】[【カウンターブラスト】(1)]することで、あなたの山札を上から１枚見て、山札の下に置くか、捨てる。その後、あなたのドロップからグレード２以下を１枚選び、(R)にコールする。・【コスト】[【エネルギーブラスト】(2)]することで、あなたの山札を上から１枚見て、山札の下かソウルに置き、相手のリアガードを１枚選び、ソウルに置く。【自】【(R)】：このユニットがアタックした時、相手のヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。あなたのヴァンガードがいずれかのクランのみに属するなら、相手のヴァンガードがグレード３以上ではなく、相手のヴァンガードがグレード２以上。",
-      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・COST [Counter Blast(1)] Look at the top card of your deck and either put it on the bottom of your deck or discard it. Then, choose 1 grade 2 or lower card from your drop zone and call it to (R). - By performing COST [Energy Blast(2)], look at the top card of your deck, place it on the bottom of the deck or on your soul, choose one of your opponent's rear-guards, and put it on your soul. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
+      "translated": "[AUTO]: Other than the battle phase, this unit is placed from your hand to (R) and does one of the following.・COST [Counter Blast(1)] Look at the top card of your deck and either put it on the bottom of your deck or discard it. Then, choose 1 grade 2 or lower card from your drop zone and call it to (R). - By performing COST [Energy Blast(2)], look at the top card of your deck, place it on the bottom of the deck or on your soul, choose one of your opponent's rear-guards, and put it on your soul. [AUTO] [(R)]: When this unit attacks, if the opponent's vanguard is grade 3 or higher, this unit gets Power +$1 for the duration of that battle. If your vanguard only belongs to one clan, your opponent's vanguard is not grade 3 or higher, but your opponent's vanguard is grade 2 or higher."
     },
     "flavor_text": {
       "original": "破滅を呼び、災禍を齎す。嵐が如き凶刃の舞い。",
@@ -951,7 +951,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【起】【(R)】：このターンにあなたがペルソナライドしているなら、【コスト】[このユニットをソウルに置く]ことで、相手のリアガードを１枚選び、バインドする。そのターン中、あなたはこのユニットと同名のユニットの【起】能力のコストを払えない。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
-      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, COST [put this unit into soul] to choose one of your opponent's rear-guards and bind it. During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle."
+      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, COST [put this unit into soul] to choose one of your opponent's rear-guards and bind it. During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets Power +$1 for the duration of that battle."
     },
     "flavor_text": {
       "original": "世俗は忘我の彼方、至福の音色に満たされて。",
@@ -981,7 +981,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】【(R)/手札/ドロップ】：あなたのライドフェイズ開始時、あなたと相手の、ヴァンガードがグレード３以上で、あなたの表のダメージゾーンがなく、直前の相手のターンにあなたのヴァンガードがパワー13000以上でアタックされていないなら、【コスト】[このカードをバインドする]ことで、あなたの山札を上から１枚ダメージゾーンに置く。このコストで手札からバインドしたなら、１枚引く。【永】【(G)】：相手のドロップが５枚以上なら、このユニットのシールド＋5000。",
-      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If the opponent's drop zone has 5 or more cards, this unit gets Shield+5000."
+      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If the opponent's drop zone has 5 or more cards, this unit gets Shield +$1."
     },
     "flavor_text": {
       "original": "往なす一太刀、返す二之太刀。",
@@ -1041,7 +1041,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【起】【(R)】：このターンにあなたがペルソナライドしているなら、【コスト】[このユニットをソウルに置く]ことで、相手のリアガードを１枚選び、ソウルに置く。そのターン中、あなたはこのユニットと同名のユニットの【起】能力のコストを払えない。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
-      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, choose one of your opponent's rear-guards and place it in the soul by COST [put this unit in the soul]. During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle."
+      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, choose one of your opponent's rear-guards and place it in the soul COST [put this unit in the soul]. During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets Power +$1 for the duration of that battle."
     },
     "flavor_text": {
       "original": "お祝いですもの♪うんと華やかにいきますよぅ♪",
@@ -1071,7 +1071,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが(R)に登場した時、あなたのヴァンガードが「セルセーラ」を含むグレード３以上なら、あなたの山札を上から７枚見て、ノーマルオーダーを１枚まで選び、公開して手札に加え、山札をシャッフルする。公開したなら、あなたの手札から１枚選び、ソウルに置くか、捨てる。【自】【(R)】:「セルセーラ」を含むグレード３以上のあなたのヴァンガードがアタックした時、相手のヴァンガードがグレード３以上で、このターンにあなたのユニットがカードの能力で【スタンド】していないなら、【コスト】[【エネルギーブラスト】(3)］することで、このユニットを【スタンド】させる。【スタンド】させたなら、あなたのヴァンガードを１枚選び、そのターン中、そのユニットとこのユニットのパワー＋5000。",
-      "translated": "[AUTO]: If this unit is placed on (R) and your vanguard is grade 3 or higher, including \"Celsera\", look at the top 7 cards of your deck, choose up to 1 normal order card from among them, reveal it, add it to your hand, and shuffle your deck. If you reveal it, choose a card from your hand and either put it into your soul or discard it. [AUTO] [(R)]: When your vanguard of grade 3 or higher including \"Cellsera\" attacks, if your opponent's vanguard is grade 3 or higher and your unit has not [Stand] by card ability this turn, make this unit [Stand] by performing COST [Energy Blast(3)]. If you [Stand], choose one of your vanguards, and that unit and this unit get +5000 Power until end of turn."
+      "translated": "[AUTO]: When When this unit is placed on (R) and your vanguard is grade 3 or higher, including \"Celsera\", look at the top 7 cards of your deck, choose up to 1 normal order card from among them, reveal it, add it to your hand, and shuffle your deck. If you reveal it, choose a card from your hand and either put it into your soul or discard it. [AUTO] [(R)]: When your vanguard of grade 3 or higher including \"Cellsera\" attacks, if your opponent's vanguard is grade 3 or higher and your unit has not [Stand] by card ability this turn, make this unit [Stand] by performing COST [Energy Blast(3)]. If you [Stand], choose one of your vanguards, and that unit and this unit get Power +$1 until end of turn."
     },
     "flavor_text": {
       "original": "まったく……弟子使いの荒い師匠なんですから……！",
@@ -1101,7 +1101,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】【(R)/手札/ドロップ】：あなたのライドフェイズ開始時、あなたと相手の、ヴァンガードがグレード３以上で、あなたの表のダメージゾーンがなく、直前の相手のターンにあなたのヴァンガードがパワー13000以上でアタックされていないなら、【コスト】[このカードをバインドする]ことで、あなたの山札を上から１枚ダメージゾーンに置く。このコストで手札からバインドしたなら、１枚引く。【永】【(G)】：あなたのソウルが５枚以上なら、このユニットのシールド＋5000。",
-      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If you have 5 or more souls, this unit gets Shield+5000."
+      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If you have 5 or more souls, this unit gets Shield +$1."
     },
     "flavor_text": {
       "original": "私に願うなんて。ほんと、命知らずなひと。",
@@ -1113,7 +1113,7 @@
     "card_number": "DZ-SS16/038",
     "name": {
       "original": "破滅の怪音 アドゥーロ",
-      "translated": "Mysterious sound of destruction Aduro"
+      "translated": "Mysterious Sound Of Destruction Aduro"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_038.png",
     "unit_type": "trigger unit",
@@ -1161,7 +1161,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【起】【(R)】：このターンにあなたがペルソナライドしているなら、【コスト】[このユニットをソウルに置く]ことで、夜影兵・トークンを１枚(R)にコールする。そのターン中、あなたはこのユニットと同名のユニットの【起】能力のコストを払えない。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
-      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, by COST [put this unit into soul], call 1 Night Shadow Soldier token to (R). During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle."
+      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, COST [put this unit into soul], call 1 Night Shadow Soldier token to (R). During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets Power +$1 for the duration of that battle."
     },
     "flavor_text": {
       "original": "宇宙を渡り幾星霜、竜は世界の裏側を識るに至った。",
@@ -1191,7 +1191,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】【(R)/手札/ドロップ】：あなたのライドフェイズ開始時、あなたと相手の、ヴァンガードがグレード３以上で、あなたの表のダメージゾーンがなく、直前の相手のターンにあなたのヴァンガードがパワー13000以上でアタックされていないなら、【コスト】[このカードをバインドする]ことで、あなたの山札を上から１枚ダメージゾーンに置く。このコストで手札からバインドしたなら、１枚引く。【永】【(G)】：あなたのオーダーゾーンにカードが３枚以上なら、このユニットのシールド＋5000。（相手のカードも含む）",
-      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If there are 3 or more cards in your order zone, this unit gets Shield+5000. (Including opponent's cards)"
+      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If there are 3 or more cards in your order zone, this unit gets Shield +$1. (Including opponent's cards)"
     },
     "flavor_text": {
       "original": "ふぅ、もう少し詰めないと。備えあればなんとやら、よ。",
@@ -1251,7 +1251,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【起】【(R)】：このターンにあなたがペルソナライドしているなら、【コスト】[このユニットをソウルに置く]ことで、あなたの山札を上から５枚見て、１枚まで選び、(R)にコールし、山札をシャッフルする。そのターン中、あなたはこのユニットと同名のユニットの【起】能力のコストを払えない。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
-      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, COST [put this unit into your soul], look at 5 cards from the top of your deck, choose up to 1 card from the top, call it to (R), and shuffle your deck. During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle."
+      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, COST [put this unit into your soul], look at the top five cards of your deck, choose up to one card from the top, call it to (R), and shuffle your deck. During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets Power +$1 for the duration of that battle."
     },
     "flavor_text": {
       "original": "悪しきを撃ち抜くは、穢れ祓う清浄の環光。",
@@ -1281,7 +1281,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】【(R)/手札/ドロップ】：あなたのライドフェイズ開始時、あなたと相手の、ヴァンガードがグレード３以上で、あなたの表のダメージゾーンがなく、直前の相手のターンにあなたのヴァンガードがパワー13000以上でアタックされていないなら、【コスト】[このカードをバインドする]ことで、あなたの山札を上から１枚ダメージゾーンに置く。このコストで手札からバインドしたなら、１枚引く。【永】【(G)】：あなたのリアガードが４枚以上なら、このユニットのシールド＋5000。",
-      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If you have 4 or more rear-guards, this unit gets Shield+5000."
+      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If you have 4 or more rear-guards, this unit gets Shield +$1."
     },
     "flavor_text": {
       "original": "白は始点。何色にも染まり、何色をも塗り潰す力。",
@@ -1323,7 +1323,7 @@
     "card_number": "DZ-SS16/045",
     "name": {
       "original": "衛福の騎士 エテルピネス",
-      "translated": "Knight of Wealth Etelpines"
+      "translated": "Knight Of Wealth Etelpines"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_045.png",
     "unit_type": "normal unit",
@@ -1341,7 +1341,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【起】【(R)】：このターンにあなたがペルソナライドしているなら、【コスト】[このユニットをソウルに置く]ことで、あなたのドロップからこのカードと別名のカードを１枚選び、(R)にコールする。そのターン中、あなたはこのユニットと同名のユニットの【起】能力のコストを払えない。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードがグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
-      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, by COST [put this unit into soul], choose this card and a card with another name from your drop zone, and call it to (R). During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets +5000 Power for the duration of that battle."
+      "translated": "[ACT] [(R)]: If you are Persona Ride this turn, COST [put this unit into soul], choose this card and a card with another name from your drop zone, and call it to (R). During that turn, you cannot pay the cost of the [ACT] ability of a unit with the same name as this unit. [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, this unit gets Power +$1 for the duration of that battle."
     },
     "flavor_text": {
       "original": "永遠の幸福を、あなたに捧げます。",
@@ -1371,7 +1371,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】【(R)/手札/ドロップ】：あなたのライドフェイズ開始時、あなたと相手の、ヴァンガードがグレード３以上で、あなたの表のダメージゾーンがなく、直前の相手のターンにあなたのヴァンガードがパワー13000以上でアタックされていないなら、【コスト】[このカードをバインドする]ことで、あなたの山札を上から１枚ダメージゾーンに置く。このコストで手札からバインドしたなら、１枚引く。【永】【(G)】：あなたのドロップが10枚以上なら、このユニットのシールド＋5000。",
-      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If your drop zone has 10 or more cards, this unit gets Shield+5000."
+      "translated": "[AUTO] [(R)/Hand/drop zone]: At the start of your ride phase, if both you and your opponent's vanguard are grade 3 or higher, there is no face up damage zone, and your vanguard was not attacked with power 13000 or higher in your opponent's previous turn, COST [bind this card] to put one card from the top of your deck into the damage zone. If you bind from your hand with this cost, draw 1 card. [CONT] [(G)]: If your drop zone has 10 or more cards, this unit gets Shield +$1."
     },
     "flavor_text": {
       "original": "豊かな香りは翼に乗せてふんわりと。",
@@ -1623,7 +1623,7 @@
     "card_number": "DZ-SS16/055",
     "name": {
       "original": "イントレピッド・スピナー",
-      "translated": "Intrepid spinner"
+      "translated": "Intrepid Spinner"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_055.png",
     "unit_type": "trigger unit",
@@ -1653,7 +1653,7 @@
     "card_number": "DZ-SS16/056",
     "name": {
       "original": "ギャンブリング・ジャグラー",
-      "translated": "gambling juggler"
+      "translated": "Gambling Juggler"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_056.png",
     "unit_type": "trigger unit",
@@ -1713,7 +1713,7 @@
     "card_number": "DZ-SS16/058",
     "name": {
       "original": "光束の撃手 ルミノフラクス",
-      "translated": "Shooter of Luminous Flux Luminoflux"
+      "translated": "Shooter Of Luminous Flux Luminoflux"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_058.png",
     "unit_type": "trigger unit",
@@ -1773,7 +1773,7 @@
     "card_number": "DZ-SS16/060",
     "name": {
       "original": "真空放電の揮い手",
-      "translated": "Master of vacuum discharge"
+      "translated": "Master Of Vacuum Discharge"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_060.png",
     "unit_type": "trigger unit",
@@ -1803,7 +1803,7 @@
     "card_number": "DZ-SS16/061",
     "name": {
       "original": "整弓の騎士 サヴァルフ",
-      "translated": "Knight of the Adjustable Archer Savulf"
+      "translated": "Knight Of The Adjustable Archer Savulf"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_061.png",
     "unit_type": "trigger unit",
@@ -2043,7 +2043,7 @@
     "card_number": "DZ-SS16/069",
     "name": {
       "original": "ゆったりふわふわお嬢様 ホーデリーフェ",
-      "translated": "Loose and fluffy young lady Hoderife"
+      "translated": "Loose And Fluffy Young Lady Hoderife"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_069.png",
     "unit_type": "trigger unit",
@@ -2073,7 +2073,7 @@
     "card_number": "DZ-SS16/070",
     "name": {
       "original": "止まぬ歓声に応えて ダーチェ",
-      "translated": "In response to the endless cheers, Dache"
+      "translated": "In Response To The Endless Cheers, Dache"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_070.png",
     "unit_type": "trigger unit",
@@ -2103,7 +2103,7 @@
     "card_number": "DZ-SS16/071",
     "name": {
       "original": "飛び出せ最前線 ヒセラ",
-      "translated": "Jump out to the forefront, Hisera"
+      "translated": "Jump Out To The Forefront, Hisera"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_071.png",
     "unit_type": "trigger unit",
@@ -2181,7 +2181,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【起】【(V)】【ターン1回】：【コスト】[手札から１枚捨てる]ことで、あなたのドロップから、「トリクスタ」と〈プレアドラゴン〉をそれぞれ１枚まで選び、(R)にコールする。【起】【(V)】【ターン1回】：【コスト】[【ソウルブラスト】(2)]することで、相手のリアガードを１枚選び、退却させる。【自】【(V)】【ターン1回】：このユニットがアタックした時、【コスト】[【カウンターブラスト】(1)]することで、以下を１つ行う。・【クロスオーバードレス】状態のあなたのリアガードを１枚選び、【スタンド】させる。・このターンにあなたがペルソナライドしているなら、それぞれ別名の【クロスオーバードレス】状態のあなたのリアガードを望む枚数選び、【スタンド】させる。",
-      "translated": "[ACT] [(V)] [1/Turn]: COST [Discard one card from your hand] to select up to one each of \"Trixta\" and \"Pleia Dragon\" from your drop zone, and call them to (R). [ACT] [(V)] [1/Turn]: COST [Soul Blast (2)] to select one of your opponent's rear-guards and retire it. [AUTO] [(V)] [1/Turn]: When this unit attacks, COST [Counter Blast(1)] will do one of the following.・Choose one of your rear-guards in the [Crossover Dress] state and make it [Stand].・If you are Persona Ride this turn, choose the desired number of your rear-guards with different names and [Crossover Dress] status, and have them [Stand]."
+      "translated": "[ACT] [(V)] [[[Once per turn]]]: COST [Discard one card from your hand] to select up to one each of \"Trixta\" and \"Pleia Dragon\" from your drop zone, and call them to (R). [ACT] [(V)] [[[Once per turn]]]: COST [soul Blast (2)] to select one of your opponent's rear-guards and retire it. [AUTO] [(V)] [[[Once per turn]]]: When this unit attacks, COST [Counter Blast(1)] will do one of the following.・Choose one of your rear-guards in the [Crossover Dress] state and make it [Stand].・If you are Persona Ride this turn, choose the desired number of your rear-guards with different names and [Crossover Dress] status, and have them [Stand]."
     },
     "flavor_text": {
       "original": "",
@@ -2193,7 +2193,7 @@
     "card_number": "DZ-SS16/15thSP02",
     "name": {
       "original": "祈り紡ぐ焔の巫女 レイユ",
-      "translated": "Shrine Maiden of Flames Spinning Prayers, Reil"
+      "translated": "Shrine Maiden Of Flames Spinning Prayers, Reil"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_074.png",
     "unit_type": "normal unit",
@@ -2211,7 +2211,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが「ニルヴァーナ」を含むグレード３にライドされた時、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札を上から７枚見て、「焔の巫女」を含むカードか、〈タリスマン〉か〈プレアドラゴン〉を１枚まで選び、公開して手札に加え、山札をシャッフルする。",
-      "translated": "[AUTO]: When this unit is ridden by a grade 3 card that includes \"Nirvana\", by performing COST [Soul Blast (1)], look at the top 7 cards of your deck, choose up to one card containing \"Priestess of Flame\", \"Talisman\" or \"Pleia Dragon\", reveal it, add it to your hand, and shuffle your deck."
+      "translated": "[AUTO]: When this unit is ridden by a grade 3 card that includes \"Nirvana\", by performing COST [soul Blast (1)], look at the top 7 cards of your deck, choose up to one card containing \"Priestess of Flame\", \"Talisman\" or \"Pleia Dragon\", reveal it, add it to your hand, and shuffle your deck."
     },
     "flavor_text": {
       "original": "",
@@ -2223,7 +2223,7 @@
     "card_number": "DZ-SS16/15thSP03",
     "name": {
       "original": "巡り逢う焔の巫女 リノ",
-      "translated": "The shrine maiden of flames that we meet, Lino"
+      "translated": "The Shrine Maiden Of Flames That We Meet, Lino"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_075.png",
     "unit_type": "normal unit",
@@ -2283,7 +2283,7 @@
     "card_number": "DZ-SS16/15thSP05",
     "name": {
       "original": "クロノジェット・ドラゴン",
-      "translated": "chronojet dragon"
+      "translated": "Chronojet Dragon"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_077.png",
     "unit_type": "normal unit",
@@ -2301,7 +2301,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【永】：このカードはあなたのクレストゾーンに「エネルギージェネレーター」以外のカードがない場合のみライドできる。【永】【(V)】：あなたは【超越】でき、あなたのターン中、あなたの表のGゾーンが１枚以上なら、あなたの前列のユニットすべてのパワー＋5000。３枚以上なら、＋5000ではなく＋10000。【自】【(V)】：あなたのGユニットが【超越】した時、相手のリアガードを１枚選び、山札の下に置く。選ばなかったなら、１枚引く。【自】【(V)】【Gブレイク】(2)：このユニットがヴァンガードにアタックした時、「クロノジェット」を含むあなたのバインドゾーン１枚につき、そのバトル中、このユニットのパワー＋5000。そのバトル中、相手は手札からグレード１以上を(G)にコールできない。【クロノアイコン】",
-      "translated": "[CONT]: This card can only be ridden if there are no cards other than \"Energy Generator\" in your crest zone. [CONT] [(V)]: You can [Stride], and during your turn, if you have 1 or more cards in your face up G zone, all units in your front row get +5000 Power. If you have 3 or more cards, they get +10000 instead of +5000. [AUTO] [(V)]: When your G unit [Stride], choose one of your opponent's rear-guards and put it on the bottom of the deck. If you did not choose, draw one card. [AUTO] [(V)] [G Break] (2): When this unit attacks a vanguard, for each card in your bind zone that includes \"Chronojet\", this unit gets +5000 Power during that battle. During that battle, your opponent cannot call grade 1 or higher cards from their hand to (G). [Chrono icon]"
+      "translated": "[CONT]: This card can only be ridden if there are no cards other than \"Energy Generator\" in your crest zone. [CONT] [(V)]: You can [Stride], and during your turn, if you have 1 or more cards in your face up G zone, all units in your front row get Power +$1. If you have 3 or more cards, they get +10000 instead of +5000. [AUTO] [(V)]: When your G unit [Stride], choose one of your opponent's rear-guards and put it on the bottom of the deck. If you did not choose, draw one card. [AUTO] [(V)] [G Break] (2): When this unit attacks a vanguard, for each card in your bind zone that includes \"Chronojet\", this unit gets Power +$1 until end of that battle. until end of that battle, your opponent cannot call grade 1 or higher cards from their hand to (G). [Chrono icon]"
     },
     "flavor_text": {
       "original": "",
@@ -2313,7 +2313,7 @@
     "card_number": "DZ-SS16/15thSP06",
     "name": {
       "original": "スモークギア・ドラゴン",
-      "translated": "smoke gear dragon"
+      "translated": "Smoke Gear Dragon"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_078.png",
     "unit_type": "normal unit",
@@ -2331,7 +2331,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットがクロノアイコンを含むグレード３にライドされた時、【コスト】[【ソウルブラスト】(1)]することで、あなたの山札からグレード３を１枚まで探し、公開して手札に加え、山札をシャッフルする。【永】【(R)/(G)】【Gブレイク】(1)：あなたのヴァンガードがクロノアイコンを持つなら、このユニットのパワー＋5000/シールド＋5000。【クロノアイコン】",
-      "translated": "[AUTO]: When this unit is ridden by a grade 3 card that includes a Chrono Icon, by performing COST [Soul Blast (1)], search your deck for up to one grade 3 card, reveal it, add it to your hand, and shuffle your deck. [CONT] [(R)/(G)] [G Break] (1): If your vanguard has a chrono icon, this unit gets Power+5000/Shield+5000. [Chrono icon]"
+      "translated": "[AUTO]: When this unit is ridden by a grade 3 card that includes a Chrono Icon, by performing COST [soul Blast (1)], search your deck for up to one grade 3 card, reveal it, add it to your hand, and shuffle your deck. [CONT] [(R)/(G)] [G Break] (1): If your vanguard has a chrono icon, this unit gets Power +$1/Shield +$1. [Chrono icon]"
     },
     "flavor_text": {
       "original": "",
@@ -2361,7 +2361,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットがクロノアイコンを持つグレード０からライドして登場した時、【コスト】[ライドデッキからクロノアイコンを持つグレード３を１枚公開する]ことで、２枚引き、あなたの手札から１枚選び、山札の下に置く。【起】【ドロップ】：あなたのヴァンガードがクロノアイコンを持ち、相手のヴァンガードがグレード３以上なら、【コスト】[ライドデッキにしたこのカードをライドデッキに表で置く]ことで、あなたのリアガードを１枚選び、山札の下に置き、あなたの山札から、選ばれたカードのグレード＋１のユニットカードを１枚まで探し、(R)にコールし、そのターン中、パワー＋5000。山札をシャッフルする。【クロノアイコン】",
-      "translated": "[AUTO]: This unit rides from a grade 0 with a chrono icon, places it, COST [reveals a grade 3 with a chrono icon from the ride deck], draws 2 cards, chooses a card from your hand, and puts it at the bottom of your deck. [ACT] [drop zone]: If your vanguard has a chrono icon and your opponent's vanguard is grade 3 or higher, choose one of your rear-guards by COST [place this card turned into a ride deck face up in the ride deck], place it at the bottom of your deck, search your deck for up to one unit card that is grade +1 of the selected card, call it to (R), and get Power+5000 for the rest of the turn. Shuffle the deck. [Chrono icon]"
+      "translated": "[AUTO]: This unit rides from a grade 0 with a chrono icon, places it, COST [reveals a grade 3 with a chrono icon from the ride deck], draws 2 cards, chooses a card from your hand, and puts it at the bottom of your deck. [ACT] [drop zone]: If your vanguard has a chrono icon and your opponent's vanguard is grade 3 or higher, choose one of your rear-guards COST [place this card turned into a ride deck face up in the ride deck], place it at the bottom of your deck, search your deck for up to one unit card that is grade +1 of the selected card, call it to (R), and get Power +$1 for the rest of the turn. Shuffle your deck. [Chrono icon]"
     },
     "flavor_text": {
       "original": "",
@@ -2421,7 +2421,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【永】：このカードは新右衛門アイコンを持つ別名のグレード３からノーマルライドしてもペルソナライドになる。【永】【(V)】：あなたの中央後列は星域になり、あなたのターン中、相手のヴァンガードがグレード３以上で、あなたの星域ゲージが３枚以上なら、あなたの前列のユニットすべてのパワー＋5000。【起】【(V)】【ターン1回】：【コスト】[【ソウルブラスト】(2)]することで、あなたのドロップから２枚選び、その中から１枚選び、あなたの星域ゲージとして裏で置き、１枚選び、 (R)にコールする。【新右衛門アイコン】",
-      "translated": "[CONT]: This card becomes Persona Ride even if it is normal ride from grade 3 with the Shinemon icon. [CONT]【(V)】: Your center back row becomes a star area, and during your turn, if your opponent's vanguard is grade 3 or higher and your star area gauge has 3 or more cards, all units in your front row get +5000 Power. [ACT] [(V)] [1/Turn]: COST [Soul Blast(2)], choose 2 cards from your drop zone, choose 1 card from among them, place it face down as your star area gauge, choose 1 card, and call it to (R). [Shinemon icon]"
+      "translated": "[CONT]: This card becomes Persona Ride even if it is normal ride from grade 3 with the Shinemon icon. [CONT]【(V)】: Your center back row becomes a star area, and during your turn, if your opponent's vanguard is grade 3 or higher and your star area gauge has 3 or more cards, all units in your front row get Power +$1. [ACT] [(V)] [[[Once per turn]]]: COST [soul Blast(2)], choose 2 cards from your drop zone, choose 1 card from among them, place it face down as your star area gauge, choose 1 card, and call it to (R). [Shinemon icon]"
     },
     "flavor_text": {
       "original": "",
@@ -2433,7 +2433,7 @@
     "card_number": "DZ-SS16/15thSP10",
     "name": {
       "original": "舞灯のプロメテウス",
-      "translated": "Prometheus of the dance lantern"
+      "translated": "Prometheus Of The Dance Lantern"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_082.png",
     "unit_type": "normal unit",
@@ -2451,7 +2451,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが新右衛門アイコンを持つグレード３にライドされた時、あなたの山札を上から３枚見て、１枚選び、手札に加え、１枚まで選び、ソウルに置き、残りを山札の下に望む順で置く。【新右衛門アイコン】",
-      "translated": "[AUTO]: When this unit is ridden by a grade 3 with the Shinemon icon, look at 3 cards from the top of your deck, choose 1 card, add it to your hand, choose up to 1 card, put it into your soul, and put the rest at the bottom of your deck in any order you want. [Shinemon icon]"
+      "translated": "[AUTO]: When this unit is ridden by a grade 3 with the Shinemon icon, look at 3 cards from the top of your deck, choose 1 card, add it to your hand, choose up to one card, put it into your soul, and put the rest at the bottom of your deck in any order you want. [Shinemon icon]"
     },
     "flavor_text": {
       "original": "",
@@ -2463,7 +2463,7 @@
     "card_number": "DZ-SS16/15thSP11",
     "name": {
       "original": "天球のアトラス",
-      "translated": "atlas of the celestial sphere"
+      "translated": "Atlas Of The Celestial Sphere"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_083.png",
     "unit_type": "normal unit",
@@ -2481,7 +2481,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットがグレード０からライドして登場した時、【コスト】[ライドデッキから新右衛門アイコンを持つグレード３を１枚公開する]ことで、このファイト中、あなたは、新右衛門アイコンを持たないグレード３以上にライドできず、星域ゲージを持てる。【自】：このユニットが新右衛門アイコンを持つグレード２にライドされた時、このカードをあなたの星域ゲージとして裏で置いてよい。置いたなら、【ソウルチャージ】(1)。【新右衛門アイコン】",
-      "translated": "[AUTO]: This unit rides from grade 0, placed, and COST [reveals one grade 3 card with a Shinemon icon from the ride deck], so during this fight, you cannot ride a grade 3 or higher that does not have a Shinemon icon, and you have a star area gauge. [AUTO]: When this unit is ridden by a grade 2 with the Shinemon icon, you may place this card face down as your star area gauge. If you place it, Soul Charge (1). [Shinemon icon]"
+      "translated": "[AUTO]: This unit rides from grade 0, placed, and COST [reveals one grade 3 card with a Shinemon icon from the ride deck], so during this fight, you cannot ride a grade 3 or higher that does not have a Shinemon icon, and you have a star area gauge. [AUTO]: When this unit is ridden by a grade 2 with the Shinemon icon, you may place this card face down as your star area gauge. If you place it, soul Charge (1). [Shinemon icon]"
     },
     "flavor_text": {
       "original": "",
@@ -2493,7 +2493,7 @@
     "card_number": "DZ-SS16/15thSP12",
     "name": {
       "original": "新風のパーン",
-      "translated": "A new style paan"
+      "translated": "A New Style Paan"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_084.png",
     "unit_type": "normal unit",
@@ -2523,7 +2523,7 @@
     "card_number": "DZ-SS16/FFR01",
     "name": {
       "original": "ドラグリッター ナズルディーン",
-      "translated": "Draglitter Nazrudeen"
+      "translated": "Dragritter, Nazrudeen"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_085.png",
     "unit_type": "normal unit",
@@ -2541,7 +2541,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
-      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+      "translated": "[AUTO]: When this unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) COST [soul Blast (1)]."
     },
     "flavor_text": {
       "original": "",
@@ -2571,7 +2571,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【起】【(V)】【ターン1回】：【コスト】[手札から１枚捨てる]ことで、あなたのドロップから、「トリクスタ」と〈プレアドラゴン〉をそれぞれ１枚まで選び、(R)にコールする。【起】【(V)】【ターン1回】：【コスト】[【ソウルブラスト】(2)]することで、相手のリアガードを１枚選び、退却させる。【自】【(V)】【ターン1回】：このユニットがアタックした時、【コスト】[【カウンターブラスト】(1)]することで、以下を１つ行う。・【クロスオーバードレス】状態のあなたのリアガードを１枚選び、【スタンド】させる。・このターンにあなたがペルソナライドしているなら、それぞれ別名の【クロスオーバードレス】状態のあなたのリアガードを望む枚数選び、【スタンド】させる。",
-      "translated": "[ACT] [(V)] [1/Turn]: COST [Discard one card from your hand] to select up to one each of \"Trixta\" and \"Pleia Dragon\" from your drop zone, and call them to (R). [ACT] [(V)] [1/Turn]: COST [Soul Blast (2)] to select one of your opponent's rear-guards and retire it. [AUTO] [(V)] [1/Turn]: When this unit attacks, COST [Counter Blast(1)] will do one of the following.・Choose one of your rear-guards in the [Crossover Dress] state and make it [Stand].・If you are Persona Ride this turn, choose the desired number of your rear-guards with different names and [Crossover Dress] status, and have them [Stand]."
+      "translated": "[ACT] [(V)] [[[Once per turn]]]: COST [Discard one card from your hand] to select up to one each of \"Trixta\" and \"Pleia Dragon\" from your drop zone, and call them to (R). [ACT] [(V)] [[[Once per turn]]]: COST [soul Blast (2)] to select one of your opponent's rear-guards and retire it. [AUTO] [(V)] [[[Once per turn]]]: When this unit attacks, COST [Counter Blast(1)] will do one of the following.・Choose one of your rear-guards in the [Crossover Dress] state and make it [Stand].・If you are Persona Ride this turn, choose the desired number of your rear-guards with different names and [Crossover Dress] status, and have them [Stand]."
     },
     "flavor_text": {
       "original": "",
@@ -2601,7 +2601,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【クロスオーバードレス】－「トリクスタ」と〈プレアドラゴン〉をそれぞれ１枚【自】：このユニットが【クロスオーバードレス】で(R)に登場した時、【コスト】[【カウンターブラスト】(1)]することで、１枚引く。【永】【(R)】：相手のヴァンガードがグレード３以上で、このユニットが【クロスオーバードレス】状態なら、このユニットは『ブースト』を得る。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードが「ニルヴァーナ」を含むグレード３以上なら、そのバトル中、このユニットのパワー＋5000。",
-      "translated": "[Crossover Dress] - 1 \"Trixta\" and 1 \"Pleia Dragon\" each [AUTO]: This unit is placed on (R) with [Crossover Dress] and COST [Counter Blast (1)] to draw 1 card. [CONT] [(R)]: If the opponent's vanguard is grade 3 or higher and this unit is in the [Crossover Dress] state, this unit gains a \"boost\". [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, including \"Nirvana\", this unit gets +5000 Power for the duration of that battle."
+      "translated": "[Crossover Dress] - 1 \"Trixta\" and 1 \"Pleia Dragon\" each [AUTO]: When this unit is placed on (R) with [Crossover Dress] and COST [Counter Blast (1)] to draw 1 card. [CONT] [(R)]: If the opponent's vanguard is grade 3 or higher and this unit is in the [Crossover Dress] state, this unit gains a \"boost\". [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher, including \"Nirvana\", this unit gets Power +$1 for the duration of that battle."
     },
     "flavor_text": {
       "original": "",
@@ -2631,7 +2631,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】【(R)】：このユニットがブーストしたバトル終了時、あなたのヴァンガードが櫂アイコンを持つなら、【コスト】[このユニットをソウルに置く]ことで、１枚引く。【起】【ソウル】：あなたのヴァンガードが櫂アイコンを持つグレード３以上で、相手のヴァンガードがグレード３以上なら、【コスト】[このカードをバインドする]ことで、そのターン中、あなたのヴァンガードの元々のパワーは18000になる。【櫂アイコン】",
-      "translated": "[AUTO]【(R)】: At the end of the battle where this unit boosted, if your vanguard has a paddle icon, draw 1 card by COST [put this unit in your soul]. [ACT] [Soul]: If your vanguard is grade 3 or higher with a paddle icon, and your opponent's vanguard is grade 3 or higher, by COST [bind this card], your vanguard's original power becomes 18000 for the duration of the turn. [Paar icon]"
+      "translated": "[AUTO]【(R)】: At the end of the battle where this unit boosted, if your vanguard has a paddle icon, draw 1 card COST [put this unit in your soul]. [ACT] [soul]: If your vanguard is grade 3 or higher with a paddle icon, and your opponent's vanguard is grade 3 or higher, COST [bind this card], your vanguard's original power becomes 18000 until end of turn. [Paar icon]"
     },
     "flavor_text": {
       "original": "",
@@ -2661,7 +2661,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【起】【(V)】【ターン1回】：【コスト】[手札から１枚ソウルに置く]ことで、あなたのドロップからノーマルオーダーを１枚選び、ソウルに置き、あなたのソウルから１枚まで選び、(R)にコールし、あなたのソウルからノーマルオーダーを１枚まで選び、そのターン中、『【永】：このカードはソウルからでもプレイでき、プレイされてドロップに置く際、かわりにバインドする。』を与える。【起】【(V)】【ターン1回】：【コスト】[【カウンターブラスト】(1)]することで、あなたの、ソウルとバインドゾーンのノーマルオーダーの種類の合計により、そのターン中、このユニットは以下すべてを得る。・３種類以上‐【自】【(V)】【ターン1回】：このユニットがアタックしたバトル終了時、このユニットを【スタンド】させ、そのターン中、ドライブ－２。相手のヴァンガードがグレード３以上なら、そのターン中、このユニットのドライブ＋１。・５種類以上‐【永】【(V)】：あなたのユニットすべてのパワー＋5000。",
-      "translated": "[ACT] [(V)] [1/Turn]: COST [Place a card from your hand into your soul], select a normal order from your drop zone, place it on your soul, select up to one card from your soul, call it to (R), select up to one normal order from your soul, and during that turn, ``[CONT]: This card can also be played from the soul, and when it is played and placed in the drop zone, bind it instead. ”. [ACT] [(V)] [1/Turn]: By performing COST [Counter Blast (1)], this unit gains all of the following for the duration of the turn, based on the sum of your soul and the normal order types in the bind zone.・3 or more types - [AUTO] [(V)] [1/Turn]: At the end of the battle in which this unit attacked, make this unit [Stand] and get -2 Drive for the duration of that turn. If your opponent's vanguard is grade 3 or higher, this unit gets +1 drive during that turn.・5 or more types - [CONT] [(V)]: Power +5000 for all your units."
+      "translated": "[ACT] [(V)] [[[Once per turn]]]: COST [Place a card from your hand into your soul], select a normal order from your drop zone, place it on your soul, select up to one card from your soul, call it to (R), select up to one normal order from your soul, and during that turn, ``[CONT]: This card can also be played from the soul, and when it is played and placed in the drop zone, bind it instead. ”. [ACT] [(V)] [[[Once per turn]]]: By performing COST [Counter Blast (1)], this unit gains all of the following until end of turn, based on the sum of your soul and the normal order types in the bind zone.・3 or more types - [AUTO] [(V)] [[[Once per turn]]]: At the end of the battle in which this unit attacked, make this unit [Stand] and get -2 Drive for the duration of that turn. If your opponent's vanguard is grade 3 or higher, this unit gets +1 drive during that turn.・5 or more types - [CONT] [(V)]: Power +$1 for all your units."
     },
     "flavor_text": {
       "original": "",
@@ -2691,7 +2691,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
-      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+      "translated": "[AUTO]: When this unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) COST [soul Blast (1)]."
     },
     "flavor_text": {
       "original": "",
@@ -2721,7 +2721,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【超越】-ストライドステップ-【コスト】[手札からグレードの合計が３以上になるように１枚以上選び、捨てる]ことで、裏のこのカードを(V)に【超越】する。【永】：このカードはあなたのヴァンガードがクロノアイコンを持つ場合のみ【超越】できる。【自】【(V)】：このユニットがヴァンガードにアタックしたバトル終了時、【コスト】[【カウンターブラスト】(1)，手札から１枚捨て，Ｇゾーンからこのカードと同名のクロノアイコンを持つカードを１枚表にする]ことで、このユニットをＧゾーンに表で置き、クロノアイコンを持つあなたのヴァンガードを１枚選び、【スタンド】させ、そのターン中、ドライブ－２。さらに【コスト】[手札かドロップから「クロノジェット」を含むカードを１枚バインドする]ことで、そのターン中、そのユニットのドライブ＋１。あなたの表のGゾーンが３枚以上なら、ドライブ＋１ではなくドライブ＋２。【クロノアイコン】",
-      "translated": "[Stride] - Stride Step - COST [Choose one or more cards from your hand so that the total grade is 3 or more, and discard them] to [Stride] this face-down card to (VC). [CONT]: This card can only [Transcend] if your vanguard has a Chrono icon. [AUTO] [(V)]: At the end of the battle in which this unit attacks a vanguard, COST [Counter Blast (1), discard one card from your hand, turn up a card from the G zone with the same name as this card with a chrono icon], place this unit face up in the G zone, choose one of your vanguards with a chrono icon, make it [Stand], and drive -2 for the duration of the turn. Furthermore, by COST [bind one card containing \"Chronojet\" from your hand or drop zone], that unit gets +1 Drive for the duration of the turn. If you have 3 or more cards in your face up G zone, drive +2 instead of drive +1. [Chrono icon]"
+      "translated": "[Stride] - Stride Step - COST [Choose one or more cards from your hand so that the total grade is 3 or more, and discard them] to [Stride] this face-down card to (VC). [CONT]: This card can only [Transcend] if your vanguard has a Chrono icon. [AUTO] [(V)]: At the end of the battle in which this unit attacks a vanguard, COST [Counter Blast (1), discard one card from your hand, turn up a card from the G zone with the same name as this card with a chrono icon], place this unit face up in the G zone, choose one of your vanguards with a chrono icon, make it [Stand], and drive -2 until end of turn. Furthermore, COST [bind one card containing \"Chronojet\" from your hand or drop zone], that unit gets +1 Drive until end of turn. If you have 3 or more cards in your face up G zone, drive +2 instead of drive +1. [Chrono icon]"
     },
     "flavor_text": {
       "original": "",
@@ -2733,7 +2733,7 @@
     "card_number": "DZ-SS16/FFR08",
     "name": {
       "original": "クロノジェット・ドラゴン",
-      "translated": "chronojet dragon"
+      "translated": "Chronojet Dragon"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_092.png",
     "unit_type": "normal unit",
@@ -2751,7 +2751,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【永】：このカードはあなたのクレストゾーンに「エネルギージェネレーター」以外のカードがない場合のみライドできる。【永】【(V)】：あなたは【超越】でき、あなたのターン中、あなたの表のGゾーンが１枚以上なら、あなたの前列のユニットすべてのパワー＋5000。３枚以上なら、＋5000ではなく＋10000。【自】【(V)】：あなたのGユニットが【超越】した時、相手のリアガードを１枚選び、山札の下に置く。選ばなかったなら、１枚引く。【自】【(V)】【Gブレイク】(2)：このユニットがヴァンガードにアタックした時、「クロノジェット」を含むあなたのバインドゾーン１枚につき、そのバトル中、このユニットのパワー＋5000。そのバトル中、相手は手札からグレード１以上を(G)にコールできない。【クロノアイコン】",
-      "translated": "[CONT]: This card can only be ridden if there are no cards other than \"Energy Generator\" in your crest zone. [CONT] [(V)]: You can [Stride], and during your turn, if you have 1 or more cards in your face up G zone, all units in your front row get +5000 Power. If you have 3 or more cards, they get +10000 instead of +5000. [AUTO] [(V)]: When your G unit [Stride], choose one of your opponent's rear-guards and put it on the bottom of the deck. If you did not choose, draw one card. [AUTO] [(V)] [G Break] (2): When this unit attacks a vanguard, for each card in your bind zone that includes \"Chronojet\", this unit gets +5000 Power during that battle. During that battle, your opponent cannot call grade 1 or higher cards from their hand to (G). [Chrono icon]"
+      "translated": "[CONT]: This card can only be ridden if there are no cards other than \"Energy Generator\" in your crest zone. [CONT] [(V)]: You can [Stride], and during your turn, if you have 1 or more cards in your face up G zone, all units in your front row get Power +$1. If you have 3 or more cards, they get +10000 instead of +5000. [AUTO] [(V)]: When your G unit [Stride], choose one of your opponent's rear-guards and put it on the bottom of the deck. If you did not choose, draw one card. [AUTO] [(V)] [G Break] (2): When this unit attacks a vanguard, for each card in your bind zone that includes \"Chronojet\", this unit gets Power +$1 until end of that battle. until end of that battle, your opponent cannot call grade 1 or higher cards from their hand to (G). [Chrono icon]"
     },
     "flavor_text": {
       "original": "",
@@ -2763,7 +2763,7 @@
     "card_number": "DZ-SS16/FFR09",
     "name": {
       "original": "アップストリーム・ドラゴン",
-      "translated": "upstream dragon"
+      "translated": "Upstream Dragon"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_093.png",
     "unit_type": "normal unit",
@@ -2781,7 +2781,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】【ドロップ】：クロノアイコンを持つグレード３以上のあなたのヴァンガードが登場した時、【コスト】[【カウンターブラスト】(1)か【エネルギーブラスト】(3)]することで、このカードを(R)にコールする。【自】【(R)】：このユニットがアタックした時、あなたのヴァンガードがクロノアイコンを持つグレード３以上なら、そのバトル中、このユニットのパワー＋5000してよい。そうしたなら、そのバトル終了時、このユニットを山札の下に置き、あなたの山札から、クロノアイコンを持つグレード１を１枚まで探し、後列の(R)にコールし、山札をシャッフルする。このターン１回目のバトルで、あなたのヴァンガードがグレード３なら、後列ではなく前列にコールしてよい。【クロノアイコン】",
-      "translated": "[AUTO] [drop zone]: Your grade 3 or higher vanguard with the Chrono Icon places and COSTs [Counter Blast(1) or Energy Blast(3)] to call this card to (R). [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher with a chrono icon, you may give this unit Power +5000 during that battle. If you do, at the end of that battle, put this unit at the bottom of your deck, search your deck for up to one Grade 1 card with a Chrono Icon, call it to (R) in the back row, and shuffle your deck. In the first battle of this turn, if your vanguard is grade 3, you may call it to the front row instead of the back row. [Chrono icon]"
+      "translated": "[AUTO] [drop zone]: Your grade 3 or higher vanguard with the Chrono Icon places and COSTs [Counter Blast(1) or Energy Blast(3)] to call this card to (R). [AUTO] [(R)]: When this unit attacks, if your vanguard is grade 3 or higher with a chrono icon, you may give this unit Power +$1 until end of that battle. If you do, at the end of that battle, put this unit at the bottom of your deck, search your deck for up to one Grade 1 card with a Chrono Icon, call it to (R) in the back row, and shuffle your deck. In the first battle of this turn, if your vanguard is grade 3, you may call it to the front row instead of the back row. [Chrono icon]"
     },
     "flavor_text": {
       "original": "",
@@ -2811,7 +2811,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
-      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+      "translated": "[AUTO]: When this unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) COST [soul Blast (1)]."
     },
     "flavor_text": {
       "original": "",
@@ -2823,7 +2823,7 @@
     "card_number": "DZ-SS16/FFR11",
     "name": {
       "original": "星空の騎士 ゼロ",
-      "translated": "Knight of the Starry Sky Zero"
+      "translated": "Knight Of The Starry Sky Zero"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_095.png",
     "unit_type": "normal unit",
@@ -2841,7 +2841,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【永】：このカードは「沈黙の騎士 ギャラティン」として扱う。【自】：あなたのヴァンガードのクランが《ロイヤルパラディン》のみなら、このコストは『【エネルギーブラスト】(3)』でも払える。このユニットが(R)に登場した時、このユニットと同名のあなたの他のリアガードがいないなら、【コスト】[【カウンターブラスト】(1)]することで、１枚引く。【自】【(R)】：このユニットがグレード３以上にアタックした時、そのバトル中、このユニットのパワー＋5000。あなたのユニットが４枚以上なら、＋5000ではなく10000。【自】【(R)】【ターン1回】：このユニットがアタックした時、あなたのヴァンガードのクランが《ロイヤルパラディン》のみで、このターンに、あなたがペルソナライドしていて、このユニットがあなたのヴァンガードの能力で【スタンド】しているなら、【コスト】[【カウンターブラスト】(1)]することで、そのバトル中、相手は自分のカードの【自】能力を発動できない。",
-      "translated": "[CONT]: This card is treated as \"Silence Knight Gallatin\". [AUTO]: If your vanguard clan only has 《Royal Paladin》, this cost can also be paid with ``Energy Blast (3)''. This unit is placed on (R), and if you do not have another rear-guard with the same name as this unit, draw one card by COST [Counter Blast(1)]. [AUTO] [(R)]: When this unit attacks grade 3 or higher, this unit gets Power +5000 during that battle. If you have 4 or more units, you get +10000 instead of +5000. [AUTO] [(R)] [1/Turn]: When this unit attacks, if the only clan in your vanguard is 《Royal Paladin》, if you are Persona Ride this turn, and this unit is [Stand] by your vanguard ability, by COST [Counter Blast(1)], your opponent cannot activate the [AUTO] ability of his card during that battle."
+      "translated": "[CONT]: This card is treated as \"Silence Knight Gallatin\". [AUTO]: If your vanguard clan only has 《Royal Paladin》, this cost can also be paid with ``Energy Blast (3)''. When this unit is placed on (R), and if you do not have another rear-guard with the same name as this unit, draw one card COST [Counter Blast(1)]. [AUTO] [(R)]: When this unit attacks grade 3 or higher, this unit gets Power +$1 until end of that battle. If you have 4 or more units, you get +10000 instead of +5000. [AUTO] [(R)] [[[Once per turn]]]: When this unit attacks, if the only clan in your vanguard is 《Royal Paladin》, if you are Persona Ride this turn, and this unit is [Stand] by your vanguard ability, COST [Counter Blast(1)], your opponent cannot activate the [AUTO] ability of his card until end of that battle."
     },
     "flavor_text": {
       "original": "",
@@ -2853,7 +2853,7 @@
     "card_number": "DZ-SS16/FFR12",
     "name": {
       "original": "終夜の騎士 エスニア",
-      "translated": "Knight of the Night Esnia"
+      "translated": "Knight Of The Night Esnia"
     },
     "image_url": "https://cf-vanguard.com/wordpress/wp-content/images/cardlist/DZ-SS16/dzss16_096.png",
     "unit_type": "normal unit",
@@ -2871,7 +2871,7 @@
     "illustrator": "",
     "effect_text": {
       "original": "【自】：このユニットが、山札か手札から(R)に登場した時、このターンにあなたがペルソナシールド・チケットを手札に加えていないなら、以下を１つ行う。・【コスト】[ライドデッキからペルソナライドを持つカードを１枚公開する]ことで、ペルソナシールド・チケットを１枚手札に加える。・あなたのヴァンガードがペルソナライドを持つなら、ペルソナシールド・チケットを１枚手札に加える。【自】【(R)】：あなたがペルソナシールド・チケットをプレイした時、【コスト】[【ソウルブラスト】(1)]することで、このユニットを(G)に移動させる。",
-      "translated": "[AUTO]: This unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・By COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) by COST [Soul Blast (1)]."
+      "translated": "[AUTO]: When this unit is placed on (R) from your deck or hand, and if you have not added a Persona Shield ticket to your hand this turn, do one of the following.・COST [reveal one card with Persona Ride from the ride deck], add one Persona Shield ticket to your hand. -If your vanguard has Persona Ride, add a Persona Shield ticket to your hand. [AUTO] [(R)]: When you play a Persona Shield ticket, move this unit to (G) COST [soul Blast (1)]."
     },
     "flavor_text": {
       "original": "",

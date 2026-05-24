@@ -486,7 +486,7 @@ class _ImportDeckDialogState extends ConsumerState<ImportDeckDialog> {
           });
           return;
         }
-        final decoded = DeckShareService.decode(code);
+        final decoded = await DeckShareService.decode(code);
         if (decoded == null) {
           setState(() {
             _error = 'Invalid share code. Please check and try again.';

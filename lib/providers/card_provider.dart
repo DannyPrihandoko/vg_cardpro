@@ -6,6 +6,99 @@ import '../services/api_service.dart';
 import '../services/database_service.dart';
 import '../services/tag_initialization_service.dart';
 
+const Map<String, int> vanguardSetReleaseDates = {
+  'DZ-SS16': 295,
+  'DZ-SS15': 294,
+  'DZ-BT14': 294,
+  'DZ-SS14': 293,
+  'DZ-BT13': 292,
+  'DZ-SS13': 291,
+  'DZ-SS12': 290,
+  'DZ-BT12': 289,
+  'DZ-LBT02': 286,
+  'DZ-BT11': 285,
+  'DZ-TB02': 284,
+  'DZ-TB01': 282,
+  'DZ-BT09': 281,
+  'DZ-SS11': 280,
+  'DZ-SS10': 279,
+  'DZ-SS09': 278,
+  'DZ-BT08': 277,
+  'DZ-SS08': 276,
+  'DZ-SS07': 275,
+  'DZ-BT07': 274,
+  'DZ-BT06': 273,
+  'DZ-SS04': 272,
+  'DZ-BT05': 271,
+  'DZ-SS03': 270,
+  'DZ-SS02': 269,
+  'DZ-BT04': 268,
+  'DZ-LBT01': 267,
+  'DZ-BT03': 266,
+  'DZ-SS01': 265,
+  'DZ-BT02': 264,
+  'DZ-PS03': 263,
+  'DZ-PS02': 262,
+  'DZ-PS01': 261,
+  'DZ-BT01': 260,
+  'DZ-SD01': 259,
+  'D-SS11': 258,
+  'D-SS10': 257,
+  'D-SS09': 256,
+  'D-LBT04': 255,
+  'D-BT13': 254,
+  'D-BT12': 253,
+  'D-SS08': 252,
+  'D-SS07': 251,
+  'D-SS06': 250,
+  'D-TB07': 249,
+  'D-BT11': 248,
+  'D-PV01': 247,
+  'D-SS05': 246,
+  'D-BT10': 245,
+  'D-SS04': 244,
+  'D-BT09': 243,
+  'D-BT08': 242,
+  'D-SS03': 241,
+  'D-TB06': 240,
+  'D-BT07': 239,
+  'D-LBT03': 238,
+  'D-BT06': 237,
+  'D-TD03': 236,
+  'D-TD02': 235,
+  'D-TD01': 234,
+  'D-VS06': 233,
+  'D-VS05': 232,
+  'D-PS01': 231,
+  'D-SS02': 230,
+  'D-TB05': 229,
+  'D-TTD05': 228,
+  'D-TB04': 227,
+  'D-BT05': 226,
+  'D-LBT02': 225,
+  'D-VS04': 224,
+  'D-VS03': 223,
+  'D-BT04': 222,
+  'D-TB03': 221,
+  'D-TTD04': 220,
+  'D-SD06': 219,
+  'D-BT03': 218,
+  'D-VS02': 217,
+  'D-VS01': 216,
+  'D-LBT01': 215,
+  'D-LTD01': 214,
+  'D-TB02': 213,
+  'D-TTD03': 212,
+  'D-TTD02': 211,
+  'D-BT02': 210,
+  'D-TB01': 209,
+  'D-TTD01': 208,
+  'D-SS01': 207,
+  'D-BT01': 206,
+  'D-SD05': 205,
+  'D-PR': 200,
+};
+
 final apiServiceProvider = Provider<ApiService>((ref) {
   return ApiService();
 });
@@ -144,7 +237,10 @@ final filteredCardsProvider = Provider.family<AsyncValue<List<VgCard>>, String>(
           .where((card) => card.name.toLowerCase().contains(query))
           .toList();
     }
-    return filtered;
+    // Sort cards inside a set by card number (ID) ascending for uniform display
+    final sorted = List<VgCard>.from(filtered);
+    sorted.sort((a, b) => a.id.compareTo(b.id));
+    return sorted;
   });
 });
 
@@ -167,11 +263,20 @@ final globalFilteredCardsProvider = Provider<AsyncValue<List<VgCard>>>((ref) {
           .toList();
     }
 
-    return filtered;
+    // Sort global search results: Newest set first (based on official release date), then by card number (ID) ascending
+    final sorted = List<VgCard>.from(filtered);
+    sorted.sort((a, b) {
+      final orderA = vanguardSetReleaseDates[a.setName] ?? 0;
+      final orderB = vanguardSetReleaseDates[b.setName] ?? 0;
+      final setComp = orderB.compareTo(orderA);
+      if (setComp != 0) return setComp;
+      return a.id.compareTo(b.id);
+    });
+    return sorted;
   });
 });
 
-// Provider to extract unique sets from the card list
+// Provider to extract unique sets from the card list, sorted with newest first (based on official release date)
 final setsProvider = Provider<AsyncValue<List<String>>>((ref) {
   final cardsAsync = ref.watch(cardListProvider);
   return cardsAsync.whenData((cards) {
@@ -180,7 +285,14 @@ final setsProvider = Provider<AsyncValue<List<String>>>((ref) {
         .where((name) => name.isNotEmpty)
         .toSet()
         .toList();
-    sets.sort();
+    // Sort descending so newest sets based on official release date appear at the top
+    sets.sort((a, b) {
+      final orderA = vanguardSetReleaseDates[a] ?? 0;
+      final orderB = vanguardSetReleaseDates[b] ?? 0;
+      final comp = orderB.compareTo(orderA);
+      if (comp != 0) return comp;
+      return b.compareTo(a); // Fallback to descending alphabetical
+    });
     return sets;
   });
 });

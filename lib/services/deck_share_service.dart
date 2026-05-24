@@ -13,22 +13,24 @@ import 'database_service.dart';
 class DeckShareService {
   static const _version = 1;
 
-  /// Encode a [SavedDeck] into a compact Base64url share code.
+  /// Encode a [SavedDeck] into a highly compact Base64url share code (Version 2).
+  /// Only contains card numbers (IDs) and quantities, allowing QR codes to display successfully.
   static String encode(SavedDeck deck) {
-    final rideSlots = <String, dynamic>{};
+    final rideSlots = <String, String>{};
     deck.rideLineSlots.forEach((grade, card) {
       if (card != null) {
-        rideSlots['$grade'] = _cardToMap(card);
+        rideSlots['$grade'] = card.id;
       }
     });
 
     final mainCards = deck.mainCards
-        .map((e) => {..._cardToMap(e.card), 'qty': e.quantity})
+        .map((e) => {'id': e.card.id, 'qty': e.quantity})
         .toList();
 
     final payload = {
-      'v': _version,
+      'v': 2,
       'n': deck.name,
+      'nat': deck.nation,
       'r': rideSlots,
       'm': mainCards,
     };
@@ -38,33 +40,66 @@ class DeckShareService {
   }
 
   /// Decode a share code back into a [SavedDeck] snapshot.
+  /// Looks up card IDs asynchronously from the SQLite database.
   /// Returns null if the code is invalid.
-  static SavedDeck? decode(String code) {
+  static Future<SavedDeck?> decode(String code) async {
     try {
       final normalized = base64Url.normalize(code.trim());
       final jsonStr = utf8.decode(base64Url.decode(normalized));
       final payload = jsonDecode(jsonStr) as Map<String, dynamic>;
 
+      final version = payload['v'] as int? ?? 1;
       final name = payload['n'] as String? ?? 'Imported Deck';
+      final nation = payload['nat'] as String?;
 
-      // Rebuild ride line slots
-      final rideData = payload['r'] as Map<String, dynamic>? ?? {};
+      final db = DatabaseService();
       final rideSlots = <int, VgCard?>{0: null, 1: null, 2: null, 3: null};
-      rideData.forEach((gradeStr, cardJson) {
-        final grade = int.tryParse(gradeStr);
-        if (grade != null && cardJson is Map<String, dynamic>) {
-          rideSlots[grade] = _cardFromMap(cardJson);
-        }
-      });
-
-      // Rebuild main cards
-      final mainData = payload['m'] as List<dynamic>? ?? [];
       final mainCards = <SavedDeckEntry>[];
-      for (final entry in mainData) {
-        if (entry is Map<String, dynamic>) {
-          final card = _cardFromMap(entry);
-          final qty = (entry['qty'] as int?) ?? 1;
-          mainCards.add(SavedDeckEntry(card: card, quantity: qty));
+
+      if (version == 1) {
+        // Legacy full-card format (Version 1)
+        final rideData = payload['r'] as Map<String, dynamic>? ?? {};
+        rideData.forEach((gradeStr, cardJson) {
+          final grade = int.tryParse(gradeStr);
+          if (grade != null && cardJson is Map<String, dynamic>) {
+            rideSlots[grade] = _cardFromMap(cardJson);
+          }
+        });
+
+        final mainData = payload['m'] as List<dynamic>? ?? [];
+        for (final entry in mainData) {
+          if (entry is Map<String, dynamic>) {
+            final card = _cardFromMap(entry);
+            final qty = (entry['qty'] as int?) ?? 1;
+            mainCards.add(SavedDeckEntry(card: card, quantity: qty));
+          }
+        }
+      } else {
+        // Compact ID-only format (Version 2)
+        final rideData = payload['r'] as Map<String, dynamic>? ?? {};
+        for (final entry in rideData.entries) {
+          final grade = int.tryParse(entry.key);
+          final cardId = entry.value as String?;
+          if (grade != null && cardId != null && cardId.isNotEmpty) {
+            final card = await db.findCardByNumberOrName(cardId);
+            if (card != null) {
+              rideSlots[grade] = card;
+            }
+          }
+        }
+
+        final mainData = payload['m'] as List<dynamic>? ?? [];
+        for (final entry in mainData) {
+          if (entry is Map<String, dynamic>) {
+            final cardId = entry['id'] as String?;
+            final qty = (entry['qty'] as int?) ?? 1;
+            if (cardId != null && cardId.isNotEmpty) {
+              final card = await db.findCardByNumberOrName(cardId);
+              if (card != null) {
+                mainCards.add(SavedDeckEntry(card: card, quantity: qty));
+              }
+            }
+          }
         }
       }
 

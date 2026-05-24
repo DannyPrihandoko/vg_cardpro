@@ -22,7 +22,7 @@ class DatabaseService {
 
     return await openDatabase(
       path,
-      version: 5,
+      version: 6,
       onCreate: _onCreate,
       onUpgrade: _onUpgrade,
     );
@@ -70,6 +70,34 @@ class DatabaseService {
       await db.execute(
         'ALTER TABLE cards ADD COLUMN mechanicTags TEXT',
       );
+    }
+    if (oldVersion < 6) {
+      // Force recreation of cards table to reload newly optimized translations
+      await db.execute('DROP TABLE IF EXISTS cards');
+      await db.execute('''
+        CREATE TABLE cards(
+          id TEXT PRIMARY KEY,
+          name TEXT,
+          imageUrl TEXT,
+          unitType TEXT,
+          clan TEXT,
+          nation TEXT,
+          race TEXT,
+          grade TEXT,
+          power TEXT,
+          critical TEXT,
+          shield TEXT,
+          skill TEXT,
+          trigger TEXT,
+          effectText TEXT,
+          setName TEXT,
+          rarity TEXT,
+          regulation TEXT,
+          illustrator TEXT,
+          flavorText TEXT,
+          mechanicTags TEXT
+        )
+      ''');
     }
   }
 
